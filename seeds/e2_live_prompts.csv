@@ -1,0 +1,21 @@
+Dataset,ID,prompt,category
+DrawBench,1,A red colored car.,Colors
+DrawBench,2,A black colored car.,Colors
+DrawBench,3,A pink colored car.,Colors
+DrawBench,4,A black colored dog.,Colors
+DrawBench,5,A red colored dog.,Colors
+DrawBench,6,A blue colored dog.,Colors
+DrawBench,7,A green colored banana.,Colors
+DrawBench,8,A red colored banana.,Colors
+DrawBench,9,A black colored banana.,Colors
+DrawBench,10,A white colored sandwich.,Colors
+DrawBench,11,A black colored sandwich.,Colors
+DrawBench,12,An orange colored sandwich.,Colors
+DrawBench,13,A pink colored giraffe.,Colors
+DrawBench,14,A yellow colored giraffe.,Colors
+DrawBench,15,A brown colored giraffe.,Colors
+DrawBench,16,A red car and a white sheep.,Colors
+DrawBench,17,A blue bird and a brown bear.,Colors
+DrawBench,18,A green apple and a black backpack.,Colors
+DrawBench,19,A green cup and a blue cell phone.,Colors
+DrawBench,20,A yellow book and a red vase.,Colors

@@ -1,0 +1,81 @@
+Dataset,ID,prompt,category
+T2I-CompBench,180,a woman on the left of a cup,spatial
+T2I-CompBench,57,a dog on the top of a desk,spatial
+T2I-CompBench,86,a horse on side of a car,spatial
+T2I-CompBench,125,a person on side of a cow,spatial
+T2I-CompBench,7,a bee on the left of a refrigerator,spatial
+T2I-CompBench,96,a man on the top of a turtle,spatial
+T2I-CompBench,107,a painting on the bottom of a chicken,spatial
+T2I-CompBench,167,a vase hidden by a clock,3d_spatial
+T2I-CompBench,68,a frog hidden by a bicycle,3d_spatial
+T2I-CompBench,70,a giraffe behind a vase,3d_spatial
+T2I-CompBench,34,a cat behind a wallet,3d_spatial
+T2I-CompBench,44,a couch in front of a bee,3d_spatial
+T2I-CompBench,42,a clock behind a painting,3d_spatial
+T2I-CompBench,53,a desk behind a woman,3d_spatial
+T2I-CompBench,108,a pentagonal clock and a conical clock face,shape
+T2I-CompBench,195,an oval platter and a rectangular tablecloth.,shape
+T2I-CompBench,49,a cubic block and a triangular building set,shape
+T2I-CompBench,41,a circular dining table and a triangular table runner,shape
+T2I-CompBench,9,a big hippopotamus and a small rabbit,shape
+T2I-CompBench,194,an oval coffee table and a rectangular rug,shape
+T2I-CompBench,48,a cubic block and a cylindrical canister,shape
+T2I-CompBench,139,a red giraffe and a brown train,color
+T2I-CompBench,26,a brown cup and a blue sheep,color
+T2I-CompBench,150,A small bathroom with a small brown toilet next to a white sink.,color
+T2I-CompBench,78,a green bench and a blue cake,color
+T2I-CompBench,135,a red boat and a blue book,color
+T2I-CompBench,76,a gold backpack and a blue clock,color
+T2I-CompBench,25,a brown cup and a blue horse,color
+T2I-CompBench,60,a fabric pants and a fluffy rug,texture
+T2I-CompBench,59,a fabric hat and a fluffy sweater,texture
+T2I-CompBench,130,a plastic bag and a glass jar,texture
+T2I-CompBench,99,a metallic door knob and a fabric blanket,texture
+T2I-CompBench,101,a metallic fork and a wooden desk,texture
+T2I-CompBench,175,A woman is holding a plate of food and serving it to guests.,non_spatial
+T2I-CompBench,124,A person is taking a hot air balloon ride over the countryside.,non_spatial
+T2I-CompBench,115,A person is holding a calculator and working on a math problem.,non_spatial
+T2I-CompBench,56,A dog is playing fetch with its owner and bringing back a ball.,non_spatial
+T2I-CompBench,119,A person is looking at a display of vintage clothing and admiring the fashion.,non_spatial
+T2I-CompBench,156,"a strawberry, two bananas, four tents, and two peaches completed the camping gear",numeracy
+T2I-CompBench,196,eight bottles,numeracy
+TIFA,partiprompt_1306,an impressionist painting of the geyser Old Faithful,
+TIFA,coco_535203,A bird perched on a branch of a tree.,
+TIFA,coco_708352,a cat is standing up to a white toilet,
+TIFA,coco_769180,A man and a girl standing next to two cakes in the kitchen.,
+TIFA,coco_803862,A man throws a tennis ball into the air to serve it,
+TIFA,coco_292534,A red motorcycle parked by paint chipped doors.,
+TIFA,coco_781176,A motorcycle sits in a parking lot with other cars.,
+TIFA,coco_323167,"A laptop with external keyboard, mouse, phone and photo on a desk.",
+TIFA,coco_104794,a man on a soccer field dressed in a soccer uniform kicking a soccer ball,
+TIFA,coco_625726,A vase full of white flowers sitting on a wooden table.,
+TIFA,coco_201871,A smoking jet going straight up in the sky.,
+TIFA,coco_321767,a large clock tower structure lit up in the early night sky,
+TIFA,coco_419329,A woman seated across the table shows off her bagel with cream cheese.,
+TIFA,coco_634344,A toddler in a pink shirt sits on the lap of a woman.,
+TIFA,coco_714603,"A red stop sign with the word "" Hammer Time "". written on it.",
+TIFA,coco_33895,A small compact car driving past a furniture store.,
+TIFA,coco_263731,Small group of sheep being herded by three border collies.,
+TIFA,coco_715857,The freight train is painted orange and yellow.,
+TIFA,coco_221880,A parking meter sitting in front of a brick building.,
+TIFA,coco_231290,Three zebras are standing together in a line.,
+TIFA,coco_634711,Brown dog lying on unmade bed in bedroom of home.,
+TIFA,coco_38429,People browse the shops while walking on a busy street.,
+TIFA,partiprompt_517,A giant cobra snake made from sushi,
+TIFA,coco_647250,one black cow sniffing another black cows head,
+TIFA,coco_542456,A man and a child sitting in front of a cake at a bench.,
+TIFA,coco_647000,an old photo of a boat parked next to the dock,
+TIFA,coco_738763,A man riding skis down a snow covered slope.,
+TIFA,coco_185186,A black and white photo of a man on a cell phone.,
+TIFA,partiprompt_821,two baseballs next to three tennis balls,
+TIFA,coco_373633,Black and white photograph of a bed with a laptop on it.,
+TIFA,coco_225595,A woman walking down a street talking on a cell phone.,
+TIFA,partiprompt_141,A black dog sitting on a wooden chair. A white cat with black ears is standing up with its paws on the chair.,
+TIFA,coco_558725,People looking at a stop light on the other side of the road.,
+TIFA,coco_534679,A kitchen is nicely organized and looks very clean.,
+TIFA,partiprompt_1092,a painting of black and white vertical stripes,
+TIFA,coco_232095,A man standing behind a truck with a red trailer sitting in front of a building.,
+TIFA,coco_343985,Two passenger trains on opposite tracks speeding down the tracks.,
+TIFA,coco_579942,A clear glass bowl with bananas and plums in it.,
+TIFA,coco_772682,"A plate full of sushi,with more behind it.",
+TIFA,coco_420703,A blue and yellow train is traveling down the tracks near some water and boats.,

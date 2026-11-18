@@ -1,0 +1,401 @@
+Dataset,ID,prompt,category
+T2I-CompBench,new1,a giraffe in front of a clock,3d_spatial
+T2I-CompBench,new2,a cat in front of a bee,3d_spatial
+T2I-CompBench,new3,a sofa in front of a computer,3d_spatial
+T2I-CompBench,new4,a plate hidden by a person,3d_spatial
+T2I-CompBench,new5,a mouse hidden by a bee,3d_spatial
+T2I-CompBench,new6,a dog hidden by a frog,3d_spatial
+T2I-CompBench,new7,a sheep in front of a cat,3d_spatial
+T2I-CompBench,new8,a wallet in front of a bowl,3d_spatial
+T2I-CompBench,new9,a backpack hidden by a table,3d_spatial
+T2I-CompBench,new10,a cat hidden by a rabbit,3d_spatial
+T2I-CompBench,new11,a painting behind a balloon,3d_spatial
+T2I-CompBench,new12,a chair in front of a bee,3d_spatial
+T2I-CompBench,new13,a fish hidden by a bicycle,3d_spatial
+T2I-CompBench,new14,a suitcase behind a painting,3d_spatial
+T2I-CompBench,new15,a desk in front of a wallet,3d_spatial
+T2I-CompBench,new16,a sheep in front of a horse,3d_spatial
+T2I-CompBench,new17,a train hidden by a plate,3d_spatial
+T2I-CompBench,new18,a woman hidden by a cow,3d_spatial
+T2I-CompBench,new19,a sheep behind a plate,3d_spatial
+T2I-CompBench,new20,a computer in front of a phone,3d_spatial
+T2I-CompBench,new21,a bicycle behind a butterfly,3d_spatial
+T2I-CompBench,new22,a balloon behind a boy,3d_spatial
+T2I-CompBench,new23,a candle behind a man,3d_spatial
+T2I-CompBench,new24,a vase hidden by a bicycle,3d_spatial
+T2I-CompBench,new25,a cow in front of a book,3d_spatial
+T2I-CompBench,new26,a rabbit hidden by a chicken,3d_spatial
+T2I-CompBench,new27,a candle behind a candle,3d_spatial
+T2I-CompBench,new28,a computer in front of a clock,3d_spatial
+T2I-CompBench,new29,a dog in front of a couch,3d_spatial
+T2I-CompBench,new30,a dog hidden by a bag,3d_spatial
+T2I-CompBench,new31,a woman in front of a computer,3d_spatial
+T2I-CompBench,new32,a sofa in front of a chicken,3d_spatial
+T2I-CompBench,new33,a car behind a table,3d_spatial
+T2I-CompBench,new34,a chicken hidden by a chicken,3d_spatial
+T2I-CompBench,new35,a vase hidden by a candle,3d_spatial
+T2I-CompBench,new36,a woman on the right of a bowl,spatial
+T2I-CompBench,new37,a person on side of a lamp,spatial
+T2I-CompBench,new38,a turtle on the bottom of a chair,spatial
+T2I-CompBench,new39,a frog on the left of a book,spatial
+T2I-CompBench,new40,a rabbit on the top of a candle,spatial
+T2I-CompBench,new41,a frog near a phone,spatial
+T2I-CompBench,new42,a bee on the bottom of a airplane,spatial
+T2I-CompBench,new43,a clock on the top of a sheep,spatial
+T2I-CompBench,new44,a woman on the top of a painting,spatial
+T2I-CompBench,new45,a table on the right of a man,spatial
+T2I-CompBench,new46,a girl on the right of a sofa,spatial
+T2I-CompBench,new47,a mouse on the bottom of a backpack,spatial
+T2I-CompBench,new48,a giraffe on the right of a wallet,spatial
+T2I-CompBench,new49,a pig on the left of a desk,spatial
+T2I-CompBench,new50,a horse on the top of a wallet,spatial
+T2I-CompBench,new51,a bee on the left of a key,spatial
+T2I-CompBench,new52,a mouse on side of a phone,spatial
+T2I-CompBench,new53,a couch on the right of a chicken,spatial
+T2I-CompBench,new54,a chair on the right of a giraffe,spatial
+T2I-CompBench,new55,a boy on the left of a balloon,spatial
+T2I-CompBench,new56,a boy on the right of a pig,spatial
+T2I-CompBench,new57,a candle on the left of a mouse,spatial
+T2I-CompBench,new58,a woman on the right of a television,spatial
+T2I-CompBench,new59,a boy on the right of a chicken,spatial
+T2I-CompBench,new60,a mouse on the bottom of a phone,spatial
+T2I-CompBench,new61,a cat on the right of a sofa,spatial
+T2I-CompBench,new62,a bee on the top of a boy,spatial
+T2I-CompBench,new63,a suitcase on the left of a girl,spatial
+T2I-CompBench,new64,a vase on the bottom of a person,spatial
+T2I-CompBench,new65,a microwave on the right of a pig,spatial
+T2I-CompBench,new66,a giraffe on the left of a table,spatial
+T2I-CompBench,new67,a wallet on the left of a giraffe,spatial
+T2I-CompBench,new68,a balloon on the bottom of a person,spatial
+T2I-CompBench,new69,a painting on the bottom of a horse,spatial
+T2I-CompBench,new70,a mouse on the left of a train,spatial
+T2I-CompBench,new71,Many stoplights flash snow on a yellow covered street.,color
+T2I-CompBench,new72,a yellow leaf and a green butterfly,color
+T2I-CompBench,new73,A black and green tile bathroom with a yellow toilet and a black bucket on the floor.,color
+T2I-CompBench,new74,a white moon and a black sky,color
+T2I-CompBench,new75,a brown cow and a blue cup,color
+T2I-CompBench,new76,a red cup and a blue orange,color
+T2I-CompBench,new77,a red orange and a brown sheep,color
+T2I-CompBench,new78,Two hot dogs sit on a green paper plate near a soda cup which are sitting on a white picnic table while a bike and a silver car are parked nearby.,color
+T2I-CompBench,new79,a red hat and a black scarf,color
+T2I-CompBench,new80,a red apple and a green suitcase,color
+T2I-CompBench,new81,a brown jacket and a black hat,color
+T2I-CompBench,new82,a blue horse and a brown vase,color
+T2I-CompBench,new83,a brown backpack and a blue sheep,color
+T2I-CompBench,new84,a green bus and a yellow tree,color
+T2I-CompBench,new85,a red bear and a brown book,color
+T2I-CompBench,new86,A pink bathroom with a mirror and a green sink.,color
+T2I-CompBench,new87,a blue backpack and a red train,color
+T2I-CompBench,new88,a green leaf and a yellow flower,color
+T2I-CompBench,new89,a green grass and a yellow dandelion,color
+T2I-CompBench,new90,A black motorcycle is parked on grey cobblestones.,color
+T2I-CompBench,new91,a red lipstick and a pink blush,color
+T2I-CompBench,new92,a red apple and a yellow pear,color
+T2I-CompBench,new93,a yellow pencil and a red eraser,color
+T2I-CompBench,new94,a brown banana and a green bear,color
+T2I-CompBench,new95,a black apple and a green backpack,color
+T2I-CompBench,new96,a brown bear and a blue vase,color
+T2I-CompBench,new97,a blue banana and a green boat,color
+T2I-CompBench,new98,a blue spoon and a silver plate,color
+T2I-CompBench,new99,A restroom features white and white checkered flooring and two toilets of which has a black seat and lid and the other a black seat and lid.,color
+T2I-CompBench,new100,a gold cat and a brown clock,color
+T2I-CompBench,new101,a white swan and a black lake,color
+T2I-CompBench,new102,a brown banana and a green giraffe,color
+T2I-CompBench,new103,A kitchen with blue tile floor and white sloped ceiling.,color
+T2I-CompBench,new104,a pentagonal stop sign and a pyramidal monument,shape
+T2I-CompBench,new105,a circular clock and a triangular wall art,shape
+T2I-CompBench,new106,a pyramidal trophy and a pentagonal trophy base,shape
+T2I-CompBench,new107,The spherical globe and the teardrop droplet were the symbols of science and nature.,shape
+T2I-CompBench,new108,The triangular roof and the diamond windows were the defining features of the modern architecture.,shape
+T2I-CompBench,new109,a tall skyscraper and a short cottage,shape
+T2I-CompBench,new110,a small cup and a big saucer,shape
+T2I-CompBench,new111,a rectangular mirror and a spherical magnifying glass,shape
+T2I-CompBench,new112,a tall oak tree and a short sapling,shape
+T2I-CompBench,new113,The spherical ball and the pentagonal pyramid were the objects of focus in the geometry lesson.,shape
+T2I-CompBench,new114,an oval rug and a square coffee table,shape
+T2I-CompBench,new115,a triangular slice of pizza and a pyramidal pizza box,shape
+T2I-CompBench,new116,an oblong squash and a teardrop strawberry,shape
+T2I-CompBench,new117,an oblong squash and a teardrop peach,shape
+T2I-CompBench,new118,The triangular sail and the square deck were the defining features of the sailboat.,shape
+T2I-CompBench,new119,a pentagonal stop sign and a spherical traffic light,shape
+T2I-CompBench,new120,a big tiger and a small kitten,shape
+T2I-CompBench,new121,The pyramidal pyramid with its triangular base and rectangular entrance attracted tourists to the square desert.,shape
+T2I-CompBench,new122,a diamond pendant and a round bracelet,shape
+T2I-CompBench,new123,a tall skyscraper and a short street lamp,shape
+T2I-CompBench,new124,a big hippopotamus and a small mouse,shape
+T2I-CompBench,new125,a square book and a cylindrical pencil,shape
+T2I-CompBench,new126,a cubic block and a cylindrical paper towel roll,shape
+T2I-CompBench,new127,an oblong eggplant and a teardrop fig.,shape
+T2I-CompBench,new128,an oblong carrot and a teardrop grape,shape
+T2I-CompBench,new129,The square room and the oblong hallway were the only spaces in the house.,shape
+T2I-CompBench,new130,a triangular slice of pizza and a pentagonal pizza box,shape
+T2I-CompBench,new131,The big book and the small notepad were both useful for different purposes.,shape
+T2I-CompBench,new132,a spherical beach ball and a conical party hat,shape
+T2I-CompBench,new133,a diamond bracelet and a rectangular watch,shape
+T2I-CompBench,new134,a tall oak tree and a short blade of grass,shape
+T2I-CompBench,new135,a big elephant and a small cricket,shape
+T2I-CompBench,new136,a conical Christmas tree and a pentagonal tree skirt,shape
+T2I-CompBench,new137,"The fisherman cast their line into the water, waiting patiently for a bite.",non_spatial
+T2I-CompBench,new138,A child is playing with a toy boat at the beach.,non_spatial
+T2I-CompBench,new139,The makeup artist is creating a dramatic look for a fashion show.,non_spatial
+T2I-CompBench,new140,A person is looking at a waterfall and feeling awestruck.,non_spatial
+T2I-CompBench,new141,A cat is lazily lounging in a sunny windowsill.,non_spatial
+T2I-CompBench,new142,A person is playing guitar on the beach.,non_spatial
+T2I-CompBench,new143,A child is playing with a toy airplane and making it fly.,non_spatial
+T2I-CompBench,new144,A child is playing with a toy spaceship and pretending to explore space.,non_spatial
+T2I-CompBench,new145,A person is yawning in a boring meeting.,non_spatial
+T2I-CompBench,new146,A child is playing with a toy train and creating a miniature world.,non_spatial
+T2I-CompBench,new147,A child is playing with a yo-yo and performing tricks.,non_spatial
+T2I-CompBench,new148,"A chef is preparing a fancy meal for a special occasion, carefully plating each dish.",non_spatial
+T2I-CompBench,new149,A child is playing with a yo-yo and trying to make it go up and down.,non_spatial
+T2I-CompBench,new150,A person is jumping over a hurdle and competing in a track and field event.,non_spatial
+T2I-CompBench,new151,A couple is watching a movie on the couch.,non_spatial
+T2I-CompBench,new152,A group of friends are sitting around a campfire and roasting marshmallows.,non_spatial
+T2I-CompBench,new153,A group of friends are watching a movie together.,non_spatial
+T2I-CompBench,new154,A person is wearing sunglasses on a sunny day.,non_spatial
+T2I-CompBench,new155,A man is holding a baseball bat and practicing his swing.,non_spatial
+T2I-CompBench,new156,A child is playing with a frisbee and throwing it back and forth.,non_spatial
+T2I-CompBench,new157,A couple is stargazing on a hill.,non_spatial
+T2I-CompBench,new158,The climber is scaling a rock face with ropes and gear.,non_spatial
+T2I-CompBench,new159,The model is posing for a fashion photoshoot.,non_spatial
+T2I-CompBench,new160,A woman is holding a camera and taking photos of a beautiful landscape.,non_spatial
+T2I-CompBench,new161,A dog is licking its owner's face and showing affection.,non_spatial
+T2I-CompBench,new162,A person is running on a treadmill and working up a sweat.,non_spatial
+T2I-CompBench,new163,A child is playing with a jump rope and mastering their skills.,non_spatial
+T2I-CompBench,new164,A person is looking at a sunset and feeling peaceful.,non_spatial
+T2I-CompBench,new165,A man is holding a leash and taking his dog for a walk.,non_spatial
+T2I-CompBench,new166,A man is holding a telescope and observing a comet in the night sky.,non_spatial
+T2I-CompBench,new167,A river is flowing through a canyon.,non_spatial
+T2I-CompBench,new168,The glass jar and fluffy ribbon hold the metallic candy on the wooden table.,texture
+T2I-CompBench,new169,The wooden hanger and fluffy dress hang on the metallic rack by the glass mirror.,texture
+T2I-CompBench,new170,rubber sole shoes and fluffy clouds,texture
+T2I-CompBench,new171,The leather wallet and fluffy keychain hang on the metallic hook by the wooden door.,texture
+T2I-CompBench,new172,wooden chopsticks and a glass cup,texture
+T2I-CompBench,new173,a metallic watch and a fluffy towel,texture
+T2I-CompBench,new174,a plastic chair and a metallic car,texture
+T2I-CompBench,new175,a metallic car and a fluffy sweater,texture
+T2I-CompBench,new176,rubber gloves and a metallic door knob,texture
+T2I-CompBench,new177,rubber sole shoes and a metallic key,texture
+T2I-CompBench,new178,a metallic car and a leather jacket,texture
+T2I-CompBench,new179,rubber gloves and a metallic watch,texture
+T2I-CompBench,new180,The metallic kettle and wooden spoon boil the fluffy water for the plastic tea.,texture
+T2I-CompBench,new181,a plastic container and a metallic jewelry,texture
+T2I-CompBench,new182,a metallic key and fluffy clouds,texture
+T2I-CompBench,new183,The wooden crate and glass bottle hold the metallic soda on the fabric picnic blanket.,texture
+T2I-CompBench,new184,The leather belt and fluffy hat hang on the metallic hook by the glass door.,texture
+T2I-CompBench,new185,a metallic desk lamp and a fluffy blanket,texture
+T2I-CompBench,new186,wooden pencils and a glass plate,texture
+T2I-CompBench,new187,a wooden chair and a fabric hat,texture
+T2I-CompBench,new188,a plastic toy and a metallic jewelry,texture
+T2I-CompBench,new189,a plastic bag and a wooden table,texture
+T2I-CompBench,new190,a metallic keychain and a fabric pants,texture
+T2I-CompBench,new191,a wooden fork and a leather sofa,texture
+T2I-CompBench,new192,a wooden door and a glass mirror,texture
+T2I-CompBench,new193,The glass test tube and metallic clamp hold the wooden pipette for the fluffy experiment.,texture
+T2I-CompBench,new194,three tables and two birds,numeracy
+T2I-CompBench,new195,"three couches, two keys, two women, four rabbits and one bowl",numeracy
+T2I-CompBench,new196,three cows,numeracy
+T2I-CompBench,new197,"three chickens, three pens, one lemon, two tents and two birds",numeracy
+T2I-CompBench,new198,"one sink, three camels and two paddles",numeracy
+T2I-CompBench,new199,"one television, three camels and four chickens",numeracy
+T2I-CompBench,new200,five televisions,numeracy
+TIFA,coco_370574,Two young children holding a large teddy bear.,coco
+TIFA,coco_813677,Two zebras that are facing different directions in an enclosure.,coco
+TIFA,coco_272601,A bus parked in the street in front of a building.,coco
+TIFA,coco_526312,"A plate of vegetables, chicken, and white rice.",coco
+TIFA,coco_772135,An outdoor market has a wide variety of fruit to choose from.,coco
+TIFA,coco_188397,A piece of cake on a white plate with one bite taken.,coco
+TIFA,coco_539755,This is a picture of a kitchen in a poverty area of a town.,coco
+TIFA,coco_154390,someone snowboarding and jumping inside a half pipe.,coco
+TIFA,coco_608977,A being is doing something as of right now that is splendid.,coco
+TIFA,coco_291433,A yellow sign sitting in the middle of a road.,coco
+TIFA,coco_473825,A row of cars parked next to a large boat,coco
+TIFA,coco_786669,A dog with a cowboy hat on its head.,coco
+TIFA,coco_334052,A clock reads almost 2:30 with a building behind it,coco
+TIFA,coco_244489,Two men standing in a living room playing games.,coco
+TIFA,coco_681797,a man that is in some water with a kite,coco
+TIFA,coco_456187,A red fire hydrant with a sticker of several animals on it,coco
+TIFA,coco_369126,a colorful train going along an elevated track,coco
+TIFA,coco_402238,two arms typing on a laptop and one hand on a mouse,coco
+TIFA,coco_412948,Several old boats sitting in an old ship yard.,coco
+TIFA,coco_709980,Breakfast foods served on a tray on a table.,coco
+TIFA,coco_394186,two women playing the wii game together .,coco
+TIFA,coco_504864,A painting of a vase with a sunflower on a table.,coco
+TIFA,coco_491710,people eating on a table with many different food types on it,coco
+TIFA,coco_230468,an image of man having lunch with kids,coco
+TIFA,coco_77511,A plate with two ham sandwiches garnished with lettuce,coco
+TIFA,coco_387426,"A plate of broccoli, ham, pasta and parmesan.",coco
+TIFA,coco_655143,A parking meter in front of a wall that has been written on.,coco
+TIFA,coco_816372,a sink that has a stove and a sink,coco
+TIFA,coco_362264,a man in a suits fixes his tie,coco
+TIFA,coco_652657,Someone riding a skateboard is going up the ramp.,coco
+TIFA,coco_687317,A cow is being milked by a machine.,coco
+TIFA,coco_539906,A train sitting next to a loading platform with people standing on it.,coco
+TIFA,coco_582288,Two men holding their surfboards near an ocean.,coco
+TIFA,coco_353652,a cutting board covered with a big pepperoni pizza,coco
+TIFA,coco_359194,Two dogs in the aisle of a bus next to a bicycle.,coco
+TIFA,coco_301710,Two giraffes walking next to each other.,coco
+TIFA,coco_569165,Baseball player runs toward base while others stand around,coco
+TIFA,coco_68688,A woman in the park throwing a Frisbee across the field,coco
+TIFA,coco_540339,A beautiful young woman holding a Nintendo Wii game controller.,coco
+TIFA,coco_42855,A man dressed with a tie sits in a chair.,coco
+TIFA,coco_274722,The man and woman at the restaurant are holding a full pizza.,coco
+TIFA,coco_47727,A boat in the distance in the ocean with mountains in the background.,coco
+TIFA,coco_571131,A black cat sitting next to a couple of monitors sitting on top of a table.,coco
+TIFA,coco_350327,A fire hydrant sits in a bed of flowers.,coco
+TIFA,coco_363680,The antique bed has elaborate wood decoration on the frame..,coco
+TIFA,coco_288627,A man plays tennis during a competition while a crowd looks on.,coco
+TIFA,coco_727758,a large air plane on a terminal,coco
+TIFA,coco_142101,a cat is sleeping on the hood of a car,coco
+TIFA,coco_678144,A double decker bus next to a normal sized bus.,coco
+TIFA,coco_129067,A man is falling on his back while snowboarding.,coco
+TIFA,coco_49404,A group of people sitting around a table with laptops and notebooks.,coco
+TIFA,coco_592622,Small group with hand held video controllers interacting with out of frame screen.,coco
+TIFA,coco_39649,An intersection with many traffic lights  and a traffic camera visible,coco
+TIFA,coco_726192,A time lapse image of a city street.,coco
+TIFA,coco_459342,A street with many motor bikes parked together.,coco
+TIFA,coco_714042,A young girl is surfing and just about to wipe out.,coco
+TIFA,coco_49641,A lady in a bedroom with a tripod.,coco
+TIFA,coco_227468,people in a meeting and a lady with a very nice phone,coco
+TIFA,coco_430256,A horse stands on the side of the road with a harness on.,coco
+TIFA,coco_699119,"A woman with glasses and a red bandana around her neck, smiling next to a red motorcycle.",coco
+TIFA,coco_249777,A bicyclist stopping on the road to take a picture,coco
+TIFA,coco_223947,four children in a living room with one of the children holding a game controller before a television.,coco
+TIFA,coco_823117,Beach full of surfers inside and outside of the water.,coco
+TIFA,coco_393744,A low ride pickup truck with no bed and a man sitting on the rear tire.,coco
+TIFA,coco_258431,A tennis player hitting a ball in a low position.,coco
+TIFA,coco_179909,a bedroom with a man at a computer in the reflection.,coco
+TIFA,coco_745709,A grizzly bear stares in the direction of the photographer.,coco
+TIFA,coco_556566,A man riding on the back of a brown horse.,coco
+TIFA,coco_32959,There is an elephant standing near a tree.,coco
+TIFA,coco_55236,A cat curled up on a bed for a nap.,coco
+TIFA,coco_583363,a dog is jumping in the air toward a disk,coco
+TIFA,coco_606800,A wooden park bench with a statue of a chicken under it.,coco
+TIFA,coco_438914,a bunch of animals by a nasty street,coco
+TIFA,coco_410631,Two people ride matching cream-colored horses at a gas station.,coco
+TIFA,coco_579959,a man eating a hotdog that has a lot of cheese,coco
+TIFA,coco_196147,A WOMAN IS HOLDING A HAIR DRYER IN HER HAND,coco
+TIFA,coco_297587,Many cars are parked along the sidewalk of a narrow street.,coco
+TIFA,coco_450071,Three big horn sheep are in an enclosed pasture.,coco
+TIFA,coco_768243,Two men dressed as animals entertaining a group of children.,coco
+TIFA,coco_730103,A woman in a straw hat takes photos of brown cows inside a barn.,coco
+TIFA,coco_519456,Large clock sitting on the side of a large building.,coco
+TIFA,coco_559221,A passenger bus that is driving down a street.,coco
+TIFA,coco_34203,A group of seven people having a light meal and discussion at a single large table.,coco
+TIFA,coco_395742,A baseball bat is in a window looking out over the street.,coco
+TIFA,coco_505359,A wooden desk topped with a laptop and monitor.,coco
+TIFA,coco_228649,Street cleaners are taking a rest from work.,coco
+TIFA,coco_85214,Several people are leaving a bus station with a bus next to it as a person rides by on a bicycle,coco
+TIFA,coco_242412,A street sign with flags on it and a building in the background.,coco
+TIFA,coco_467382,a person riding a surf board on a wave,coco
+TIFA,coco_486021,A red traffic light at an empty intersection,coco
+TIFA,coco_661402,A man holds a bat while a woman watches.,coco
+TIFA,coco_178676,An electronic device is being held as it displays a message and an image.,coco
+TIFA,coco_125341,A tennis player on an indoor court pauses to raise three fingers in the air.,coco
+TIFA,coco_604899,The back end view of two zebras standing at a fence.,coco
+TIFA,coco_203189,Outdoor market with many vegetables and food available,coco
+TIFA,coco_511731,A group of baseball players that are walking in the outfield.,coco
+TIFA,coco_249183,A man and boy playing a game with a Nintendo Wii controller.,coco
+TIFA,coco_512082,A lamb standing up in a couch full of wool.,coco
+TIFA,coco_240963,A surfer has launched his dog across a wave as the dog holds on for dear life.,coco
+TIFA,coco_156105,A motorized cart fills a train with luggage,coco
+TIFA,coco_146397,A herd of sheep standing next to each other on dirt ground.,coco
+TIFA,coco_579494,Pair of small planes flying near each other on stormy day.,coco
+TIFA,coco_776525,A person riding a surfboard in the water.,coco
+TIFA,coco_721903,A person holding up a chocolate doughnut with a face drawn on it.,coco
+TIFA,coco_796152,A busy street with several lanes and a crossing sign in the foreground.,coco
+TIFA,coco_415389,A woman in blue jacket holding a black bear cub.,coco
+TIFA,coco_685662,A man and a woman posing in front of a motorcycle.,coco
+TIFA,coco_144398,A sandwich on a plate with a pickle and peppers.,coco
+TIFA,coco_609863,A green and blue bus driving down a street.,coco
+TIFA,coco_91534,A television screen is displayed in an empty bus.,coco
+TIFA,coco_479450,"A red plate topped with broccoli, meat and veggies.",coco
+TIFA,coco_158911,Arrows show what to do with the bowls of food.,coco
+TIFA,coco_305769,A large clock on the side of a building above cars on the street.,coco
+TIFA,coco_105025,A man riding skis while flying through the air.,coco
+TIFA,coco_189974,A woman wearing a dark colored dress stands curbside near a large building.,coco
+TIFA,coco_192205,A close up of a black and white cat in the grass.,coco
+TIFA,coco_208558,A long train is going down the train tracks.,coco
+TIFA,coco_815586,a man holding up a baseball bat as he gets ready to hit a ball,coco
+TIFA,coco_198350,A coach comes out on to the field to talk to a young player.,coco
+TIFA,coco_169585,A small tiled bethroom stall with a black toilet seat.,coco
+TIFA,coco_749542,Two giraffes that are standing in the grass.,coco
+TIFA,coco_738449,A commuter train that is in the train yard and is parked.,coco
+TIFA,coco_289782,An old toilet painted red with a wooden lid.,coco
+TIFA,coco_782929,a statue of a lady carrying a water pitcher,coco
+TIFA,coco_155196,A zebra-print futon with red cushions in a student's room,coco
+TIFA,coco_245520,A white dog is peeking out from under a hanging cloth.,coco
+TIFA,coco_160173,A woman holds a stuffed animal to her face.,coco
+TIFA,coco_371858,Persons of different origin standing in a hall.,coco
+TIFA,coco_213266,A line of products on a white surface.,coco
+TIFA,coco_566653,a glass vase with three pink flowers and a drink,coco
+TIFA,coco_373819,a dark gray kitty laying on a desk,coco
+TIFA,coco_2770,Several people engaged in para-sailing on a lake.,coco
+TIFA,coco_387084,A bird floating on top of water in the rain.,coco
+TIFA,coco_710682,A man tosses a frisbee across to his friend,coco
+TIFA,coco_266504,Two owls sitting together on a tree branch.,coco
+TIFA,coco_205766,A bowl full of tomatoes sitting next to a flower.,coco
+TIFA,coco_645405,A teddy bear under some furniture that appears to be turned on it's side.,coco
+TIFA,coco_391852,A surfer kneels as he catches a large wave.,coco
+TIFA,coco_674254,A very big work station with a bunch of computers.,coco
+TIFA,coco_251335,An old yellow plane is flying in the sky.,coco
+TIFA,coco_502414,A man riding a skateboard on the side of a  metal rail.,coco
+TIFA,coco_168394,A tiny red bird perched on a car's mirror,coco
+TIFA,coco_816411,"Two men wearing polos, headbands and shorts, holding tennis balls and rackets.",coco
+TIFA,coco_736902,A man on ski's that is in the air.,coco
+TIFA,coco_770392,Woman walking a small white dog behind her.,coco
+TIFA,coco_760158,An advertising billboard featuring the statue of an elephant with a howdah on its back.,coco
+TIFA,coco_719943,two elephants holding their trunks together like they were hugging,coco
+TIFA,coco_820191,A busy street by large Gothic style buildings.,coco
+TIFA,coco_358837,He is teaching the boy how to ride a skateboard.,coco
+TIFA,coco_53590,A computer is sitting on a home office work desk.,coco
+TIFA,coco_219186,a cat sitting on a couch with a dog in front of it,coco
+TIFA,coco_712300,Large collection of cakes shaped like hearts on a display.,coco
+TIFA,coco_669601,some frosted cakes with little decorations on top in a display case for sale,coco
+TIFA,coco_72472,An empty parking lot features green trees and a single white bicycle.,coco
+TIFA,coco_704484,there are many people that are sitting on the benches,coco
+TIFA,coco_32595,A train is rounding the train tracks next to the trees.,coco
+TIFA,coco_170351,A photo of the open door of a train.,coco
+TIFA,coco_55596,A police officer on a motorcycle sitting at the corner.,coco
+TIFA,coco_264169,Competitor with  referee looking on green tennis court.,coco
+TIFA,coco_574228,A skateboard flipping over a road with two shoes but no person.,coco
+TIFA,coco_13014,A clean kitchen with the windows white and open.,coco
+TIFA,coco_272112,A boy doing a skateboard trick on a street.,coco
+TIFA,coco_631242,There is a hotdog sitting among many condiments.,coco
+TIFA,coco_544211,The beach is crowded red and white beach umbrellas.,coco
+TIFA,coco_87758,A girl on a horse rides past a lake.,coco
+TIFA,coco_506009,A green chair is next to a long bench.,coco
+TIFA,coco_680857,Some one is flying a kite high on the beach.,coco
+TIFA,coco_692411,Man pouring different types of win into drinking glasses.,coco
+TIFA,coco_474831,A black cat with a hat on the ground.,coco
+TIFA,partiprompt_43,a roast turkey,partiprompt
+TIFA,partiprompt_609,a turkey walking in the kitchen,partiprompt
+TIFA,partiprompt_68,the geyser Old Faithful,partiprompt
+TIFA,partiprompt_1099,a smiling man,partiprompt
+TIFA,partiprompt_226,"a young badger delicately sniffing a yellow rose, richly textured oil painting",partiprompt
+TIFA,partiprompt_386,a kachina doll with feathers on its head and wearing a white dress and brown boots.,partiprompt
+TIFA,partiprompt_1378,"a flag with three vertical stripes that are blue, white and red",partiprompt
+TIFA,partiprompt_708,Three-quarters front view of a blue 1977 Ford F-150 coming around a curve in a mountain road and looking over a green valley on a cloudy day.,partiprompt
+TIFA,partiprompt_618,a tornado with a house carried along at its top,partiprompt
+TIFA,partiprompt_232,"The Rosetta Stone lying on the ground, covered in snow.",partiprompt
+TIFA,partiprompt_749,the back of a violin,partiprompt
+TIFA,partiprompt_1232,orange jello in the shape of a man,partiprompt
+TIFA,partiprompt_184,a man in a business suit on a ladder that is leaning up against the side of a white house,partiprompt
+TIFA,partiprompt_238,a shiba inu wearing a beret and black turtleneck,partiprompt
+TIFA,partiprompt_204,A helicopter flies over the Arches National Park.,partiprompt
+TIFA,partiprompt_493,a woman singing into a microphone,partiprompt
+TIFA,partiprompt_786,a red circle on top of a blue square,partiprompt
+TIFA,partiprompt_1228,a painting of the skyline of New York City,partiprompt
+TIFA,partiprompt_1089,an ornate gold harp,partiprompt
+TIFA,partiprompt_1178,A photo of an Athenian vase with a painting of toucans playing soccer in the style of Egyptian hieroglyphics,partiprompt
+TIFA,partiprompt_667,A man gives a woman a laptop and a boy a book.,partiprompt
+TIFA,partiprompt_1335,Portrait of a tiger wearing a train conductor's hat and holding a skateboard that has a yin-yang symbol on it. comic book illustration,partiprompt
+TIFA,partiprompt_612,a nerdy bear wearing glasses and a bowtie,partiprompt
+TIFA,partiprompt_405,a pickup truck going up a mountain switchback,partiprompt
+TIFA,partiprompt_784,a red cube on top of a blue cube,partiprompt
+TIFA,paintskill_56,a photo of human and dog; dog is below human,paintskill
+TIFA,paintskill_31,a photo of blue fire hydrant,paintskill
+TIFA,paintskill_263,a photo of bus and fire hydrant; fire hydrant is left to bus,paintskill
+TIFA,paintskill_73,a photo of stop sign and bear; bear is right to stop sign,paintskill
+TIFA,drawbench_76,"A small vessel propelled on water by oars, sails, or an engine.",drawbench
+TIFA,drawbench_103,Abraham Lincoln touches his toes while George Washington does chin-ups. Lincoln is barefoot. Washington is wearing boots.,drawbench

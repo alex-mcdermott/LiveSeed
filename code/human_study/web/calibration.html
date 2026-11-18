@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image rating study</title>
+<link rel="stylesheet" href="style.css">
+<!-- calibration.html: the task page of the crowd study's rating task (paper Sec. 4.3, App. E). -->
+<!-- Screens, in order: consent (filled in by common.js); instructions with the two rubrics and nine worked examples; Part 1, 42 images rated one at a time; Part 2, the top three of ten images on four further prompts; the final submission. -->
+<!-- The session's content comes from batches_calibration/<batch>.json (scripts/02_generate_batches.py); answers go to the backend, apps_script/Code.gs, through common.js. -->
+</head>
+<body>
+<div class="container" id="consent-screen"><p>Loading…</p></div>
+
+<!-- Instructions: the two rubrics, and the worked examples that showIntro() inserts -->
+<div class="container" id="intro-screen" style="display:none;">
+  <h2>How to rate the images</h2>
+  <p>You will first see images <b>one at a time</b>, each with the text prompt that produced it. Give every image two scores from 1 to 5. Afterwards, you will choose your favourite images from a few sets.</p>
+  <p><b>The two scores are independent.</b> A beautiful image can score 5 for quality and 1 for alignment if it shows the wrong thing. An image can score 5 for alignment and 2 for quality if everything requested is there but it looks mangled. Score each image on its own, using the descriptions below.</p>
+  <div class="rubric-tables">
+    <table class="rubric-table">
+      <caption>Prompt alignment: did it follow the prompt?</caption>
+      <tr><th>5</th><td>All subjects, attributes, counts and spatial relations are exactly as requested.</td></tr>
+      <tr><th>4</th><td>The core is correct, but one minor detail is missing or slightly wrong.</td></tr>
+      <tr><th>3</th><td>The main subject is present, but there is a serious error: a subject is missing, the count is wrong, or attributes are swapped.</td></tr>
+      <tr><th>2</th><td>Only loosely related: it has the general theme or one requested object, but ignores the main structure.</td></tr>
+      <tr><th>1</th><td>Nothing to do with the prompt.</td></tr>
+    </table>
+    <table class="rubric-table">
+      <caption>Image quality: ignore the prompt, how well made is it?</caption>
+      <tr><th>5</th><td>Flawless: no AI artefacts, correct anatomy and perspective, coherent textures.</td></tr>
+      <tr><th>4</th><td>Good: very minor imperfections that you only notice on close inspection.</td></tr>
+      <tr><th>3</th><td>Acceptable: noticeable artefacts, but objects are recognisable and intact.</td></tr>
+      <tr><th>2</th><td>Poor: severe structural problems or heavy artefacts, such as mangled limbs or severe blur.</td></tr>
+      <tr><th>1</th><td>Unusable: objects fused into impossible shapes, or a corrupted image of unrecognisable forms or noise.</td></tr>
+    </table>
+  </div>
+  <h3>Worked examples</h3>
+  <div class="example-grid" id="example-grid"></div>
+  <div class="nav-bar"><span class="hint" id="intro-msg">Please read the examples.</span><button class="btn" id="intro-btn" disabled>Start rating</button></div>
+</div>
+
+<!-- Part 1: one image with its prompt and the two 1-5 scales -->
+<div class="container" id="rate-screen" style="display:none;">
+  <div class="rate-wrap">
+    <div class="rate-image">
+      <img id="rate-img" alt="Image to rate">
+      <div class="broken" id="rate-broken">This image did not load. <button type="button" id="rate-flag">Report and skip</button></div>
+      <div class="hint">Click the image to enlarge it.</div>
+    </div>
+    <form class="rate-panel" id="rate-form">
+      <div class="header-bar"><strong>Rate this image</strong><div class="badge" id="rate-progress"></div></div>
+      <div class="prompt-box"><span class="prompt-label">Prompt</span><span id="rate-prompt"></span></div>
+      <div class="scale-block"><span class="scale-label">Prompt alignment</span><div id="scale-pa"></div>
+        <div class="anchors"><b>5</b> all correct · <b>4</b> one minor detail wrong · <b>3</b> main subject present, one serious error · <b>2</b> only the general theme · <b>1</b> unrelated</div></div>
+      <div class="scale-block"><span class="scale-label">Image quality (ignoring the prompt)</span><div id="scale-iq"></div>
+        <div class="anchors"><b>5</b> flawless · <b>4</b> very minor imperfections · <b>3</b> noticeable artefacts, objects intact · <b>2</b> severe distortion · <b>1</b> objects fused or corrupted</div></div>
+      <div class="nav-bar"><button type="button" class="btn btn-back" id="rate-back" disabled>&larr; Back</button><span class="hint" id="rate-msg"></span><button type="submit" class="btn" id="rate-next" disabled>Next image &rarr;</button></div>
+    </form>
+  </div>
+</div>
+
+<!-- Part 2: its introduction, then one choice page per prompt -->
+<div class="container" id="pick-intro" style="display:none;">
+  <h2>Part 2: choose your favourites</h2>
+  <p>You have finished rating. Now you will see 4 sets of 10 new images. Each set was made from one prompt.</p>
+  <p>Imagine you asked an AI to make an image from this prompt. <b>Which three would you keep?</b> Click your favourite first, then your second, then your third. This is your own preference, so there are no right answers.</p>
+  <div class="nav-bar"><button type="button" class="btn btn-back" id="pick-back">&larr; Back</button><button class="btn" id="pick-start">Continue</button></div>
+</div>
+
+<div class="container" id="pick-screen" style="display:none;">
+  <div class="sticky-top">
+    <div class="header-bar" style="margin-bottom:8px;">
+      <div><strong>Prompt:</strong> <span id="pick-prompt"></span></div>
+      <div class="badge" id="pick-progress"></div>
+    </div>
+    <div class="hint">Click your 1st, 2nd and 3rd choice, in that order. Click a chosen image again to clear it. Use "Enlarge" for a closer look.</div>
+  </div>
+  <form id="pick-form">
+    <div class="seeds-grid" id="pick-grid"></div>
+    <div class="nav-bar"><span class="hint" id="pick-msg"></span><button type="submit" class="btn" id="pick-next" disabled>Next &rarr;</button></div>
+  </form>
+</div>
+
+<!-- The final-submission message (set by LS.submit in common.js) and the enlarged-image overlay -->
+<div class="container" id="finish-box"><h2>Almost done</h2><p id="finish-msg"></p><button class="btn" id="retry-btn" style="display:none;">Try again</button></div>
+<div id="zoom-modal" onclick="this.style.display='none'"><img id="zoom-img" alt=""></div>
+
+<!-- config.js (the study's settings) is written by scripts/02_generate_batches.py; common.js defines LS -->
+<script src="config.js"></script>
+<script src="common.js"></script>
+<script>
+"use strict";
+(function () {
+  // Ratings one image at a time in random order, so no side-by-side comparison; then the top three of as many other prompts (pick_grids). Ratings always come first.
+  const $ = LS.$, TASK = "calibration", MIN_SECONDS_INTRO = 30, MIN_SECONDS_PER_IMAGE = 3, MIN_SECONDS_PER_PICK = 15;
+  const EXAMPLES = [
+    {f: "ex1.jpg", p: "Two cooked hot dogs on a plate with parsley.", pa: 5, pw: "Two hot dogs, on a plate, with parsley: everything requested is there.", iq: 5, qw: "Clean, realistic and free of visible errors."},
+    {f: "ex2.jpg", p: "a airplane hidden by a bag", pa: 3, pw: "There is an aeroplane and a bag, but the bag does not hide the aeroplane.", iq: 4, qw: "Clear and coherent, apart from slightly mangled wings and engines."},
+    {f: "ex3.jpg", p: "a leather jacket and a glass vase", pa: 2, pw: "The vase is there, but the jacket is missing, and flowers were not requested.", iq: 5, qw: "A clean, convincing image. It is well made even though it misses the prompt."},
+    {f: "ex4.jpg", p: "A person is kissing someone they love.", pa: 5, pw: "It shows exactly what was asked.", iq: 2, qw: "The hand merges into the faces and the fingers are badly formed."},
+    {f: "ex5.jpg", p: "a giraffe on the left of a train", pa: 4, pw: "The main request is met, but a second giraffe was not requested.", iq: 3, qw: "Mostly intact, but the giraffe's legs are unnaturally long."},
+    {f: "ex6.jpg", p: "a bowl in front of a cow", pa: 2, pw: "It has a bowl and part of a cow, but the cow is inside the bowl, not behind it.", iq: 2, qw: "A cow's head with no body, and garbled text on its ears."},
+    {f: "ex7.jpg", p: "a horse on side of a bicycle", pa: 4, pw: "Both are there and side by side, though they are tangled together.", iq: 1, qw: "The horse's body and legs fuse into the bicycle, and the frame and wheels are a tangle."},
+    {f: "ex8.jpg", p: "a person hidden by a book", pa: 2, pw: "The book is there, but no person can be recognised.", iq: 1, qw: "A dark shrouded shape melts into the page, and the book's structure makes no sense."},
+    {f: "ex9.jpg", p: "a fire hydrant that has dirty, brown water inside", pa: 1, pw: "There is no fire hydrant, just a hole in the pavement.", iq: 4, qw: "A clear, detailed image, even though it shows the wrong thing."}
+  ];
+  let batch, st, grids, pickGrids, ri = 0, gi = 0, rateView = 0, shownAt = 0, unlocked = false, broken = false, order = [], picks = [], bad = {};
+
+  function saveAndSend(rows, now) { LS.saveStore(TASK, st); LS.enqueue(TASK, batch.batch_id, rows, now); }
+
+  // random order of the session's images, never the same prompt twice in a row
+  function spread(items) {
+    const left = {}; LS.shuffle(items).forEach(function (x) { (left[x.grid_idx] = left[x.grid_idx] || []).push(x); });
+    const out = []; let prev = -1;
+    for (let n = items.length; n > 0; n--) {
+      const keys = Object.keys(left).filter(function (k) { return left[k].length; }), must = keys.filter(function (k) { return 2 * left[k].length > n; });
+      const ok = (must.length ? must : keys).filter(function (k) { return Number(k) !== prev; }), use = ok.length ? ok : keys;
+      const total = use.reduce(function (s, k) { return s + left[k].length; }, 0); let u = Math.random() * total, k = use[use.length - 1];
+      for (const c of use) { u -= left[c].length; if (u < 0) { k = c; break; } }
+      out.push(left[k].pop()); prev = Number(k);
+    }
+    return out;
+  }
+
+  function scale(box, name) {
+    $(box).innerHTML = '<div class="scale-btns">' + [1, 2, 3, 4, 5].map(function (v) { return '<label><input type="radio" name="' + name + '" value="' + v + '">' + v + '</label>'; }).join("") + '</div>';
+    document.querySelectorAll('input[name="' + name + '"]').forEach(function (r) { r.onchange = refreshRate; });
+  }
+  function val(name) { const c = document.querySelector('input[name="' + name + '"]:checked'); return c ? Number(c.value) : ""; }
+
+  function showIntro() {
+    $("intro-screen").style.display = "block"; window.scrollTo(0, 0);
+    $("example-grid").innerHTML = EXAMPLES.map(function (e) {
+      return '<div class="example"><img src="examples/' + e.f + '" alt="Example"><div class="ex-prompt">"' + e.p + '"</div>' +
+             '<div><b>Prompt alignment ' + e.pa + ':</b> ' + e.pw + '</div><div><b>Image quality ' + e.iq + ':</b> ' + e.qw + '</div></div>';
+    }).join("");
+    setTimeout(function () { $("intro-btn").disabled = false; $("intro-msg").textContent = ""; }, 1000 * MIN_SECONDS_INTRO);
+  }
+  $("intro-btn").onclick = function () { st.intro = 1; LS.saveStore(TASK, st); $("intro-screen").style.display = "none"; nextRate(); };
+
+  function refreshRate() { $("rate-next").disabled = !(unlocked && (broken || (val("pa") !== "" && val("iq") !== ""))); }
+  function nextRate() {
+    while (ri < st.order.length && st.rows[st.order[ri].key]) ri++;
+    if (ri >= st.order.length) { $("rate-screen").style.display = "none"; if (st.pickIntro) nextPick(); else $("pick-intro").style.display = "block"; window.scrollTo(0, 0); return; }
+    showRate();
+  }
+  // Back goes one image only, to fix a slip; that image returns with its scores, and the corrected row follows the old one in the Sheet (QC keeps the last)
+  function showRate() {
+    const it = st.order[ri], img = $("rate-img"), old = st.rows[it.key], view = ++rateView; broken = false; unlocked = false;
+    $("rate-screen").style.display = "block"; $("rate-prompt").textContent = it.prompt;
+    $("rate-progress").textContent = "Image " + (ri + 1) + " of " + st.order.length;
+    $("rate-broken").style.display = "none"; $("rate-msg").textContent = ""; scale("scale-pa", "pa"); scale("scale-iq", "iq");
+    if (old) ["pa", "iq"].forEach(function (q) { const r = document.querySelector('input[name="' + q + '"][value="' + old[q] + '"]'); if (r) r.checked = true; });
+    $("rate-back").disabled = ri === 0 || !!old; refreshRate();
+    LS.loadImg(img, it.src, function () { shownAt = performance.now(); setTimeout(function () { if (view === rateView) { unlocked = true; refreshRate(); } }, old ? 0 : 1000 * MIN_SECONDS_PER_IMAGE); },
+               function () { $("rate-broken").style.display = "block"; });
+    img.onclick = function () { LS.openZoom(this.src); }; window.scrollTo(0, 0);
+    if (ri + 1 < st.order.length) LS.preload([st.order[ri + 1].src]);
+  }
+  $("rate-back").onclick = function () { ri--; showRate(); };
+  $("pick-back").onclick = function () { ri = st.order.length - 1; $("pick-intro").style.display = "none"; showRate(); };
+  $("rate-flag").onclick = function () { broken = true; unlocked = true; shownAt = shownAt || performance.now(); refreshRate(); };
+  $("rate-form").onsubmit = function (e) {
+    e.preventDefault(); if ($("rate-next").disabled) return;
+    const it = st.order[ri], old = st.rows[it.key], row = {grid_idx: it.grid_idx, grid_id: it.grid_id, img: it.src.split("/").pop(), display_pos: ri, pa: broken ? "" : val("pa"), iq: broken ? "" : val("iq"),
+                                    rt_ms: Math.round(performance.now() - shownAt) + (old ? Number(old.rt_ms) : 0), flagged: broken ? 1 : 0};
+    st.rows[it.key] = row; saveAndSend([row]); nextRate();                             // a correction is queued like any answer: the final submission carries every answer, and QC keeps the last row
+  };
+
+  $("pick-start").onclick = function () { st.pickIntro = 1; LS.saveStore(TASK, st); $("pick-intro").style.display = "none"; nextPick(); };
+  function refreshPick() {
+    const need = Math.min(3, order.filter(function (_, i) { return !bad[i]; }).length);
+    order.forEach(function (_, i) { const c = $("pick-" + i), r = picks.indexOf(i); c.classList.toggle("picked", r >= 0); $("rank-" + i).textContent = r >= 0 ? ["1st", "2nd", "3rd"][r] : ""; });
+    $("pick-msg").textContent = picks.length + " of " + need + " chosen" + (unlocked ? "" : " (please look at every image)");
+    $("pick-next").disabled = !(unlocked && picks.length >= need);
+  }
+  function nextPick() {
+    while (gi < pickGrids.length && st.picks[pickGrids[gi].grid_id]) gi++;
+    if (gi >= pickGrids.length) { finish(); return; }
+    const g = pickGrids[gi]; picks = []; bad = {}; unlocked = false; order = LS.shuffle(g.images);
+    $("pick-screen").style.display = "block"; $("pick-prompt").textContent = g.prompt;
+    $("pick-progress").textContent = "Set " + (gi + 1) + " of " + pickGrids.length;
+    $("pick-next").textContent = gi === pickGrids.length - 1 ? "Finish" : "Next set →";
+    const box = $("pick-grid"); box.innerHTML = "";
+    order.forEach(function (src, i) {
+      const c = document.createElement("div"); c.className = "seed-card pick-card"; c.id = "pick-" + i;
+      c.innerHTML = '<div class="rank" id="rank-' + i + '"></div><img id="pimg-' + i + '" alt="Image ' + (i + 1) + '"><button type="button" class="enlarge" id="zoom-' + i + '">Enlarge</button><div class="broken" id="pbroken-' + i + '">This image did not load.</div>';
+      box.appendChild(c);
+      const im = $("pimg-" + i); LS.loadImg(im, src, function () {}, function () { bad[i] = true; $("pbroken-" + i).style.display = "block"; const r = picks.indexOf(i); if (r >= 0) picks.splice(r, 1); refreshPick(); });
+      $("zoom-" + i).onclick = function (e) { e.stopPropagation(); LS.openZoom(im.src); };
+      c.onclick = function () { if (bad[i]) return; const r = picks.indexOf(i); if (r >= 0) picks.splice(r, 1); else if (picks.length < 3) picks.push(i); refreshPick(); };
+    });
+    shownAt = performance.now(); setTimeout(function () { unlocked = true; refreshPick(); }, 1000 * MIN_SECONDS_PER_PICK);
+    refreshPick(); window.scrollTo(0, 0);
+    if (gi + 1 < pickGrids.length) LS.preload(pickGrids[gi + 1].images);
+  }
+  $("pick-form").onsubmit = function (e) {
+    e.preventDefault(); if ($("pick-next").disabled) return;
+    const g = pickGrids[gi], name = function (i) { return i === undefined ? "" : order[i].split("/").pop(); };
+    const row = {grid_idx: gi, grid_id: g.grid_id, pick1: name(picks[0]), pick2: name(picks[1]), pick3: name(picks[2]), shown: order.map(function (s) { return s.split("/").pop(); }).join("+"),
+                 rt_ms: Math.round(performance.now() - shownAt), flagged: Object.keys(bad).length};
+    st.picks[g.grid_id] = row; saveAndSend([row]); nextPick();
+  };
+
+  function finish() {
+    $("pick-screen").style.display = "none";
+    const all = Object.keys(st.rows).map(function (k) { return st.rows[k]; }).concat(pickGrids.map(function (g) { return st.picks[g.grid_id]; }));
+    LS.submit(TASK, batch.batch_id, all, all.length, st.started);
+  }
+
+  LS.start(TASK, function (b, s) {
+    batch = b; st = s; grids = b.grids; pickGrids = b.pick_grids; st.picks = st.picks || {};
+    if (!st.order) {
+      const items = [];
+      grids.forEach(function (g, i) { g.images.concat(g.check ? [g.check] : []).forEach(function (src) { items.push({key: g.grid_id + "|" + src, grid_idx: i, grid_id: g.grid_id, prompt: g.prompt, src: src}); }); });
+      st.order = spread(items); LS.saveStore(TASK, st);
+    }
+    if (st.intro) nextRate(); else showIntro();
+  });
+})();
+</script>
+</body>
+</html>

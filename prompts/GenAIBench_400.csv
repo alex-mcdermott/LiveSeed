@@ -1,0 +1,401 @@
+Dataset,ID,prompt,category
+GenAIBench,00002,A gardener tending to flowers in a greenhouse filled with sunlight.,basic:scene|action relation
+GenAIBench,00009,"A sorcerer's hat casting shadows over a cluttered, enchanted desk.",basic:attribute|spatial relation|action relation
+GenAIBench,00010,A pair of winged boots resting on a cloud in the sky.,advanced:counting
+GenAIBench,00020,A lantern casting dim light in a haunted forest.,basic:attribute|scene|action relation
+GenAIBench,00023,An enchanted broom sweeping in a wizard's lofty chamber.,basic:attribute|scene|action relation
+GenAIBench,00037,A bird nocks an arrow.,basic:action relation
+GenAIBench,00042,A yellow taxi waiting outside a modern glass building.,basic:attribute|spatial relation|action relation
+GenAIBench,00043,"An armchair with a knit blanket draped over it, next to a fireplace.",basic:spatial relation|part relation
+GenAIBench,00044,A colorful mural of a bird adorning a city alley.,basic:attribute|scene
+GenAIBench,00050,Shelves carved from tree branches in a mystical library.,basic:attribute|scene
+GenAIBench,00073,"A cheerful dog with a frisbee in its mouth on the right, chasing a rolling ball on the left.",basic:attribute|spatial relation|action relation|part relation
+GenAIBench,00084,A row of colorful townhouses on a sunny street.,basic:attribute|scene
+GenAIBench,00096,A chef fervently preparing sushi in a bustling kitchen.,basic:attribute|scene|action relation
+GenAIBench,00101,A little girl tuning a guitar before a concert in a dimly lit venue.,basic:attribute|scene|action relation
+GenAIBench,00102,A pencil holder with more pens than pencils.,advanced:comparison
+GenAIBench,00104,"A couple, with the taller one hugging the shorter one from behind.",advanced:comparison|differentiation
+GenAIBench,00113,An interior space with stools outnumbering the people.,advanced:comparison
+GenAIBench,00114,A scene where there are more hats than stools.,advanced:comparison
+GenAIBench,00115,A kitchen with a larger quantity of milk than juice.,advanced:comparison
+GenAIBench,00116,"In a peaceful pond, there are more fish in the water than frogs on the lotus leaves.",advanced:comparison
+GenAIBench,00117,"City view, the tower on the left is taller than the one on the right.",advanced:comparison|differentiation
+GenAIBench,00118,"The sun illuminates the garden, a shovel sticks in the soil, and gloves lay on the bench.",basic:scene|spatial relation|action relation
+GenAIBench,00119,"A fish glides through the air, while a bird plunges underwater.",basic:scene|action relation
+GenAIBench,00132,The sun sets on the left while the moon rises on the right.,basic:spatial relation|action relation
+GenAIBench,00134,"A window consists of two panes of glass, the left one is broken but the right one is intact.",advanced:counting|differentiation
+GenAIBench,00135,"A piece of white paper is on the grass, the left side of the paper is filled with writing while the right side is empty.",advanced:differentiation
+GenAIBench,00139,Five cylindrical mugs beside two rectangular napkins.,advanced:counting
+GenAIBench,00144,Two orange pumpkins and four flying black bats.,advanced:counting
+GenAIBench,00145,One sun setting behind two tall buildings.,advanced:counting
+GenAIBench,00149,Three pink peonies and four white daisies in a garden.,advanced:counting
+GenAIBench,00151,Two grey wolves howling and three deer watching.,advanced:counting
+GenAIBench,00152,Four disappointed customers and two content sellers.,advanced:counting
+GenAIBench,00153,Four nervous mice and one confident cat.,advanced:counting
+GenAIBench,00158,One person talks on the phone animatedly while the other sits sadly.,advanced:differentiation
+GenAIBench,00159,An excited cat is on the left and an upset cat is on the right,advanced:differentiation
+GenAIBench,00163,A circular mirror is above a rectangular one.,advanced:differentiation
+GenAIBench,00171,The brown dog chases the black dog around the tree.,advanced:differentiation
+GenAIBench,00174,A happy woman is on the right of a sad woman.,advanced:differentiation
+GenAIBench,00175,"The two lay in bed, the long-haired one asleep, the short-haired one still awake.",advanced:counting|differentiation
+GenAIBench,00176,An injured man sitting on the ground with a man to his right who is helping him.,advanced:differentiation
+GenAIBench,00177,The larger person wears a yellow hat and the smaller person does not.,advanced:comparison|differentiation|negation
+GenAIBench,00182,An old artist holding a paintbrush faces a young artist wielding a pencil.,advanced:differentiation
+GenAIBench,00183,"Among a group of pastel-colored balloons, one stands out in vibrant red.",advanced:differentiation
+GenAIBench,00185,"A tailless, not black, cat is sitting.",advanced:negation
+GenAIBench,00187,"A bookshelf with no books, only a single red vase.",advanced:negation
+GenAIBench,00192,A colorful skirt has an uncolorful hem.,advanced:negation
+GenAIBench,00194,A book on the desk isn't open and a book below the desk is open.,advanced:differentiation|negation
+GenAIBench,00196,The larger person wears blue and the smaller person does not.,advanced:comparison|differentiation|negation
+GenAIBench,00197,six people wear white shirts and no people wear red shirts.,advanced:counting|negation
+GenAIBench,00203,a person without a hat pushes a person with a hat sitting in a box.,advanced:differentiation|negation
+GenAIBench,00205,"There are some apples on the table, no oranges.",advanced:negation
+GenAIBench,00207,"A garden with flowers, but no bees to be seen.",advanced:negation
+GenAIBench,00209,"A car drives down the road without wheels, floating above the ground.",advanced:negation
+GenAIBench,00213,"A snowman with a hat, and no scarf around its neck.",advanced:negation
+GenAIBench,00215,"A cat sleeps peacefully in a dog's bed, while the dog has no choice but to nap on the floor.",advanced:negation
+GenAIBench,00223,"A bustling city street, a neon 'Open 24 Hours' sign glowing above a small diner.",basic:attribute|scene|spatial relation
+GenAIBench,00224,A snowy mountain peak with a wooden signpost reading 'Summit Trail' against a clear blue sky.,basic:attribute|scene
+GenAIBench,00227,"'Book Nook' carved on a small library door, lantern-lit beside.",basic:attribute|spatial relation
+GenAIBench,00233,'Art Center' is spray-painted on the wall of the City Gallery.,basic:attribute|scene
+GenAIBench,00243,"In a mysterious forest, the leaves of a green tree shimmer with a silvery glow, contrasting the dim leaves of a nearby red tree.",advanced:differentiation
+GenAIBench,00250,Three floating islands above one waterfall in a valley.,advanced:counting
+GenAIBench,00251,"One phoenix soaring above a mountain, its wings shedding three golden feathers.",advanced:counting
+GenAIBench,00252,"A table laden with apples and bananas, where all the fruits are green.",advanced:universal
+GenAIBench,00254,"A landscape where every tree is in full bloom, with petals covering the entirety of the ground.",advanced:universal
+GenAIBench,00258,"A garden where every flower is in full bloom, showcasing a rainbow of colors.",advanced:universal
+GenAIBench,00259,A bustling kitchen where every chef is preparing a dish.,advanced:universal
+GenAIBench,00265,"A group of people are gathered at a party, all sitting around a dining table.",advanced:universal
+GenAIBench,00267,"A traditional potter's workshop, where every shelf holds rows of terracotta pots, each imprinted with intricate designs.",advanced:universal
+GenAIBench,00269,"A spotted dog, a cat and a bird on a table.",basic:attribute|spatial relation
+GenAIBench,00273,parent pointing at a child.,basic:spatial relation|action relation
+GenAIBench,00278,A young woman in a red long-sleeved dress.,basic:attribute|part relation
+GenAIBench,00290,A man is pushing a box full of flowers on the floor.,basic:attribute|scene|action relation
+GenAIBench,00291,A young man is holding a blue bat and a green ball.,basic:attribute|action relation
+GenAIBench,00293,One cat is sleeping on the table and the other one is awake under the table.,advanced:differentiation
+GenAIBench,00297,"In the bedroom, there are three chairs with a book on each of them.",advanced:counting|universal
+GenAIBench,00298,there are four chairs in the bedroom.,advanced:counting
+GenAIBench,00303,A girl with pigtails is holding a giant sunflower.,basic:attribute|action relation|part relation
+GenAIBench,00312,A dancer in a flowing dress spinning in a spotlight.,basic:attribute|scene|action relation|part relation
+GenAIBench,00327,A detective examining clues with a magnifying glass.,basic:action relation|part relation
+GenAIBench,00328,A bride throwing her bouquet in a garden wedding.,basic:scene|action relation
+GenAIBench,00331,A mountain biker leaping over a log on a forest trail.,basic:scene|spatial relation|action relation
+GenAIBench,00340,A knight in shining armor jousting at a medieval fair.,basic:attribute|scene|action relation|part relation
+GenAIBench,00348,"Bookends hold a row of novels in place: one end features a sculpture of a cat, the other a dog.",basic:action relation
+GenAIBench,00349,"A bridge arches over the river, with lanterns lit on one side and the other in darkness.",advanced:differentiation
+GenAIBench,00357,"In the garden, there is a pack of dogs playing, the biggest one is red and the others are white.",advanced:comparison|differentiation
+GenAIBench,00358,"Two birds are chasing each other in the air, with the one flying higher having a long tail and the other bird having a short tail.",advanced:counting|comparison|differentiation
+GenAIBench,00361,"At the beach, three seashells lie close together: the largest has a spiraled pattern, the medium one is smooth and white, and the smallest has stripes.",advanced:counting|comparison|differentiation
+GenAIBench,00365,"In the pond, two ducks swim near each other: the larger one has a bright green head, while the smaller one is all brown.",advanced:counting|comparison|differentiation|universal
+GenAIBench,00369,"Two children laugh joyfully, the bigger one holding a balloon, and the other clutching a toy.",advanced:counting|comparison|differentiation
+GenAIBench,00370,"Two birds soar high above the clouds, while another glides low over the water.",advanced:counting|differentiation
+GenAIBench,00371,"A cyclist wearing glasses speeds down the hill with ease, and another one without glasses climbs up slowly and steadily.",advanced:differentiation|negation
+GenAIBench,00373,"One circular window shines brightly with light, another rectangular one is dark.",advanced:differentiation
+GenAIBench,00377,"A short sunflower stands tall and faces the sun, while another tall one bends towards the ground.",advanced:differentiation
+GenAIBench,00381,"A puppy on the right chases its tail in circles, while another one on the left lies quietly, watching.",advanced:differentiation
+GenAIBench,00383,"A black cat sits on a window sill, while a white cat lies beneath the sill in the sunlight.",advanced:differentiation
+GenAIBench,00387,A yellow school bus in front of a red fire engine at a community event.,basic:attribute|scene|spatial relation
+GenAIBench,00390,A fluffy white cloud above a darker storm cloud at sunset.,advanced:comparison|differentiation
+GenAIBench,00395,A vintage analog clock hangs on the wall above a modern digital clock that sits on a desk.,advanced:differentiation
+GenAIBench,00399,"A pair of yellow rubber boots standing at the doorstep, with a pair of green gardening gloves draped over them.",advanced:counting|differentiation
+GenAIBench,00400,"A chocolate cupcake with vanilla frosting on a plate, beside a vanilla cupcake with chocolate frosting.",advanced:differentiation
+GenAIBench,00402,"A steaming cup of coffee on a bookshelf, above a row of antique tea cups.",advanced:differentiation
+GenAIBench,00404,"In the cafe, there's a steaming cup of coffee and a freshly baked croissant on every table.",advanced:universal
+GenAIBench,00405,"A serene yoga studio with several yoga mats, each with a person seated in deep meditation.",advanced:universal
+GenAIBench,00406,A snowy forest glistens with delicate ice crystals adorning every branch.,advanced:universal
+GenAIBench,00407,An antique bookshop with aisles filled with books.,advanced:universal
+GenAIBench,00408,"A rooftop garden with a row of planters, each filled with herbs and flowers.",advanced:universal
+GenAIBench,00411,"At the party, a pineapple is flanked by beers on each side.",advanced:universal
+GenAIBench,00416,Several cups are on a round table and all the cups are incomplete.,advanced:universal
+GenAIBench,00420,"In the park, every bench is occupied by people enjoying their books.",advanced:universal
+GenAIBench,00421,"On the farm, each animal is settling down for the night.",advanced:universal
+GenAIBench,00427,"In a line of dominoes, each one stands upright, except for one that has fallen over.",advanced:counting|differentiation|universal
+GenAIBench,00430,"In a pack of wolves, each one howls at the moon, but one remains silent.",advanced:counting|differentiation|universal
+GenAIBench,00432,"A tree with no leaves, only shadows beneath.",advanced:negation
+GenAIBench,00435,"A birdcage with no door, yet no bird inside.",advanced:negation
+GenAIBench,00436,"A shoe with no laces, standing alone.",advanced:negation
+GenAIBench,00437,"A garden with no paths, only wildflowers.",advanced:negation
+GenAIBench,00438,"A kitchen with no stove, only empty counters.",advanced:negation
+GenAIBench,00439,"A boat with no sails, adrift on calm waters.",advanced:negation
+GenAIBench,00440,"A painting with no colors, only shades of gray.",advanced:negation
+GenAIBench,00453,A classroom with every chair empty.,advanced:universal
+GenAIBench,00456,A road with no signs or markings.,advanced:negation
+GenAIBench,00457,A river with no fish swimming.,advanced:negation
+GenAIBench,00459,A field without a single blade of grass.,advanced:negation
+GenAIBench,00460,"A garden full of flowers, yet not a single rose can be found.",advanced:negation
+GenAIBench,00461,"Two trees standing tall; one is leafy, and the other is not.",advanced:counting|negation
+GenAIBench,00468,"A table set for dinner with plates, but no forks.",advanced:negation
+GenAIBench,00477,"A basket full of apples, but no oranges.",advanced:negation
+GenAIBench,00478,"A row of houses with chimneys, but no smoke coming out.",advanced:negation
+GenAIBench,00489,A hotel with no guests checking in.,advanced:negation
+GenAIBench,00493,A starry night sky with more visible stars than the number of lights in the city below.,advanced:comparison
+GenAIBench,00494,"In a crowded room, there are more people standing than sitting.",advanced:comparison|differentiation
+GenAIBench,00499,A library with more shelves filled with books than empty ones.,advanced:comparison|differentiation
+GenAIBench,00500,A kitchen pantry with more types of pasta than sauces.,advanced:comparison
+GenAIBench,00506,One cat sleeping under five bright stars,advanced:counting
+GenAIBench,00509,Two bicycles leaning against a wall with three windows.,advanced:counting
+GenAIBench,00510,Four cupcakes with sprinkles on a plate with two forks.,advanced:counting
+GenAIBench,00520,Four pencils in a cup.,advanced:counting
+GenAIBench,00522,One cat napping in the sun.,advanced:counting
+GenAIBench,00527,"A vibrant apple tree performing a juggling act using its own apples under a bright, circus-style tent.",basic:attribute|scene|spatial relation|action relation
+GenAIBench,00560,A fairy sprinkles pixie dust over a blooming garden at night.,basic:attribute|scene|spatial relation|action relation
+GenAIBench,00577,"a leather-bound diary open to a blank page, with an antique quill and inkwell set beside it.",basic:attribute|spatial relation|part relation
+GenAIBench,00580,a hot air balloon drifting over a patchwork of green fields and winding rivers.,basic:attribute|scene|spatial relation
+GenAIBench,00591,a luxurious velvet armchair with golden trim and emerald upholstery.,basic:attribute|part relation
+GenAIBench,00592,a quaint cottage with a thatched roof and a blooming garden.,basic:attribute|part relation
+GenAIBench,00596,a mural of an astronaut on the side of a building.,basic:spatial relation
+GenAIBench,00602,an old guitar leaning against a brightly painted wall.,basic:attribute|spatial relation|action relation
+GenAIBench,00603,a vibrant bouquet of wildflowers on a rustic wooden table.,basic:attribute|spatial relation|part relation
+GenAIBench,00605,"A globe spins slowly on the desk, and a pair of glasses rests beside an open notebook.",advanced:counting
+GenAIBench,00614,"Beside a pond, a willow tree drapes gracefully, with ducks paddling in the water and fish swimming below.",basic:attribute|spatial relation|action relation
+GenAIBench,00616,A cat wearing a tiny hat sits under a table.,basic:attribute|spatial relation|action relation|part relation
+GenAIBench,00618,A figure in a cloak holding a lantern in a foggy forest.,basic:attribute|scene|action relation|part relation
+GenAIBench,00624,A warrior with a metal armguard standing on a hill.,basic:scene|spatial relation|action relation|part relation
+GenAIBench,00627,A clock is hanging above the left side of the fireplace.,basic:spatial relation
+GenAIBench,00633,a ginger kitten peeking out from a wicker basket.,basic:attribute|spatial relation|action relation
+GenAIBench,00640,a rustic bridge spanning a tranquil mountain stream.,basic:attribute|scene|action relation
+GenAIBench,00654,a green chalkboard with a detailed chalk drawing of a cityscape.,basic:attribute|part relation
+GenAIBench,00659,"A mural featuring the word 'Unity' in bold, colorful letters.",basic:attribute
+GenAIBench,00663,"A serene yoga studio, 'Peace & Harmony' inscribed on the wall, mats laid out in neat rows on the wooden floor.",basic:attribute|scene|spatial relation
+GenAIBench,00664,"A bustling craft fair, a 'Handmade Goods' sign hanging from a stall, showcasing an array of artisan creations.",basic:scene|spatial relation|action relation
+GenAIBench,00669,"A vintage jukebox in a retro diner, its selection panel lit up with the numbers '45'.",basic:attribute|scene|part relation
+GenAIBench,00673,"A fairy garden at twilight, 'Whispering Glade' spelled out in luminescent flowers.",basic:attribute|scene
+GenAIBench,00687,A photographer capturing the sunrise from a mountain peak.,basic:scene|action relation
+GenAIBench,00691,A pair of glasses resting on an open novel.,advanced:counting
+GenAIBench,00694,A vintage typewriter with a sheet of paper.,basic:attribute|part relation
+GenAIBench,00695,A cluster of mushrooms growing in a forest.,basic:scene|action relation
+GenAIBench,00700,An electric kettle steaming on a modern kitchen counter.,basic:attribute|scene|spatial relation
+GenAIBench,00703,A pair of running shoes with neon laces on a wooden floor next to a gym bag.,advanced:counting
+GenAIBench,00704,An e-reader displaying 'please' rests on a cozy armchair.,basic:attribute|spatial relation
+GenAIBench,00726,A delicate daisy blooming on the left side of a sunny meadow.,basic:attribute|scene|spatial relation|action relation
+GenAIBench,00728,An owl perched on the right part of a branch under moonlight.,basic:scene|spatial relation|action relation
+GenAIBench,00736,An adjustable laptop stand.,basic:attribute
+GenAIBench,00751,A modern desk lamp.,basic:attribute
+GenAIBench,00772,"A Bullfrog croaking loudly by a pond, startling a nearby cat.",basic:attribute|scene|spatial relation|action relation
+GenAIBench,00790,"The college campus in spring, with students lounging on the green lawns between classes.",basic:attribute|scene|spatial relation|action relation
+GenAIBench,00796,"A quiet suburban cul-de-sac, where children play in its enclosed street.",basic:attribute|scene|spatial relation|action relation
+GenAIBench,00804,A woman in a chic floral skirt and white blouse chatting with another woman wearing a professional grey pantsuit.,advanced:differentiation
+GenAIBench,00807,A person in a brown raincoat laughing with another person clad in a sleek black trench coat under a shared umbrella.,advanced:differentiation
+GenAIBench,00813,A person adorned in a luminous turquoise jacket stands beside another person cloaked in a charcoal peacoat.,advanced:differentiation
+GenAIBench,00822,"A girl with earrings, with her hands in her pockets, stands between two girls with handbags in their hands.",advanced:counting|differentiation
+GenAIBench,00824,Two computers equipped with unique circular displays.,advanced:counting
+GenAIBench,00827,A child with a balloon tied to his wrist watching a street magician.,basic:scene|spatial relation|action relation|part relation
+GenAIBench,00831,Four children in striped shirts playing soccer in the park.,advanced:counting
+GenAIBench,00833,Two boys in yellow raincoats jumping over a large puddle.,advanced:counting
+GenAIBench,00834,Two dogs in purple woolly hats playing in the snow.,advanced:counting
+GenAIBench,00835,"Three colorful lanterns hang from the branches of the tree, each one swaying gently in the wind.",advanced:counting|universal
+GenAIBench,00836,An orange cat lies on a couch surrounded by three pillows that are all blue.,advanced:counting|universal
+GenAIBench,00840,A black cat wearing a pink bow tie sits on the windowsill and stares into the distance.,basic:attribute|spatial relation|action relation|part relation
+GenAIBench,00845,A dog in a blue jumper sits next to a Christmas tree decorated with nine stars.,advanced:counting
+GenAIBench,00847,A cat wearing ski goggles is exploring in the snow.,basic:scene|action relation|part relation
+GenAIBench,00854,A man wearing glasses and a blue jacket holding three different colored balloons.,advanced:counting|comparison
+GenAIBench,00856,"Two parrots on a perch, one speaking into a miniature microphone.",advanced:counting
+GenAIBench,00858,"A woman in a beige dress holding two puppies, one in each arm.",advanced:counting|universal
+GenAIBench,00861,"Two children in a sandbox, one building a castle and the other digging a hole.",advanced:counting|differentiation
+GenAIBench,00862,"Inside a tent, two maps lay on the ground with an oil lamp resting on top.",advanced:counting
+GenAIBench,00863,A baker without a white apron is holding a tray with six cupcakes.,advanced:counting|negation
+GenAIBench,00876,A Bengal tiger in the shade looks stronger than another Bengal tiger not in the shade.,advanced:comparison|differentiation|negation
+GenAIBench,00877,All emperor penguins are huddling together for warmth.,advanced:universal
+GenAIBench,00884,A family of four chimpanzees grooming each other.,advanced:counting|universal
+GenAIBench,00891,Four red apples in a basket on the kitchen counter.,advanced:counting
+GenAIBench,00894,"On a cooling rack, a square cookie with frosting is doing a social dance with a triangle cookie without frosting.",advanced:differentiation|negation
+GenAIBench,00897,"Five origami cranes hang from the ceiling, only one of which is red, and the others are all white.",advanced:counting|differentiation|universal
+GenAIBench,00906,"Under the bench, there are four pairs of sneakers: one pair is red, two pairs are green, and the last pair is white.",advanced:counting|differentiation
+GenAIBench,00909,"One round frame on the mantel has a photo in it, and one square frame has no photo in it.",advanced:differentiation|negation
+GenAIBench,00912,"In a gift shop, all the glass cups are green.",advanced:universal
+GenAIBench,00917,Peppers in a bamboo basket are all green.,advanced:universal
+GenAIBench,00922,All the boys on the platform are singing.,advanced:universal
+GenAIBench,00923,A little boy with a ping pong paddle looks more excited than a little girl without one.,advanced:comparison|negation
+GenAIBench,00925,A vibrant blue rose blooming on a red lush rose bush.,advanced:differentiation
+GenAIBench,00926,A maple tree on each side of a country road.,advanced:universal
+GenAIBench,00927,"Two children blowing dandelion seeds, watched by two others.",advanced:counting|differentiation
+GenAIBench,00928,Two flies resting near the window on a sunny afternoon.,advanced:counting
+GenAIBench,00933,A brown squirrel holding two acorns under a bushy oak tree.,advanced:counting
+GenAIBench,00934,There are two colors of pots in the flower garden; all green pots have tulips in them and all yellow pots have no flowers in them.,advanced:counting|differentiation|negation|universal
+GenAIBench,00935,A canary stands beside a green book.,basic:attribute|spatial relation|action relation
+GenAIBench,00944,"A cat curiously looks at a set of ceramic cups, all adorned with cat patterns.",advanced:universal
+GenAIBench,00946,"In the yoga room, all the mats are red.",advanced:universal
+GenAIBench,00955,"A little girl on the street is holding a few pocket watches for sale, all of which are worn and old.",advanced:universal
+GenAIBench,00956,"There are several silk scarves on a table, the longest one is green and the others are not.",advanced:comparison|differentiation|negation
+GenAIBench,00958,A rabbit standing on a stump looks more nervous than another rabbit not on a stump.,advanced:comparison|differentiation|negation
+GenAIBench,00959,A cartoon figurine is taller than a realistic-style cat figurine.,advanced:comparison
+GenAIBench,00960,"A shorter man opens his umbrella in the rain, while a taller man does not open his umbrella in the rain.",advanced:comparison|differentiation|negation
+GenAIBench,00961,"A caravan in the desert, with a person on each camel.",advanced:universal
+GenAIBench,00964,"At a dance party, three girls in long dresses are sitting at a dining table, with three men beside them inviting them to dance.",advanced:counting
+GenAIBench,00972,Two handmade blankets folded at the foot of a neatly made bed.,advanced:counting
+GenAIBench,00986,"Two Ming vases on the table, the larger one is more colorful than the other.",advanced:counting|comparison|differentiation
+GenAIBench,00993,Brown-and-white and black-and-white guinea pigs are eating fruits.,basic:attribute|action relation
+GenAIBench,01000,"A lion in a majestic suit, ruling over a peaceful animal kingdom meeting with three tigers.",advanced:counting
+GenAIBench,01001,"Three monkeys in shorts and caps, swinging playfully from tree to tree.",advanced:counting
+GenAIBench,01002,Four parrots wearing earrings and necklaces perched on a branch.,advanced:counting
+GenAIBench,01006,Three turtles in sandals slowly strolling along a sandy beach at sunset.,advanced:counting
+GenAIBench,01008,Two sheep wearing cozy scarves and mittens knitting in the warm autumn sun.,advanced:counting
+GenAIBench,01029,"The morning sun casts shadows through the leaves of a potted, green fern on a wooden windowsill.",basic:attribute|spatial relation|action relation
+GenAIBench,01032,"A soft, velvet pillow perched on a hard, leather armchair.",basic:attribute|spatial relation|action relation
+GenAIBench,01035,"A pair of gold earrings resting on a velvet cloth inside a polished, wooden jewelry box.",advanced:counting
+GenAIBench,01040,A silk scarf draped over a marble statue in the foyer.,basic:scene|spatial relation|action relation
+GenAIBench,01050,"A smooth, ceramic pot housing a vibrant plant, guarded by a small, terracotta rabbit on the kitchen counter.",basic:attribute|scene|spatial relation|action relation
+GenAIBench,01061,"A smooth, ceramic mug of coffee sits on the bedside table, next to a sleeping cat curled up in a linen blanket.",basic:attribute|spatial relation|action relation|part relation
+GenAIBench,01071,A cat in jeans and a t-shirt lounging on a sunny window sill.,basic:attribute|spatial relation|action relation|part relation
+GenAIBench,01074,A fox in a sleek red jacket is darting through the snowy woods.,basic:attribute|scene|action relation|part relation
+GenAIBench,01081,"A proud teacher standing in front of a classroom, with drawings of animals like lions and tigers on the wall behind her.",basic:attribute|spatial relation|action relation|part relation
+GenAIBench,01097,A spherical balloon floating above a square table.,basic:attribute|spatial relation|action relation
+GenAIBench,01101,A cubic puzzle next to a triangular pyramid.,basic:attribute|spatial relation
+GenAIBench,01116,"A weathered road sign at a crossroad, pointing towards 'Adventure' in one direction and 'Home' in the other.",advanced:differentiation
+GenAIBench,01124,An old typewriter with a sheet of paper that has 'Once upon a time...' typed out.,basic:attribute|part relation
+GenAIBench,01128,"A graffiti mural on a city street depicting a phoenix, with 'RISE AGAIN' boldly written.",basic:attribute|scene
+GenAIBench,01138,A bright blue sky where planes have drawn 'Sky's the Limit' with contrails.,basic:attribute|scene|action relation|part relation
+GenAIBench,01146,A cozy blanket with 'Snuggle Up' woven into the corner.,basic:attribute|part relation
+GenAIBench,01159,"A garden stone engraved with 'Grow, Bloom, Thrive.'",basic:attribute
+GenAIBench,01163,A serene stream winding through a lush meadow at sunrise.,basic:attribute|scene|action relation
+GenAIBench,01164,A quaint cottage nestled in a vibrant flower-filled meadow.,basic:attribute|scene|spatial relation
+GenAIBench,01168,An ancient square surrounded by historic buildings under a clear blue sky.,basic:attribute|scene|spatial relation
+GenAIBench,01170,"A statue of a historic figure, standing tall in a quiet park.",basic:attribute|scene|action relation
+GenAIBench,01173,A busy quay with fishermen unloading their daily catch.,basic:attribute|scene|action relation
+GenAIBench,01175,A lighthouse standing guard at the edge of a rocky coastline.,basic:scene|spatial relation|action relation
+GenAIBench,01179,"A farm with fields of green, a tractor working in the distance.",basic:attribute|scene|action relation
+GenAIBench,01191,A meadow aglow with fireflies under a starry sky.,basic:attribute|scene
+GenAIBench,01195,"An avenue during autumn, the ground covered with fallen leaves.",basic:attribute|scene
+GenAIBench,01209,A girl feeding a group of eager ducks at the edge of a serene pond.,basic:attribute|scene|spatial relation|action relation
+GenAIBench,01215,A remote lying forgotten between couch cushions.,basic:attribute|spatial relation
+GenAIBench,01217,A kangaroo without an apple looks more angry than a kangaroo that is eating an apple.,advanced:comparison|differentiation|negation
+GenAIBench,01218,"In a small den, all the foxes look anxious.",advanced:universal
+GenAIBench,01221,Three bored squirrels.,advanced:counting
+GenAIBench,01224,Two frustrated pandas.,advanced:counting
+GenAIBench,01225,"A sad squirrel hides behind a tree with no leaves, only one head leaking out.",advanced:negation
+GenAIBench,01226,Three curious monkeys.,advanced:counting
+GenAIBench,01235,Three scared artists.,advanced:counting
+GenAIBench,01236,Two anxious pigs.,advanced:counting
+GenAIBench,01240,Five wooden forks.,advanced:counting
+GenAIBench,01243,Three leather sneakers.,advanced:counting
+GenAIBench,01254,A pair of elephants walking trunk to tail along a dusty path.,advanced:counting
+GenAIBench,01255,Three policemen working together to direct traffic at a busy intersection.,advanced:counting
+GenAIBench,01258,A group of sheep being led by two shepherds across a green field.,advanced:counting
+GenAIBench,01261,"On a large stone platform, there are two camel statues but no horse statues.",advanced:counting|negation
+GenAIBench,01263,A hippopotamus in the water is bigger than a baby elephant by the river.,advanced:comparison
+GenAIBench,01266,A squirrel's nest with lots of pine cones but not a squirrel in sight.,advanced:negation
+GenAIBench,01268,"In a classroom without a teacher, the students quietly study on their own.",advanced:negation
+GenAIBench,01274,An artist's studio with canvases that don't depict any birds or wildlife.,advanced:negation
+GenAIBench,01277,A playground where no children are playing.,advanced:negation
+GenAIBench,01278,A kitchen with a fridge that doesn't have any milk left.,advanced:negation
+GenAIBench,01281,"A city park where the usual flock of pigeons isn't around, just scattered breadcrumbs.",advanced:negation
+GenAIBench,01282,"A vet's office with a 'No waiting' sign, as there are no pets.",advanced:negation
+GenAIBench,01285,"In the living room, the TV remote is not on the table.",advanced:negation
+GenAIBench,01286,A rainy day with no umbrella by the door.,advanced:negation
+GenAIBench,01294,"A classroom with books, but no book open.",advanced:negation
+GenAIBench,01295,A coffee mug is not filled.,advanced:negation
+GenAIBench,01302,A house with no round windows but square ones.,advanced:negation
+GenAIBench,01303,Two cars without windows waiting at a traffic light.,advanced:counting|negation
+GenAIBench,01304,a city intersection without blue cars.,advanced:negation
+GenAIBench,01308,A brand new red harp with no strings leaning against an old green guitar with strings.,advanced:negation
+GenAIBench,01310,A green harp without strings leaning against a red guitar without strings.,advanced:negation
+GenAIBench,01314,An art studio without any messy paints scattered.,advanced:negation
+GenAIBench,01318,A little boy sits on a large red storage box and holds up a smaller green one.,advanced:comparison|differentiation
+GenAIBench,01322,A happy boy is behind an unhappy girl.,basic:attribute|spatial relation
+GenAIBench,01323,"The table lamp emits bright light, but the chandelier's light is not bright.",advanced:negation
+GenAIBench,01324,A kitten hides in a shoe bigger than itself and peeks out.,advanced:comparison
+GenAIBench,01325,"A vase contains flowers of various colors, but there are no red flowers.",advanced:negation
+GenAIBench,01326,A larger gorilla hands a smaller mechanical monkey a banana.,advanced:comparison
+GenAIBench,01327,"On a wooden dining table, both the spoons and plates are made of wood, only the fork is not made of wood.",advanced:negation|universal
+GenAIBench,01330,"Two people are sitting side by side; the person on the left is laughing, but the one on the right is not.",advanced:counting|differentiation|negation
+GenAIBench,01332,"A person with a bright scarf, and no hat in the cold.",advanced:negation
+GenAIBench,01333,Three people on a bench without shoes.,advanced:counting|negation
+GenAIBench,01338,A girl with a red bow sits beside a table with no notebook on it.,advanced:negation
+GenAIBench,01339,"A male model and a female model are showcasing the jewelry on their hands, with the taller model's jewelry appearing more lavish than the other's.",advanced:comparison|differentiation
+GenAIBench,01342,"A person not wearing jeans, holding three small Persian cats in a sweater.",advanced:counting|negation
+GenAIBench,01347,"In the cold outdoors, a woman is not wrapped in a scarf, with just a warm coat.",advanced:negation
+GenAIBench,01348,"A boy doesn't wear shorts, choosing jeans and a cap for a cooler day.",advanced:negation
+GenAIBench,01349,"A girl not wearing a skirt, opting for comfortable shorts and a blouse.",advanced:negation
+GenAIBench,01355,A woman in a suit and blouse doesn't enjoy a day in the park.,advanced:negation
+GenAIBench,01356,"In a cozy bookstore, a woman is not browsing books.",advanced:negation
+GenAIBench,01357,A puppy with a frisbee in its mouth bounced around a boy who did not play with it.,advanced:negation
+GenAIBench,01359,"An old man not wearing a coat, excitedly exploring the snow.",advanced:negation
+GenAIBench,01362,A person is not hanging ornaments on the Christmas tree in a festive sweater.,advanced:negation
+GenAIBench,01367,A cartoon puppy without a collar and with a necklace.,advanced:negation
+GenAIBench,01372,"The student with the glasses is holding a book in the tree, but he's not reading it.",advanced:negation
+GenAIBench,01373,"In an early morning park, a man in a grey and white tracksuit is not running.",advanced:negation
+GenAIBench,01378,"In a classroom, all the students look at a math problem on the board in confusion, but the teacher stands off to the side without explaining the problem.",advanced:negation|universal
+GenAIBench,01379,A doctor is checking a patient's heartbeat without a stethoscope.,advanced:negation
+GenAIBench,01382,A firefighter looks at a tree without a cat on it.,advanced:negation
+GenAIBench,01385,A hamster not running on a wheel in its cage.,advanced:negation
+GenAIBench,01389,"A team of sheep and a team of farmers are having a tug-of-war, and there are more sheep than farmers.",advanced:comparison
+GenAIBench,01395,A red zebra is not running across the plains with its herd.,advanced:negation
+GenAIBench,01399,A woman in a wheelchair is taller than the boy next to her.,advanced:comparison
+GenAIBench,01400,There is more orange juice in the glass than water in the bowl next to it.,advanced:comparison
+GenAIBench,01401,"Some balls are on the table and on the floor, and the number of balls on the table is more than the number of balls on the floor.",advanced:comparison|differentiation
+GenAIBench,01404,A colorful fish swimming in water with no colorful coral.,advanced:negation
+GenAIBench,01410,"In the rain, a joyful woman wearing a flowery dress is not standing.",advanced:negation
+GenAIBench,01411,A curious girl uses a magnifying glass to examine the flowers next to a butterfly without looking at the butterfly itself.,advanced:negation
+GenAIBench,01422,"There are no sneakers under the table, only two pairs of heels.",advanced:counting|negation
+GenAIBench,01423,An eco-friendly toothbrush is not placed next to a glass of water made from bamboo.,advanced:negation
+GenAIBench,01425,A saucer is sitting beside a ceramic cup filled with steaming hot coffee.,basic:attribute|spatial relation|action relation
+GenAIBench,01426,"The wooden cutting board is topped with fresh bread and a sharp knife, which is not in contact with the bread.",advanced:negation
+GenAIBench,01427,"In the night market, two vendors are setting up their stalls, and the vendor on the left has a wider range of goods than the vendor on the right.",advanced:comparison|differentiation
+GenAIBench,01428,A digital camera is not focusing on a smiling child but capturing a breathtaking sunset.,advanced:negation
+GenAIBench,01433,"A teacher and a student stand at a podium, and they are not looking at each other.",advanced:negation|universal
+GenAIBench,01435,A street scene featuring a vintage bicycle parked near a lamppost but not leaning against it.,advanced:negation
+GenAIBench,01437,An insulated cup and a notebook are not on the same desk.,advanced:comparison|negation
+GenAIBench,01440,On a shelf hang a sweater and a windbreaker; the windbreaker is not on top of the sweater.,advanced:negation
+GenAIBench,01444,"There are two lamps in an office, and the lamp that emits red light is not to the left of the lamp that emits yellow light.",advanced:counting|differentiation|negation
+GenAIBench,01445,A little boy holding a handheld fan is behind a girl who is not holding a handheld fan.,advanced:differentiation|negation
+GenAIBench,01448,"An open drawer with two red books and several pencils, but not a single pen.",advanced:counting|negation
+GenAIBench,01450,"A smiling little boy holds a barrel above his head, while a little girl holds a barrel no higher than her.",advanced:comparison|negation
+GenAIBench,01451,All the books on the table are unopened.,advanced:universal
+GenAIBench,01452,All the birds in the blue sky are not yellow.,advanced:negation|universal
+GenAIBench,01455,"There are two dresses hanging from a chair, neither of which is white.",advanced:counting|universal
+GenAIBench,01456,"Five cardboard boxes sit in the storage room, all of which are not whole.",advanced:counting|negation|universal
+GenAIBench,01460,"A floor with a blue sphere and two green cones, the blue sphere not to the left of two green cones.",advanced:comparison|negation
+GenAIBench,01464,"There are two cups on the table, one full of tea, the other empty.",advanced:counting|differentiation
+GenAIBench,01470,"An open biscuit tin contains three biscuits, one without sultanas is round and the other two are triangular.",advanced:counting|differentiation|negation
+GenAIBench,01475,"There are four fountain pens laid out on the table, the two pens in the very center have caps, and the others don't.",advanced:counting|differentiation|negation
+GenAIBench,01477,Two smiling kittens look at a kitten with no smile on his face.,advanced:counting|differentiation|negation
+GenAIBench,01481,A girl not in dance clothes is handing out mineral water to a group of girls in dance clothes.,advanced:differentiation|negation
+GenAIBench,01482,A rose that is not fully bloomed is higher than a rose that is already in bloom.,advanced:comparison|differentiation|negation
+GenAIBench,01484,"A little brown-haired boy is clicking on the keyboard to play a computer game, and a little boy next to him who is not brown-haired looks more anxious than he is.",advanced:comparison|differentiation|negation
+GenAIBench,01485,A cartoon puppy with sunglasses and no necklace is singing into a microphone while another cartoon puppy with a hat and no sunglasses scores on a scoreboard.,advanced:differentiation|negation
+GenAIBench,01489,"A packet of tissues has two cartoon characters on the packaging, the cartoon character in the red dress is on the left and the cartoon character without the red dress is on the right.",advanced:counting|differentiation|negation
+GenAIBench,01491,A boy in a stained white apron presents a steaming dish to a boy in an elegant black evening gown.,advanced:differentiation
+GenAIBench,01494,A child in glasses and a cozy cardigan recommending a book to a child in a hoodie and jeans.,advanced:differentiation
+GenAIBench,01498,A woman in a denim apron crafting a latte for a woman in a business suit checking their watch.,advanced:differentiation
+GenAIBench,01501,an old man in baggy pants performing a trick in front of a young man in a beret painting a mural.,advanced:differentiation
+GenAIBench,01502,A person in a camo vest taking a photo of a person in a dramatic gown on a deserted road.,advanced:differentiation
+GenAIBench,01504,A person in a greasy jumpsuit explaining car repair to a curious person in a crisp white polo.,advanced:differentiation
+GenAIBench,01505,A person in uniform pointing out landmarks to a person in a window seat wearing noise-canceling headphones.,advanced:differentiation
+GenAIBench,01508,A female yoga instructor in a blue outfit guiding a pose for a female student in comfortable leggings and a tank top.,advanced:differentiation
+GenAIBench,01509,A man in a glittery costume juggling for a crowd that includes a man in a trench coat.,advanced:differentiation
+GenAIBench,01510,"At a dinner party, a man in a vest presents the menu to two men in tuxedos.",advanced:counting|differentiation
+GenAIBench,01511,"A plastic bag is placed on the chair, but it contains nothing.",advanced:negation
+GenAIBench,01512,The two walking Mona Lisas aren't smiling.,advanced:counting|negation
+GenAIBench,01516,"In the zoo, there are two groups of monkeys: the ones on the left are all brown, and the ones on the right are all red.",advanced:counting|differentiation|universal
+GenAIBench,01519,"Three small, non-blue boxes on a large blue box.",advanced:counting|differentiation|negation
+GenAIBench,01521,"The toolbox contains a pair of pliers and two screws, with the pliers being more worn than the screws.",advanced:counting|comparison
+GenAIBench,01522,A Christmas tree with two red socks: the one at the bottom is darker than the one at the top.,advanced:counting|comparison
+GenAIBench,01523,Three puppies are standing by the pool and the one in the middle looks more excited than the other two puppies.,advanced:counting|comparison|differentiation
+GenAIBench,01528,"In an exhibition of paintings, there are four landscapes, and the painting on the far left is the plainest.",advanced:counting|comparison|differentiation
+GenAIBench,01530,"A couple walking together in the rain, each holding an umbrella, yet neither of the umbrellas is open.",advanced:negation|universal
+GenAIBench,01531,"There are four stones under a large, dense tree, all of which are round.",advanced:counting|universal
+GenAIBench,01532,"There are four roses in a clear glass vase, all of which are red, and all of which are not open.",advanced:counting|negation|universal
+GenAIBench,01539,"A studio with two girls in suits, the girl without a tie looks busier than the one with a tie.",advanced:comparison|differentiation|negation
+GenAIBench,01543,A group of spring breakers all without hats.,advanced:negation|universal
+GenAIBench,01547,A street where all the windows are shattered.,advanced:universal
+GenAIBench,01548,A theatre in which no audience is sleeping.,advanced:negation
+GenAIBench,01549,"On the subway, none of the passengers are playing with their phones.",advanced:negation|universal
+GenAIBench,01550,A hillside where all the trees are yellow.,advanced:universal
+GenAIBench,01557,Two candles sit on a table; the one on the left is dimmer than the one on the right.,advanced:counting|comparison
+GenAIBench,01558,Two piggy dolls are on display; the one on the left looks softer.,advanced:counting|comparison
+GenAIBench,01561,A takeaway box has a richer pattern on it than a box of tissue paper packaging.,advanced:comparison
+GenAIBench,01566,Two women are walking through an airport dragging suitcases; the one without earrings is dragging a much bulkier suitcase.,advanced:counting|comparison|differentiation|negation
+GenAIBench,01567,A blackboard displays two curves; the pink one undulates more than the white one.,advanced:counting|comparison|differentiation
+GenAIBench,01569,"A Teddy dog and a Persian cat are looking at a burning table, with the Teddy dog at a farther distance.",advanced:comparison
+GenAIBench,01571,"In the corner, there is a stack of books. The spine of the book at the bottom reads 'Watch Me'.",advanced:differentiation
+GenAIBench,01572,"Three pandas are lying together, and the one in the middle is sneakily eating bamboo.",advanced:counting|differentiation
+GenAIBench,01573,"Three mugs are placed side by side; the two closest to the faucet each contain a toothbrush, while the one furthest away is empty.",advanced:counting|comparison|differentiation|universal
+GenAIBench,01575,"In a conference room, everyone looks unenthusiastic.",advanced:universal
+GenAIBench,01576,"In the gym, everyone is resting except for a child who is still running on the treadmill.",advanced:differentiation|universal
+GenAIBench,01578,"On a shelf in the supermarket, all the products are blue.",advanced:universal
+GenAIBench,01579,"In a basket, there are many cauliflowers, all green except for the one in the middle, which is yellow.",advanced:differentiation|universal
+GenAIBench,01587,"In the art gallery, two paintings hang on the wall, one a vibrant abstract with splashes of color, the other a detailed landscape with intricate brushwork.",advanced:counting|differentiation
+GenAIBench,01593,"In the office, two coworkers chat by the water cooler, one dressed in a sharp suit and tie, the other in casual attire with a colorful scarf.",advanced:counting|differentiation
+GenAIBench,01594,A magical hat flies on top of a smaller magical hat.,advanced:comparison|differentiation
+GenAIBench,01597,"In the race, the fastest car is painted red, and the slowest car is painted blue.",advanced:comparison|differentiation
+GenAIBench,01598,"Two cats are sitting on the window sill, the one with the longer tail is sleeping.",advanced:counting|comparison|differentiation

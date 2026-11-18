@@ -1,0 +1,65 @@
+# Settings of the crowd study (paper Sec. 4.3, App. E): models, prompts per model, raters per grid, pay and the
+# quality-control thresholds. Secrets and hosting details are left blank.
+# To use it: copy this file to config.yaml (the scripts read that name), fill in the "fill in" fields and those in angle
+# brackets, then run scripts/02_generate_batches.py again: it rewrites web/config.js from config.yaml.
+# "calibration" is the rating task that was run; the "pairwise" settings belong to a second task that was not (stage: rating).
+
+study:
+  stage: rating                              # the study as run: ratings first. "rating" skips pairs and gold pairs; set "pairwise" for the old two-task design
+  models: [sdxl, sd35l, flux, sd35l_turbo]     # any model with a generated pool (outputs/seedsel/<m>/...); the design follows from this list
+  model_labels: {sd14: SD1.4, sdxl: SDXL, sd35: SD3.5-Medium, sd35l: SD3.5-Large, flux: FLUX.1-dev, sd35l_turbo: SD3.5-Large-Turbo}
+  pairwise_prompts_per_model: 200             # of the 200 DrawBench prompts (a fixed random subset when fewer)
+  pool_size: 10                              # the first N seeds in draw order (the simulator's sub-pool); picks are read for 'N=<pool_size>'
+  liveseed_rule: "LiveSeed ridge exit3"        # + ", N=<pool_size>": the rule of outputs/liveseed_sim_e3/<m>_drawbench50/picks_<MODEL>.csv
+  comparisons: [vs_random, vs_bestof2_pickscore]
+  rng_seed: 20261026                         # random seed per prompt, the best-of-2 subset, calibration prompts, batch layout
+  calibration_prompts_per_model: 120           # x 10 seeds x 4 models x 3 raters = 14,400 image ratings
+  outcomes: [q_overall, q_quality, q_align]   # CO-PRIMARY overall preference, fewer structural errors, prompt alignment; Holm-Bonferroni across the three
+  primary_test: bootstrap                     # one-sided bootstrap over prompts of the win rate (self-ties 0.5); Wilcoxon and the mixed model are sensitivity analyses
+
+pairwise:
+  raters_per_pair: 3                         # exactly 3 CLEAN ratings: slots of excluded or timed-out participants are re-issued
+  real_pairs_per_session: 20
+  gold_pairs_per_session: 2                  # at positions 6 and 16 (1-based)
+  minutes_per_session: 6.0                   # an estimate; set from the pilot's median before launch
+  min_seconds_per_pair: 3                    # the Next button unlocks 3 s after both images load
+calibration:
+  raters_per_grid: 3
+  grids_per_session: 4                       # 40 images, not 50, so 120 sessions and 360 raters; each session also picks on 4 grids
+  check_cards_in_grids: [2, 4]               # 1-based grids that carry an extra corrupted image (image quality must be 1-2)
+  minutes_per_session: 10.0                  # our estimate for 42 single images + 4 choice pages, not measured; set from the pilot's median before launch
+
+pay:
+  gbp_per_hour: 14.40                        # above the UK real living wage outside London (£14.10/h, Oct 2026)
+  prolific_multiplier: 1.40                  # 33.33% platform fee + 20% VAT on the fee
+  pilot_pairwise_participants: 10
+  pilot_calibration_participants: 5
+  buffer_fraction: 0.10                      # replacements for excluded sessions
+  budget_cap_gbp: 1350                       # the study's budget cap; 02_generate_batches.py warns when the design exceeds it
+
+qc:
+  pairwise_min_total_seconds: 150
+  straightline_exclude: 0.90                 # share of the 20 real pairs answered on the same side (overall question)
+  calibration_min_total_seconds: 300          # the page's own floors add up to about 200 s
+  calibration_flat_exclude: 0.90             # share of a session's ratings equal to one value
+  calibration_check_fail_iq: 3               # image quality only; 3 or more on one check card = pay and exclude, on both = reject (Prolific needs two failed checks)
+
+blinding:
+  salt: "<a secret string: it fixes the blinded image file names>"
+
+hosting:                                     # fill in
+  s3_bucket: "<fill in>"
+  s3_region: "eu-west-2"
+  apps_script_url: "<fill in>"
+  completion_code_pairwise: "<Prolific completion code>"     # from the Prolific study's completion settings
+  completion_code_calibration: "<Prolific completion code>"
+  fallback_code_pairwise: "<Prolific completion code>"   # a second Prolific completion code: "saved locally only"
+  fallback_code_calibration: "<Prolific completion code>"
+  contact_email: "<contact e-mail>"
+  data_retention: "your Prolific ID and raw responses are kept for 10 years, as [institution] regulations on research data require, then deleted; the anonymised ratings (no Prolific ID, no timing) will be released publicly as a research dataset"
+
+secrets_file: secrets.yaml                   # never committed: export_key (Apps Script backup endpoint), release_salt; created by 02, never printed
+
+paths:
+  root: "<root of the code and outputs: outputs/seedsel/<model>/... holds the pools>"
+  images_out: "<folder for the blinded JPEGs, synced to the image host>"

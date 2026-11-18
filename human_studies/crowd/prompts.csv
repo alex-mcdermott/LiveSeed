@@ -1,0 +1,481 @@
+model,dataset,image_id,prompt_id,prompt
+flux,DrawBench,11,DrawBench_11,A black colored sandwich.
+flux,DrawBench,12,DrawBench_12,An orange colored sandwich.
+flux,DrawBench,13,DrawBench_13,A pink colored giraffe.
+flux,DrawBench,17,DrawBench_17,A blue bird and a brown bear.
+flux,DrawBench,19,DrawBench_19,A green cup and a blue cell phone.
+flux,DrawBench,2,DrawBench_2,A black colored car.
+flux,DrawBench,20,DrawBench_20,A yellow book and a red vase.
+flux,DrawBench,25,DrawBench_25,A red book and a yellow vase.
+flux,DrawBench,26,DrawBench_26,A horse riding an astronaut.
+flux,DrawBench,29,DrawBench_29,A blue coloured pizza.
+flux,DrawBench,33,DrawBench_33,An elephant under the sea.
+flux,DrawBench,34,DrawBench_34,Rainbow coloured penguin.
+flux,DrawBench,35,DrawBench_35,A fish eating a pelican.
+flux,DrawBench,38,DrawBench_38,Three cars on the street.
+flux,DrawBench,41,DrawBench_41,One dog on the street.
+flux,DrawBench,43,DrawBench_43,Three dogs on the street.
+flux,DrawBench,46,DrawBench_46,One cat and one dog sitting on the grass.
+flux,DrawBench,47,DrawBench_47,One cat and two dogs sitting on the grass.
+flux,DrawBench,48,DrawBench_48,One cat and three dogs sitting on the grass.
+flux,DrawBench,49,DrawBench_49,Two cats and one dog sitting on the grass.
+flux,DrawBench,55,DrawBench_55,A triangular purple flower pot. A purple flower pot in the shape of a triangle.
+flux,DrawBench,59,DrawBench_59,A sphere made of kitchen tile. A sphere with the texture of kitchen tile.
+flux,DrawBench,6,DrawBench_6,A blue colored dog.
+flux,DrawBench,61,DrawBench_61,A collection of nail is sitting on a table.
+flux,DrawBench,67,DrawBench_67,"A stack of 3 plates. A blue plate is on the top, sitting on a blue plate. The blue plate is in the middle, sitting on a green plate. The green plate is on the bottom."
+flux,DrawBench,69,DrawBench_69,"A stack of 3 books. A green book is on the top, sitting on a red book. The red book is in the middle, sitting on a blue book. The blue book is on the bottom."
+flux,DrawBench,76,DrawBench_76,"A large motor vehicle carrying passengers by road, typically one serving the public on a fixed route and for a fare."
+flux,DrawBench,79,DrawBench_79,"A machine next to a parking space in a street, into which the driver puts money so as to be authorized to park the vehicle for a particular length of time."
+flux,DrawBench,80,DrawBench_80,"A device consisting of a circular canopy of cloth on a folding metal frame supported by a central rod, used as protection against rain or sometimes sun."
+flux,DrawBench,81,DrawBench_81,"A separate seat for one person, typically with a back and four legs."
+flux,DrawBench,83,DrawBench_83,A mechanical or electrical device for measuring time.
+flux,DrawBench,85,DrawBench_85,"A large plant-eating domesticated mammal with solid hoofs and a flowing mane and tail, used for riding, racing, and to carry and pull loads."
+flux,DrawBench,86,DrawBench_86,A long curved fruit which grows in clusters and has soft pulpy flesh and yellow skin when ripe.
+flux,DrawBench,88,DrawBench_88,"A domesticated carnivorous mammal that typically has a long snout, an acute sense of smell, nonretractable claws, and a barking, howling, or whining voice."
+flux,DrawBench,89,DrawBench_89,"An organ of soft nervous tissue contained in the skull of vertebrates, functioning as the coordinating center of sensation and intellectual and nervous activity."
+flux,DrawBench,93,DrawBench_93,"A large thick-skinned semiaquatic African mammal, with massive jaws and large tusks."
+flux,DrawBench,96,DrawBench_96,An oil painting of a couple in formal evening wear going home get caught in a heavy downpour with no umbrellas.
+flux,DrawBench,97,DrawBench_97,"A grocery store refrigerator has pint cartons of milk on the top shelf, quart cartons on the middle shelf, and gallon plastic jugs on the bottom shelf."
+flux,DrawBench,98,DrawBench_98,"In late afternoon in January in New England, a man stands in the shadow of a maple tree."
+flux,DrawBench,99,DrawBench_99,An elephant is behind a tree. You can see the trunk on one side and the back legs on the other.
+flux,T2I-CompBench,101,T2I-CompBench_101,a metallic fork and a wooden desk
+flux,T2I-CompBench,107,T2I-CompBench_107,a painting on the bottom of a chicken
+flux,T2I-CompBench,108,T2I-CompBench_108,a pentagonal clock and a conical clock face
+flux,T2I-CompBench,115,T2I-CompBench_115,A person is holding a calculator and working on a math problem.
+flux,T2I-CompBench,119,T2I-CompBench_119,A person is looking at a display of vintage clothing and admiring the fashion.
+flux,T2I-CompBench,124,T2I-CompBench_124,A person is taking a hot air balloon ride over the countryside.
+flux,T2I-CompBench,125,T2I-CompBench_125,a person on side of a cow
+flux,T2I-CompBench,130,T2I-CompBench_130,a plastic bag and a glass jar
+flux,T2I-CompBench,135,T2I-CompBench_135,a red boat and a blue book
+flux,T2I-CompBench,139,T2I-CompBench_139,a red giraffe and a brown train
+flux,T2I-CompBench,150,T2I-CompBench_150,A small bathroom with a small brown toilet next to a white sink.
+flux,T2I-CompBench,156,T2I-CompBench_156,"a strawberry, two bananas, four tents, and two peaches completed the camping gear"
+flux,T2I-CompBench,167,T2I-CompBench_167,a vase hidden by a clock
+flux,T2I-CompBench,175,T2I-CompBench_175,A woman is holding a plate of food and serving it to guests.
+flux,T2I-CompBench,180,T2I-CompBench_180,a woman on the left of a cup
+flux,T2I-CompBench,194,T2I-CompBench_194,an oval coffee table and a rectangular rug
+flux,T2I-CompBench,195,T2I-CompBench_195,an oval platter and a rectangular tablecloth.
+flux,T2I-CompBench,196,T2I-CompBench_196,eight bottles
+flux,T2I-CompBench,25,T2I-CompBench_25,a brown cup and a blue horse
+flux,T2I-CompBench,26,T2I-CompBench_26,a brown cup and a blue sheep
+flux,T2I-CompBench,34,T2I-CompBench_34,a cat behind a wallet
+flux,T2I-CompBench,41,T2I-CompBench_41,a circular dining table and a triangular table runner
+flux,T2I-CompBench,42,T2I-CompBench_42,a clock behind a painting
+flux,T2I-CompBench,44,T2I-CompBench_44,a couch in front of a bee
+flux,T2I-CompBench,48,T2I-CompBench_48,a cubic block and a cylindrical canister
+flux,T2I-CompBench,49,T2I-CompBench_49,a cubic block and a triangular building set
+flux,T2I-CompBench,53,T2I-CompBench_53,a desk behind a woman
+flux,T2I-CompBench,56,T2I-CompBench_56,A dog is playing fetch with its owner and bringing back a ball.
+flux,T2I-CompBench,57,T2I-CompBench_57,a dog on the top of a desk
+flux,T2I-CompBench,59,T2I-CompBench_59,a fabric hat and a fluffy sweater
+flux,T2I-CompBench,60,T2I-CompBench_60,a fabric pants and a fluffy rug
+flux,T2I-CompBench,68,T2I-CompBench_68,a frog hidden by a bicycle
+flux,T2I-CompBench,7,T2I-CompBench_7,a bee on the left of a refrigerator
+flux,T2I-CompBench,70,T2I-CompBench_70,a giraffe behind a vase
+flux,T2I-CompBench,76,T2I-CompBench_76,a gold backpack and a blue clock
+flux,T2I-CompBench,78,T2I-CompBench_78,a green bench and a blue cake
+flux,T2I-CompBench,86,T2I-CompBench_86,a horse on side of a car
+flux,T2I-CompBench,9,T2I-CompBench_9,a big hippopotamus and a small rabbit
+flux,T2I-CompBench,96,T2I-CompBench_96,a man on the top of a turtle
+flux,T2I-CompBench,99,T2I-CompBench_99,a metallic door knob and a fabric blanket
+flux,TIFA,coco_104794,TIFA_coco_104794,a man on a soccer field dressed in a soccer uniform kicking a soccer ball
+flux,TIFA,coco_185186,TIFA_coco_185186,A black and white photo of a man on a cell phone.
+flux,TIFA,coco_201871,TIFA_coco_201871,A smoking jet going straight up in the sky.
+flux,TIFA,coco_221880,TIFA_coco_221880,A parking meter sitting in front of a brick building.
+flux,TIFA,coco_225595,TIFA_coco_225595,A woman walking down a street talking on a cell phone.
+flux,TIFA,coco_231290,TIFA_coco_231290,Three zebras are standing together in a line.
+flux,TIFA,coco_232095,TIFA_coco_232095,A man standing behind a truck with a red trailer sitting in front of a building.
+flux,TIFA,coco_263731,TIFA_coco_263731,Small group of sheep being herded by three border collies.
+flux,TIFA,coco_292534,TIFA_coco_292534,A red motorcycle parked by paint chipped doors.
+flux,TIFA,coco_321767,TIFA_coco_321767,a large clock tower structure lit up in the early night sky
+flux,TIFA,coco_323167,TIFA_coco_323167,"A laptop with external keyboard, mouse, phone and photo on a desk."
+flux,TIFA,coco_33895,TIFA_coco_33895,A small compact car driving past a furniture store.
+flux,TIFA,coco_343985,TIFA_coco_343985,Two passenger trains on opposite tracks speeding down the tracks.
+flux,TIFA,coco_373633,TIFA_coco_373633,Black and white photograph of a bed with a laptop on it.
+flux,TIFA,coco_38429,TIFA_coco_38429,People browse the shops while walking on a busy street.
+flux,TIFA,coco_419329,TIFA_coco_419329,A woman seated across the table shows off her bagel with cream cheese.
+flux,TIFA,coco_420703,TIFA_coco_420703,A blue and yellow train is traveling down the tracks near some water and boats.
+flux,TIFA,coco_534679,TIFA_coco_534679,A kitchen is nicely organized and looks very clean.
+flux,TIFA,coco_535203,TIFA_coco_535203,A bird perched on a branch of a tree.
+flux,TIFA,coco_542456,TIFA_coco_542456,A man and a child sitting in front of a cake at a bench.
+flux,TIFA,coco_558725,TIFA_coco_558725,People looking at a stop light on the other side of the road.
+flux,TIFA,coco_579942,TIFA_coco_579942,A clear glass bowl with bananas and plums in it.
+flux,TIFA,coco_625726,TIFA_coco_625726,A vase full of white flowers sitting on a wooden table.
+flux,TIFA,coco_634344,TIFA_coco_634344,A toddler in a pink shirt sits on the lap of a woman.
+flux,TIFA,coco_634711,TIFA_coco_634711,Brown dog lying on unmade bed in bedroom of home.
+flux,TIFA,coco_647000,TIFA_coco_647000,an old photo of a boat parked next to the dock
+flux,TIFA,coco_647250,TIFA_coco_647250,one black cow sniffing another black cows head
+flux,TIFA,coco_708352,TIFA_coco_708352,a cat is standing up to a white toilet
+flux,TIFA,coco_714603,TIFA_coco_714603,"A red stop sign with the word "" Hammer Time "". written on it."
+flux,TIFA,coco_715857,TIFA_coco_715857,The freight train is painted orange and yellow.
+flux,TIFA,coco_738763,TIFA_coco_738763,A man riding skis down a snow covered slope.
+flux,TIFA,coco_769180,TIFA_coco_769180,A man and a girl standing next to two cakes in the kitchen.
+flux,TIFA,coco_772682,TIFA_coco_772682,"A plate full of sushi,with more behind it."
+flux,TIFA,coco_781176,TIFA_coco_781176,A motorcycle sits in a parking lot with other cars.
+flux,TIFA,coco_803862,TIFA_coco_803862,A man throws a tennis ball into the air to serve it
+flux,TIFA,partiprompt_1092,TIFA_partiprompt_1092,a painting of black and white vertical stripes
+flux,TIFA,partiprompt_1306,TIFA_partiprompt_1306,an impressionist painting of the geyser Old Faithful
+flux,TIFA,partiprompt_141,TIFA_partiprompt_141,A black dog sitting on a wooden chair. A white cat with black ears is standing up with its paws on the chair.
+flux,TIFA,partiprompt_517,TIFA_partiprompt_517,A giant cobra snake made from sushi
+flux,TIFA,partiprompt_821,TIFA_partiprompt_821,two baseballs next to three tennis balls
+sd35l,DrawBench,11,DrawBench_11,A black colored sandwich.
+sd35l,DrawBench,12,DrawBench_12,An orange colored sandwich.
+sd35l,DrawBench,13,DrawBench_13,A pink colored giraffe.
+sd35l,DrawBench,17,DrawBench_17,A blue bird and a brown bear.
+sd35l,DrawBench,19,DrawBench_19,A green cup and a blue cell phone.
+sd35l,DrawBench,2,DrawBench_2,A black colored car.
+sd35l,DrawBench,20,DrawBench_20,A yellow book and a red vase.
+sd35l,DrawBench,25,DrawBench_25,A red book and a yellow vase.
+sd35l,DrawBench,26,DrawBench_26,A horse riding an astronaut.
+sd35l,DrawBench,29,DrawBench_29,A blue coloured pizza.
+sd35l,DrawBench,33,DrawBench_33,An elephant under the sea.
+sd35l,DrawBench,34,DrawBench_34,Rainbow coloured penguin.
+sd35l,DrawBench,35,DrawBench_35,A fish eating a pelican.
+sd35l,DrawBench,38,DrawBench_38,Three cars on the street.
+sd35l,DrawBench,41,DrawBench_41,One dog on the street.
+sd35l,DrawBench,43,DrawBench_43,Three dogs on the street.
+sd35l,DrawBench,46,DrawBench_46,One cat and one dog sitting on the grass.
+sd35l,DrawBench,47,DrawBench_47,One cat and two dogs sitting on the grass.
+sd35l,DrawBench,48,DrawBench_48,One cat and three dogs sitting on the grass.
+sd35l,DrawBench,49,DrawBench_49,Two cats and one dog sitting on the grass.
+sd35l,DrawBench,55,DrawBench_55,A triangular purple flower pot. A purple flower pot in the shape of a triangle.
+sd35l,DrawBench,59,DrawBench_59,A sphere made of kitchen tile. A sphere with the texture of kitchen tile.
+sd35l,DrawBench,6,DrawBench_6,A blue colored dog.
+sd35l,DrawBench,61,DrawBench_61,A collection of nail is sitting on a table.
+sd35l,DrawBench,67,DrawBench_67,"A stack of 3 plates. A blue plate is on the top, sitting on a blue plate. The blue plate is in the middle, sitting on a green plate. The green plate is on the bottom."
+sd35l,DrawBench,69,DrawBench_69,"A stack of 3 books. A green book is on the top, sitting on a red book. The red book is in the middle, sitting on a blue book. The blue book is on the bottom."
+sd35l,DrawBench,76,DrawBench_76,"A large motor vehicle carrying passengers by road, typically one serving the public on a fixed route and for a fare."
+sd35l,DrawBench,79,DrawBench_79,"A machine next to a parking space in a street, into which the driver puts money so as to be authorized to park the vehicle for a particular length of time."
+sd35l,DrawBench,80,DrawBench_80,"A device consisting of a circular canopy of cloth on a folding metal frame supported by a central rod, used as protection against rain or sometimes sun."
+sd35l,DrawBench,81,DrawBench_81,"A separate seat for one person, typically with a back and four legs."
+sd35l,DrawBench,83,DrawBench_83,A mechanical or electrical device for measuring time.
+sd35l,DrawBench,85,DrawBench_85,"A large plant-eating domesticated mammal with solid hoofs and a flowing mane and tail, used for riding, racing, and to carry and pull loads."
+sd35l,DrawBench,86,DrawBench_86,A long curved fruit which grows in clusters and has soft pulpy flesh and yellow skin when ripe.
+sd35l,DrawBench,88,DrawBench_88,"A domesticated carnivorous mammal that typically has a long snout, an acute sense of smell, nonretractable claws, and a barking, howling, or whining voice."
+sd35l,DrawBench,89,DrawBench_89,"An organ of soft nervous tissue contained in the skull of vertebrates, functioning as the coordinating center of sensation and intellectual and nervous activity."
+sd35l,DrawBench,93,DrawBench_93,"A large thick-skinned semiaquatic African mammal, with massive jaws and large tusks."
+sd35l,DrawBench,96,DrawBench_96,An oil painting of a couple in formal evening wear going home get caught in a heavy downpour with no umbrellas.
+sd35l,DrawBench,97,DrawBench_97,"A grocery store refrigerator has pint cartons of milk on the top shelf, quart cartons on the middle shelf, and gallon plastic jugs on the bottom shelf."
+sd35l,DrawBench,98,DrawBench_98,"In late afternoon in January in New England, a man stands in the shadow of a maple tree."
+sd35l,DrawBench,99,DrawBench_99,An elephant is behind a tree. You can see the trunk on one side and the back legs on the other.
+sd35l,T2I-CompBench,101,T2I-CompBench_101,a metallic fork and a wooden desk
+sd35l,T2I-CompBench,107,T2I-CompBench_107,a painting on the bottom of a chicken
+sd35l,T2I-CompBench,108,T2I-CompBench_108,a pentagonal clock and a conical clock face
+sd35l,T2I-CompBench,115,T2I-CompBench_115,A person is holding a calculator and working on a math problem.
+sd35l,T2I-CompBench,119,T2I-CompBench_119,A person is looking at a display of vintage clothing and admiring the fashion.
+sd35l,T2I-CompBench,124,T2I-CompBench_124,A person is taking a hot air balloon ride over the countryside.
+sd35l,T2I-CompBench,125,T2I-CompBench_125,a person on side of a cow
+sd35l,T2I-CompBench,130,T2I-CompBench_130,a plastic bag and a glass jar
+sd35l,T2I-CompBench,135,T2I-CompBench_135,a red boat and a blue book
+sd35l,T2I-CompBench,139,T2I-CompBench_139,a red giraffe and a brown train
+sd35l,T2I-CompBench,150,T2I-CompBench_150,A small bathroom with a small brown toilet next to a white sink.
+sd35l,T2I-CompBench,156,T2I-CompBench_156,"a strawberry, two bananas, four tents, and two peaches completed the camping gear"
+sd35l,T2I-CompBench,167,T2I-CompBench_167,a vase hidden by a clock
+sd35l,T2I-CompBench,175,T2I-CompBench_175,A woman is holding a plate of food and serving it to guests.
+sd35l,T2I-CompBench,180,T2I-CompBench_180,a woman on the left of a cup
+sd35l,T2I-CompBench,194,T2I-CompBench_194,an oval coffee table and a rectangular rug
+sd35l,T2I-CompBench,195,T2I-CompBench_195,an oval platter and a rectangular tablecloth.
+sd35l,T2I-CompBench,196,T2I-CompBench_196,eight bottles
+sd35l,T2I-CompBench,25,T2I-CompBench_25,a brown cup and a blue horse
+sd35l,T2I-CompBench,26,T2I-CompBench_26,a brown cup and a blue sheep
+sd35l,T2I-CompBench,34,T2I-CompBench_34,a cat behind a wallet
+sd35l,T2I-CompBench,41,T2I-CompBench_41,a circular dining table and a triangular table runner
+sd35l,T2I-CompBench,42,T2I-CompBench_42,a clock behind a painting
+sd35l,T2I-CompBench,44,T2I-CompBench_44,a couch in front of a bee
+sd35l,T2I-CompBench,48,T2I-CompBench_48,a cubic block and a cylindrical canister
+sd35l,T2I-CompBench,49,T2I-CompBench_49,a cubic block and a triangular building set
+sd35l,T2I-CompBench,53,T2I-CompBench_53,a desk behind a woman
+sd35l,T2I-CompBench,56,T2I-CompBench_56,A dog is playing fetch with its owner and bringing back a ball.
+sd35l,T2I-CompBench,57,T2I-CompBench_57,a dog on the top of a desk
+sd35l,T2I-CompBench,59,T2I-CompBench_59,a fabric hat and a fluffy sweater
+sd35l,T2I-CompBench,60,T2I-CompBench_60,a fabric pants and a fluffy rug
+sd35l,T2I-CompBench,68,T2I-CompBench_68,a frog hidden by a bicycle
+sd35l,T2I-CompBench,7,T2I-CompBench_7,a bee on the left of a refrigerator
+sd35l,T2I-CompBench,70,T2I-CompBench_70,a giraffe behind a vase
+sd35l,T2I-CompBench,76,T2I-CompBench_76,a gold backpack and a blue clock
+sd35l,T2I-CompBench,78,T2I-CompBench_78,a green bench and a blue cake
+sd35l,T2I-CompBench,86,T2I-CompBench_86,a horse on side of a car
+sd35l,T2I-CompBench,9,T2I-CompBench_9,a big hippopotamus and a small rabbit
+sd35l,T2I-CompBench,96,T2I-CompBench_96,a man on the top of a turtle
+sd35l,T2I-CompBench,99,T2I-CompBench_99,a metallic door knob and a fabric blanket
+sd35l,TIFA,coco_104794,TIFA_coco_104794,a man on a soccer field dressed in a soccer uniform kicking a soccer ball
+sd35l,TIFA,coco_185186,TIFA_coco_185186,A black and white photo of a man on a cell phone.
+sd35l,TIFA,coco_201871,TIFA_coco_201871,A smoking jet going straight up in the sky.
+sd35l,TIFA,coco_221880,TIFA_coco_221880,A parking meter sitting in front of a brick building.
+sd35l,TIFA,coco_225595,TIFA_coco_225595,A woman walking down a street talking on a cell phone.
+sd35l,TIFA,coco_231290,TIFA_coco_231290,Three zebras are standing together in a line.
+sd35l,TIFA,coco_232095,TIFA_coco_232095,A man standing behind a truck with a red trailer sitting in front of a building.
+sd35l,TIFA,coco_263731,TIFA_coco_263731,Small group of sheep being herded by three border collies.
+sd35l,TIFA,coco_292534,TIFA_coco_292534,A red motorcycle parked by paint chipped doors.
+sd35l,TIFA,coco_321767,TIFA_coco_321767,a large clock tower structure lit up in the early night sky
+sd35l,TIFA,coco_323167,TIFA_coco_323167,"A laptop with external keyboard, mouse, phone and photo on a desk."
+sd35l,TIFA,coco_33895,TIFA_coco_33895,A small compact car driving past a furniture store.
+sd35l,TIFA,coco_343985,TIFA_coco_343985,Two passenger trains on opposite tracks speeding down the tracks.
+sd35l,TIFA,coco_373633,TIFA_coco_373633,Black and white photograph of a bed with a laptop on it.
+sd35l,TIFA,coco_38429,TIFA_coco_38429,People browse the shops while walking on a busy street.
+sd35l,TIFA,coco_419329,TIFA_coco_419329,A woman seated across the table shows off her bagel with cream cheese.
+sd35l,TIFA,coco_420703,TIFA_coco_420703,A blue and yellow train is traveling down the tracks near some water and boats.
+sd35l,TIFA,coco_534679,TIFA_coco_534679,A kitchen is nicely organized and looks very clean.
+sd35l,TIFA,coco_535203,TIFA_coco_535203,A bird perched on a branch of a tree.
+sd35l,TIFA,coco_542456,TIFA_coco_542456,A man and a child sitting in front of a cake at a bench.
+sd35l,TIFA,coco_558725,TIFA_coco_558725,People looking at a stop light on the other side of the road.
+sd35l,TIFA,coco_579942,TIFA_coco_579942,A clear glass bowl with bananas and plums in it.
+sd35l,TIFA,coco_625726,TIFA_coco_625726,A vase full of white flowers sitting on a wooden table.
+sd35l,TIFA,coco_634344,TIFA_coco_634344,A toddler in a pink shirt sits on the lap of a woman.
+sd35l,TIFA,coco_634711,TIFA_coco_634711,Brown dog lying on unmade bed in bedroom of home.
+sd35l,TIFA,coco_647000,TIFA_coco_647000,an old photo of a boat parked next to the dock
+sd35l,TIFA,coco_647250,TIFA_coco_647250,one black cow sniffing another black cows head
+sd35l,TIFA,coco_708352,TIFA_coco_708352,a cat is standing up to a white toilet
+sd35l,TIFA,coco_714603,TIFA_coco_714603,"A red stop sign with the word "" Hammer Time "". written on it."
+sd35l,TIFA,coco_715857,TIFA_coco_715857,The freight train is painted orange and yellow.
+sd35l,TIFA,coco_738763,TIFA_coco_738763,A man riding skis down a snow covered slope.
+sd35l,TIFA,coco_769180,TIFA_coco_769180,A man and a girl standing next to two cakes in the kitchen.
+sd35l,TIFA,coco_772682,TIFA_coco_772682,"A plate full of sushi,with more behind it."
+sd35l,TIFA,coco_781176,TIFA_coco_781176,A motorcycle sits in a parking lot with other cars.
+sd35l,TIFA,coco_803862,TIFA_coco_803862,A man throws a tennis ball into the air to serve it
+sd35l,TIFA,partiprompt_1092,TIFA_partiprompt_1092,a painting of black and white vertical stripes
+sd35l,TIFA,partiprompt_1306,TIFA_partiprompt_1306,an impressionist painting of the geyser Old Faithful
+sd35l,TIFA,partiprompt_141,TIFA_partiprompt_141,A black dog sitting on a wooden chair. A white cat with black ears is standing up with its paws on the chair.
+sd35l,TIFA,partiprompt_517,TIFA_partiprompt_517,A giant cobra snake made from sushi
+sd35l,TIFA,partiprompt_821,TIFA_partiprompt_821,two baseballs next to three tennis balls
+sd35l_turbo,DrawBench,11,DrawBench_11,A black colored sandwich.
+sd35l_turbo,DrawBench,12,DrawBench_12,An orange colored sandwich.
+sd35l_turbo,DrawBench,13,DrawBench_13,A pink colored giraffe.
+sd35l_turbo,DrawBench,17,DrawBench_17,A blue bird and a brown bear.
+sd35l_turbo,DrawBench,19,DrawBench_19,A green cup and a blue cell phone.
+sd35l_turbo,DrawBench,2,DrawBench_2,A black colored car.
+sd35l_turbo,DrawBench,20,DrawBench_20,A yellow book and a red vase.
+sd35l_turbo,DrawBench,25,DrawBench_25,A red book and a yellow vase.
+sd35l_turbo,DrawBench,26,DrawBench_26,A horse riding an astronaut.
+sd35l_turbo,DrawBench,29,DrawBench_29,A blue coloured pizza.
+sd35l_turbo,DrawBench,33,DrawBench_33,An elephant under the sea.
+sd35l_turbo,DrawBench,34,DrawBench_34,Rainbow coloured penguin.
+sd35l_turbo,DrawBench,35,DrawBench_35,A fish eating a pelican.
+sd35l_turbo,DrawBench,38,DrawBench_38,Three cars on the street.
+sd35l_turbo,DrawBench,41,DrawBench_41,One dog on the street.
+sd35l_turbo,DrawBench,43,DrawBench_43,Three dogs on the street.
+sd35l_turbo,DrawBench,46,DrawBench_46,One cat and one dog sitting on the grass.
+sd35l_turbo,DrawBench,47,DrawBench_47,One cat and two dogs sitting on the grass.
+sd35l_turbo,DrawBench,48,DrawBench_48,One cat and three dogs sitting on the grass.
+sd35l_turbo,DrawBench,49,DrawBench_49,Two cats and one dog sitting on the grass.
+sd35l_turbo,DrawBench,55,DrawBench_55,A triangular purple flower pot. A purple flower pot in the shape of a triangle.
+sd35l_turbo,DrawBench,59,DrawBench_59,A sphere made of kitchen tile. A sphere with the texture of kitchen tile.
+sd35l_turbo,DrawBench,6,DrawBench_6,A blue colored dog.
+sd35l_turbo,DrawBench,61,DrawBench_61,A collection of nail is sitting on a table.
+sd35l_turbo,DrawBench,67,DrawBench_67,"A stack of 3 plates. A blue plate is on the top, sitting on a blue plate. The blue plate is in the middle, sitting on a green plate. The green plate is on the bottom."
+sd35l_turbo,DrawBench,69,DrawBench_69,"A stack of 3 books. A green book is on the top, sitting on a red book. The red book is in the middle, sitting on a blue book. The blue book is on the bottom."
+sd35l_turbo,DrawBench,76,DrawBench_76,"A large motor vehicle carrying passengers by road, typically one serving the public on a fixed route and for a fare."
+sd35l_turbo,DrawBench,79,DrawBench_79,"A machine next to a parking space in a street, into which the driver puts money so as to be authorized to park the vehicle for a particular length of time."
+sd35l_turbo,DrawBench,80,DrawBench_80,"A device consisting of a circular canopy of cloth on a folding metal frame supported by a central rod, used as protection against rain or sometimes sun."
+sd35l_turbo,DrawBench,81,DrawBench_81,"A separate seat for one person, typically with a back and four legs."
+sd35l_turbo,DrawBench,83,DrawBench_83,A mechanical or electrical device for measuring time.
+sd35l_turbo,DrawBench,85,DrawBench_85,"A large plant-eating domesticated mammal with solid hoofs and a flowing mane and tail, used for riding, racing, and to carry and pull loads."
+sd35l_turbo,DrawBench,86,DrawBench_86,A long curved fruit which grows in clusters and has soft pulpy flesh and yellow skin when ripe.
+sd35l_turbo,DrawBench,88,DrawBench_88,"A domesticated carnivorous mammal that typically has a long snout, an acute sense of smell, nonretractable claws, and a barking, howling, or whining voice."
+sd35l_turbo,DrawBench,89,DrawBench_89,"An organ of soft nervous tissue contained in the skull of vertebrates, functioning as the coordinating center of sensation and intellectual and nervous activity."
+sd35l_turbo,DrawBench,93,DrawBench_93,"A large thick-skinned semiaquatic African mammal, with massive jaws and large tusks."
+sd35l_turbo,DrawBench,96,DrawBench_96,An oil painting of a couple in formal evening wear going home get caught in a heavy downpour with no umbrellas.
+sd35l_turbo,DrawBench,97,DrawBench_97,"A grocery store refrigerator has pint cartons of milk on the top shelf, quart cartons on the middle shelf, and gallon plastic jugs on the bottom shelf."
+sd35l_turbo,DrawBench,98,DrawBench_98,"In late afternoon in January in New England, a man stands in the shadow of a maple tree."
+sd35l_turbo,DrawBench,99,DrawBench_99,An elephant is behind a tree. You can see the trunk on one side and the back legs on the other.
+sd35l_turbo,T2I-CompBench,101,T2I-CompBench_101,a metallic fork and a wooden desk
+sd35l_turbo,T2I-CompBench,107,T2I-CompBench_107,a painting on the bottom of a chicken
+sd35l_turbo,T2I-CompBench,108,T2I-CompBench_108,a pentagonal clock and a conical clock face
+sd35l_turbo,T2I-CompBench,115,T2I-CompBench_115,A person is holding a calculator and working on a math problem.
+sd35l_turbo,T2I-CompBench,119,T2I-CompBench_119,A person is looking at a display of vintage clothing and admiring the fashion.
+sd35l_turbo,T2I-CompBench,124,T2I-CompBench_124,A person is taking a hot air balloon ride over the countryside.
+sd35l_turbo,T2I-CompBench,125,T2I-CompBench_125,a person on side of a cow
+sd35l_turbo,T2I-CompBench,130,T2I-CompBench_130,a plastic bag and a glass jar
+sd35l_turbo,T2I-CompBench,135,T2I-CompBench_135,a red boat and a blue book
+sd35l_turbo,T2I-CompBench,139,T2I-CompBench_139,a red giraffe and a brown train
+sd35l_turbo,T2I-CompBench,150,T2I-CompBench_150,A small bathroom with a small brown toilet next to a white sink.
+sd35l_turbo,T2I-CompBench,156,T2I-CompBench_156,"a strawberry, two bananas, four tents, and two peaches completed the camping gear"
+sd35l_turbo,T2I-CompBench,167,T2I-CompBench_167,a vase hidden by a clock
+sd35l_turbo,T2I-CompBench,175,T2I-CompBench_175,A woman is holding a plate of food and serving it to guests.
+sd35l_turbo,T2I-CompBench,180,T2I-CompBench_180,a woman on the left of a cup
+sd35l_turbo,T2I-CompBench,194,T2I-CompBench_194,an oval coffee table and a rectangular rug
+sd35l_turbo,T2I-CompBench,195,T2I-CompBench_195,an oval platter and a rectangular tablecloth.
+sd35l_turbo,T2I-CompBench,196,T2I-CompBench_196,eight bottles
+sd35l_turbo,T2I-CompBench,25,T2I-CompBench_25,a brown cup and a blue horse
+sd35l_turbo,T2I-CompBench,26,T2I-CompBench_26,a brown cup and a blue sheep
+sd35l_turbo,T2I-CompBench,34,T2I-CompBench_34,a cat behind a wallet
+sd35l_turbo,T2I-CompBench,41,T2I-CompBench_41,a circular dining table and a triangular table runner
+sd35l_turbo,T2I-CompBench,42,T2I-CompBench_42,a clock behind a painting
+sd35l_turbo,T2I-CompBench,44,T2I-CompBench_44,a couch in front of a bee
+sd35l_turbo,T2I-CompBench,48,T2I-CompBench_48,a cubic block and a cylindrical canister
+sd35l_turbo,T2I-CompBench,49,T2I-CompBench_49,a cubic block and a triangular building set
+sd35l_turbo,T2I-CompBench,53,T2I-CompBench_53,a desk behind a woman
+sd35l_turbo,T2I-CompBench,56,T2I-CompBench_56,A dog is playing fetch with its owner and bringing back a ball.
+sd35l_turbo,T2I-CompBench,57,T2I-CompBench_57,a dog on the top of a desk
+sd35l_turbo,T2I-CompBench,59,T2I-CompBench_59,a fabric hat and a fluffy sweater
+sd35l_turbo,T2I-CompBench,60,T2I-CompBench_60,a fabric pants and a fluffy rug
+sd35l_turbo,T2I-CompBench,68,T2I-CompBench_68,a frog hidden by a bicycle
+sd35l_turbo,T2I-CompBench,7,T2I-CompBench_7,a bee on the left of a refrigerator
+sd35l_turbo,T2I-CompBench,70,T2I-CompBench_70,a giraffe behind a vase
+sd35l_turbo,T2I-CompBench,76,T2I-CompBench_76,a gold backpack and a blue clock
+sd35l_turbo,T2I-CompBench,78,T2I-CompBench_78,a green bench and a blue cake
+sd35l_turbo,T2I-CompBench,86,T2I-CompBench_86,a horse on side of a car
+sd35l_turbo,T2I-CompBench,9,T2I-CompBench_9,a big hippopotamus and a small rabbit
+sd35l_turbo,T2I-CompBench,96,T2I-CompBench_96,a man on the top of a turtle
+sd35l_turbo,T2I-CompBench,99,T2I-CompBench_99,a metallic door knob and a fabric blanket
+sd35l_turbo,TIFA,coco_104794,TIFA_coco_104794,a man on a soccer field dressed in a soccer uniform kicking a soccer ball
+sd35l_turbo,TIFA,coco_185186,TIFA_coco_185186,A black and white photo of a man on a cell phone.
+sd35l_turbo,TIFA,coco_201871,TIFA_coco_201871,A smoking jet going straight up in the sky.
+sd35l_turbo,TIFA,coco_221880,TIFA_coco_221880,A parking meter sitting in front of a brick building.
+sd35l_turbo,TIFA,coco_225595,TIFA_coco_225595,A woman walking down a street talking on a cell phone.
+sd35l_turbo,TIFA,coco_231290,TIFA_coco_231290,Three zebras are standing together in a line.
+sd35l_turbo,TIFA,coco_232095,TIFA_coco_232095,A man standing behind a truck with a red trailer sitting in front of a building.
+sd35l_turbo,TIFA,coco_263731,TIFA_coco_263731,Small group of sheep being herded by three border collies.
+sd35l_turbo,TIFA,coco_292534,TIFA_coco_292534,A red motorcycle parked by paint chipped doors.
+sd35l_turbo,TIFA,coco_321767,TIFA_coco_321767,a large clock tower structure lit up in the early night sky
+sd35l_turbo,TIFA,coco_323167,TIFA_coco_323167,"A laptop with external keyboard, mouse, phone and photo on a desk."
+sd35l_turbo,TIFA,coco_33895,TIFA_coco_33895,A small compact car driving past a furniture store.
+sd35l_turbo,TIFA,coco_343985,TIFA_coco_343985,Two passenger trains on opposite tracks speeding down the tracks.
+sd35l_turbo,TIFA,coco_373633,TIFA_coco_373633,Black and white photograph of a bed with a laptop on it.
+sd35l_turbo,TIFA,coco_38429,TIFA_coco_38429,People browse the shops while walking on a busy street.
+sd35l_turbo,TIFA,coco_419329,TIFA_coco_419329,A woman seated across the table shows off her bagel with cream cheese.
+sd35l_turbo,TIFA,coco_420703,TIFA_coco_420703,A blue and yellow train is traveling down the tracks near some water and boats.
+sd35l_turbo,TIFA,coco_534679,TIFA_coco_534679,A kitchen is nicely organized and looks very clean.
+sd35l_turbo,TIFA,coco_535203,TIFA_coco_535203,A bird perched on a branch of a tree.
+sd35l_turbo,TIFA,coco_542456,TIFA_coco_542456,A man and a child sitting in front of a cake at a bench.
+sd35l_turbo,TIFA,coco_558725,TIFA_coco_558725,People looking at a stop light on the other side of the road.
+sd35l_turbo,TIFA,coco_579942,TIFA_coco_579942,A clear glass bowl with bananas and plums in it.
+sd35l_turbo,TIFA,coco_625726,TIFA_coco_625726,A vase full of white flowers sitting on a wooden table.
+sd35l_turbo,TIFA,coco_634344,TIFA_coco_634344,A toddler in a pink shirt sits on the lap of a woman.
+sd35l_turbo,TIFA,coco_634711,TIFA_coco_634711,Brown dog lying on unmade bed in bedroom of home.
+sd35l_turbo,TIFA,coco_647000,TIFA_coco_647000,an old photo of a boat parked next to the dock
+sd35l_turbo,TIFA,coco_647250,TIFA_coco_647250,one black cow sniffing another black cows head
+sd35l_turbo,TIFA,coco_708352,TIFA_coco_708352,a cat is standing up to a white toilet
+sd35l_turbo,TIFA,coco_714603,TIFA_coco_714603,"A red stop sign with the word "" Hammer Time "". written on it."
+sd35l_turbo,TIFA,coco_715857,TIFA_coco_715857,The freight train is painted orange and yellow.
+sd35l_turbo,TIFA,coco_738763,TIFA_coco_738763,A man riding skis down a snow covered slope.
+sd35l_turbo,TIFA,coco_769180,TIFA_coco_769180,A man and a girl standing next to two cakes in the kitchen.
+sd35l_turbo,TIFA,coco_772682,TIFA_coco_772682,"A plate full of sushi,with more behind it."
+sd35l_turbo,TIFA,coco_781176,TIFA_coco_781176,A motorcycle sits in a parking lot with other cars.
+sd35l_turbo,TIFA,coco_803862,TIFA_coco_803862,A man throws a tennis ball into the air to serve it
+sd35l_turbo,TIFA,partiprompt_1092,TIFA_partiprompt_1092,a painting of black and white vertical stripes
+sd35l_turbo,TIFA,partiprompt_1306,TIFA_partiprompt_1306,an impressionist painting of the geyser Old Faithful
+sd35l_turbo,TIFA,partiprompt_141,TIFA_partiprompt_141,A black dog sitting on a wooden chair. A white cat with black ears is standing up with its paws on the chair.
+sd35l_turbo,TIFA,partiprompt_517,TIFA_partiprompt_517,A giant cobra snake made from sushi
+sd35l_turbo,TIFA,partiprompt_821,TIFA_partiprompt_821,two baseballs next to three tennis balls
+sdxl,DrawBench,11,DrawBench_11,A black colored sandwich.
+sdxl,DrawBench,12,DrawBench_12,An orange colored sandwich.
+sdxl,DrawBench,13,DrawBench_13,A pink colored giraffe.
+sdxl,DrawBench,17,DrawBench_17,A blue bird and a brown bear.
+sdxl,DrawBench,19,DrawBench_19,A green cup and a blue cell phone.
+sdxl,DrawBench,2,DrawBench_2,A black colored car.
+sdxl,DrawBench,20,DrawBench_20,A yellow book and a red vase.
+sdxl,DrawBench,25,DrawBench_25,A red book and a yellow vase.
+sdxl,DrawBench,26,DrawBench_26,A horse riding an astronaut.
+sdxl,DrawBench,29,DrawBench_29,A blue coloured pizza.
+sdxl,DrawBench,33,DrawBench_33,An elephant under the sea.
+sdxl,DrawBench,34,DrawBench_34,Rainbow coloured penguin.
+sdxl,DrawBench,35,DrawBench_35,A fish eating a pelican.
+sdxl,DrawBench,38,DrawBench_38,Three cars on the street.
+sdxl,DrawBench,41,DrawBench_41,One dog on the street.
+sdxl,DrawBench,43,DrawBench_43,Three dogs on the street.
+sdxl,DrawBench,46,DrawBench_46,One cat and one dog sitting on the grass.
+sdxl,DrawBench,47,DrawBench_47,One cat and two dogs sitting on the grass.
+sdxl,DrawBench,48,DrawBench_48,One cat and three dogs sitting on the grass.
+sdxl,DrawBench,49,DrawBench_49,Two cats and one dog sitting on the grass.
+sdxl,DrawBench,55,DrawBench_55,A triangular purple flower pot. A purple flower pot in the shape of a triangle.
+sdxl,DrawBench,59,DrawBench_59,A sphere made of kitchen tile. A sphere with the texture of kitchen tile.
+sdxl,DrawBench,6,DrawBench_6,A blue colored dog.
+sdxl,DrawBench,61,DrawBench_61,A collection of nail is sitting on a table.
+sdxl,DrawBench,67,DrawBench_67,"A stack of 3 plates. A blue plate is on the top, sitting on a blue plate. The blue plate is in the middle, sitting on a green plate. The green plate is on the bottom."
+sdxl,DrawBench,69,DrawBench_69,"A stack of 3 books. A green book is on the top, sitting on a red book. The red book is in the middle, sitting on a blue book. The blue book is on the bottom."
+sdxl,DrawBench,76,DrawBench_76,"A large motor vehicle carrying passengers by road, typically one serving the public on a fixed route and for a fare."
+sdxl,DrawBench,79,DrawBench_79,"A machine next to a parking space in a street, into which the driver puts money so as to be authorized to park the vehicle for a particular length of time."
+sdxl,DrawBench,80,DrawBench_80,"A device consisting of a circular canopy of cloth on a folding metal frame supported by a central rod, used as protection against rain or sometimes sun."
+sdxl,DrawBench,81,DrawBench_81,"A separate seat for one person, typically with a back and four legs."
+sdxl,DrawBench,83,DrawBench_83,A mechanical or electrical device for measuring time.
+sdxl,DrawBench,85,DrawBench_85,"A large plant-eating domesticated mammal with solid hoofs and a flowing mane and tail, used for riding, racing, and to carry and pull loads."
+sdxl,DrawBench,86,DrawBench_86,A long curved fruit which grows in clusters and has soft pulpy flesh and yellow skin when ripe.
+sdxl,DrawBench,88,DrawBench_88,"A domesticated carnivorous mammal that typically has a long snout, an acute sense of smell, nonretractable claws, and a barking, howling, or whining voice."
+sdxl,DrawBench,89,DrawBench_89,"An organ of soft nervous tissue contained in the skull of vertebrates, functioning as the coordinating center of sensation and intellectual and nervous activity."
+sdxl,DrawBench,93,DrawBench_93,"A large thick-skinned semiaquatic African mammal, with massive jaws and large tusks."
+sdxl,DrawBench,96,DrawBench_96,An oil painting of a couple in formal evening wear going home get caught in a heavy downpour with no umbrellas.
+sdxl,DrawBench,97,DrawBench_97,"A grocery store refrigerator has pint cartons of milk on the top shelf, quart cartons on the middle shelf, and gallon plastic jugs on the bottom shelf."
+sdxl,DrawBench,98,DrawBench_98,"In late afternoon in January in New England, a man stands in the shadow of a maple tree."
+sdxl,DrawBench,99,DrawBench_99,An elephant is behind a tree. You can see the trunk on one side and the back legs on the other.
+sdxl,T2I-CompBench,101,T2I-CompBench_101,a metallic fork and a wooden desk
+sdxl,T2I-CompBench,107,T2I-CompBench_107,a painting on the bottom of a chicken
+sdxl,T2I-CompBench,108,T2I-CompBench_108,a pentagonal clock and a conical clock face
+sdxl,T2I-CompBench,115,T2I-CompBench_115,A person is holding a calculator and working on a math problem.
+sdxl,T2I-CompBench,119,T2I-CompBench_119,A person is looking at a display of vintage clothing and admiring the fashion.
+sdxl,T2I-CompBench,124,T2I-CompBench_124,A person is taking a hot air balloon ride over the countryside.
+sdxl,T2I-CompBench,125,T2I-CompBench_125,a person on side of a cow
+sdxl,T2I-CompBench,130,T2I-CompBench_130,a plastic bag and a glass jar
+sdxl,T2I-CompBench,135,T2I-CompBench_135,a red boat and a blue book
+sdxl,T2I-CompBench,139,T2I-CompBench_139,a red giraffe and a brown train
+sdxl,T2I-CompBench,150,T2I-CompBench_150,A small bathroom with a small brown toilet next to a white sink.
+sdxl,T2I-CompBench,156,T2I-CompBench_156,"a strawberry, two bananas, four tents, and two peaches completed the camping gear"
+sdxl,T2I-CompBench,167,T2I-CompBench_167,a vase hidden by a clock
+sdxl,T2I-CompBench,175,T2I-CompBench_175,A woman is holding a plate of food and serving it to guests.
+sdxl,T2I-CompBench,180,T2I-CompBench_180,a woman on the left of a cup
+sdxl,T2I-CompBench,194,T2I-CompBench_194,an oval coffee table and a rectangular rug
+sdxl,T2I-CompBench,195,T2I-CompBench_195,an oval platter and a rectangular tablecloth.
+sdxl,T2I-CompBench,196,T2I-CompBench_196,eight bottles
+sdxl,T2I-CompBench,25,T2I-CompBench_25,a brown cup and a blue horse
+sdxl,T2I-CompBench,26,T2I-CompBench_26,a brown cup and a blue sheep
+sdxl,T2I-CompBench,34,T2I-CompBench_34,a cat behind a wallet
+sdxl,T2I-CompBench,41,T2I-CompBench_41,a circular dining table and a triangular table runner
+sdxl,T2I-CompBench,42,T2I-CompBench_42,a clock behind a painting
+sdxl,T2I-CompBench,44,T2I-CompBench_44,a couch in front of a bee
+sdxl,T2I-CompBench,48,T2I-CompBench_48,a cubic block and a cylindrical canister
+sdxl,T2I-CompBench,49,T2I-CompBench_49,a cubic block and a triangular building set
+sdxl,T2I-CompBench,53,T2I-CompBench_53,a desk behind a woman
+sdxl,T2I-CompBench,56,T2I-CompBench_56,A dog is playing fetch with its owner and bringing back a ball.
+sdxl,T2I-CompBench,57,T2I-CompBench_57,a dog on the top of a desk
+sdxl,T2I-CompBench,59,T2I-CompBench_59,a fabric hat and a fluffy sweater
+sdxl,T2I-CompBench,60,T2I-CompBench_60,a fabric pants and a fluffy rug
+sdxl,T2I-CompBench,68,T2I-CompBench_68,a frog hidden by a bicycle
+sdxl,T2I-CompBench,7,T2I-CompBench_7,a bee on the left of a refrigerator
+sdxl,T2I-CompBench,70,T2I-CompBench_70,a giraffe behind a vase
+sdxl,T2I-CompBench,76,T2I-CompBench_76,a gold backpack and a blue clock
+sdxl,T2I-CompBench,78,T2I-CompBench_78,a green bench and a blue cake
+sdxl,T2I-CompBench,86,T2I-CompBench_86,a horse on side of a car
+sdxl,T2I-CompBench,9,T2I-CompBench_9,a big hippopotamus and a small rabbit
+sdxl,T2I-CompBench,96,T2I-CompBench_96,a man on the top of a turtle
+sdxl,T2I-CompBench,99,T2I-CompBench_99,a metallic door knob and a fabric blanket
+sdxl,TIFA,coco_104794,TIFA_coco_104794,a man on a soccer field dressed in a soccer uniform kicking a soccer ball
+sdxl,TIFA,coco_185186,TIFA_coco_185186,A black and white photo of a man on a cell phone.
+sdxl,TIFA,coco_201871,TIFA_coco_201871,A smoking jet going straight up in the sky.
+sdxl,TIFA,coco_221880,TIFA_coco_221880,A parking meter sitting in front of a brick building.
+sdxl,TIFA,coco_225595,TIFA_coco_225595,A woman walking down a street talking on a cell phone.
+sdxl,TIFA,coco_231290,TIFA_coco_231290,Three zebras are standing together in a line.
+sdxl,TIFA,coco_232095,TIFA_coco_232095,A man standing behind a truck with a red trailer sitting in front of a building.
+sdxl,TIFA,coco_263731,TIFA_coco_263731,Small group of sheep being herded by three border collies.
+sdxl,TIFA,coco_292534,TIFA_coco_292534,A red motorcycle parked by paint chipped doors.
+sdxl,TIFA,coco_321767,TIFA_coco_321767,a large clock tower structure lit up in the early night sky
+sdxl,TIFA,coco_323167,TIFA_coco_323167,"A laptop with external keyboard, mouse, phone and photo on a desk."
+sdxl,TIFA,coco_33895,TIFA_coco_33895,A small compact car driving past a furniture store.
+sdxl,TIFA,coco_343985,TIFA_coco_343985,Two passenger trains on opposite tracks speeding down the tracks.
+sdxl,TIFA,coco_373633,TIFA_coco_373633,Black and white photograph of a bed with a laptop on it.
+sdxl,TIFA,coco_38429,TIFA_coco_38429,People browse the shops while walking on a busy street.
+sdxl,TIFA,coco_419329,TIFA_coco_419329,A woman seated across the table shows off her bagel with cream cheese.
+sdxl,TIFA,coco_420703,TIFA_coco_420703,A blue and yellow train is traveling down the tracks near some water and boats.
+sdxl,TIFA,coco_534679,TIFA_coco_534679,A kitchen is nicely organized and looks very clean.
+sdxl,TIFA,coco_535203,TIFA_coco_535203,A bird perched on a branch of a tree.
+sdxl,TIFA,coco_542456,TIFA_coco_542456,A man and a child sitting in front of a cake at a bench.
+sdxl,TIFA,coco_558725,TIFA_coco_558725,People looking at a stop light on the other side of the road.
+sdxl,TIFA,coco_579942,TIFA_coco_579942,A clear glass bowl with bananas and plums in it.
+sdxl,TIFA,coco_625726,TIFA_coco_625726,A vase full of white flowers sitting on a wooden table.
+sdxl,TIFA,coco_634344,TIFA_coco_634344,A toddler in a pink shirt sits on the lap of a woman.
+sdxl,TIFA,coco_634711,TIFA_coco_634711,Brown dog lying on unmade bed in bedroom of home.
+sdxl,TIFA,coco_647000,TIFA_coco_647000,an old photo of a boat parked next to the dock
+sdxl,TIFA,coco_647250,TIFA_coco_647250,one black cow sniffing another black cows head
+sdxl,TIFA,coco_708352,TIFA_coco_708352,a cat is standing up to a white toilet
+sdxl,TIFA,coco_714603,TIFA_coco_714603,"A red stop sign with the word "" Hammer Time "". written on it."
+sdxl,TIFA,coco_715857,TIFA_coco_715857,The freight train is painted orange and yellow.
+sdxl,TIFA,coco_738763,TIFA_coco_738763,A man riding skis down a snow covered slope.
+sdxl,TIFA,coco_769180,TIFA_coco_769180,A man and a girl standing next to two cakes in the kitchen.
+sdxl,TIFA,coco_772682,TIFA_coco_772682,"A plate full of sushi,with more behind it."
+sdxl,TIFA,coco_781176,TIFA_coco_781176,A motorcycle sits in a parking lot with other cars.
+sdxl,TIFA,coco_803862,TIFA_coco_803862,A man throws a tennis ball into the air to serve it
+sdxl,TIFA,partiprompt_1092,TIFA_partiprompt_1092,a painting of black and white vertical stripes
+sdxl,TIFA,partiprompt_1306,TIFA_partiprompt_1306,an impressionist painting of the geyser Old Faithful
+sdxl,TIFA,partiprompt_141,TIFA_partiprompt_141,A black dog sitting on a wooden chair. A white cat with black ears is standing up with its paws on the chair.
+sdxl,TIFA,partiprompt_517,TIFA_partiprompt_517,A giant cobra snake made from sushi
+sdxl,TIFA,partiprompt_821,TIFA_partiprompt_821,two baseballs next to three tennis balls

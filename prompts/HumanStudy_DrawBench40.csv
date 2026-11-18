@@ -1,0 +1,41 @@
+Dataset,ID,prompt,category
+DrawBench,2,A black colored car.,Colors
+DrawBench,6,A blue colored dog.,Colors
+DrawBench,11,A black colored sandwich.,Colors
+DrawBench,12,An orange colored sandwich.,Colors
+DrawBench,13,A pink colored giraffe.,Colors
+DrawBench,17,A blue bird and a brown bear.,Colors
+DrawBench,19,A green cup and a blue cell phone.,Colors
+DrawBench,20,A yellow book and a red vase.,Colors
+DrawBench,25,A red book and a yellow vase.,Colors
+DrawBench,26,A horse riding an astronaut.,Conflicting
+DrawBench,29,A blue coloured pizza.,Conflicting
+DrawBench,33,An elephant under the sea.,Conflicting
+DrawBench,34,Rainbow coloured penguin.,Conflicting
+DrawBench,35,A fish eating a pelican.,Conflicting
+DrawBench,38,Three cars on the street.,Counting
+DrawBench,41,One dog on the street.,Counting
+DrawBench,43,Three dogs on the street.,Counting
+DrawBench,46,One cat and one dog sitting on the grass.,Counting
+DrawBench,47,One cat and two dogs sitting on the grass.,Counting
+DrawBench,48,One cat and three dogs sitting on the grass.,Counting
+DrawBench,49,Two cats and one dog sitting on the grass.,Counting
+DrawBench,55,A triangular purple flower pot. A purple flower pot in the shape of a triangle.,DALL-E
+DrawBench,59,A sphere made of kitchen tile. A sphere with the texture of kitchen tile.,DALL-E
+DrawBench,61,A collection of nail is sitting on a table.,DALL-E
+DrawBench,67,"A stack of 3 plates. A blue plate is on the top, sitting on a blue plate. The blue plate is in the middle, sitting on a green plate. The green plate is on the bottom.",DALL-E
+DrawBench,69,"A stack of 3 books. A green book is on the top, sitting on a red book. The red book is in the middle, sitting on a blue book. The blue book is on the bottom.",DALL-E
+DrawBench,76,"A large motor vehicle carrying passengers by road, typically one serving the public on a fixed route and for a fare.",Descriptions
+DrawBench,79,"A machine next to a parking space in a street, into which the driver puts money so as to be authorized to park the vehicle for a particular length of time.",Descriptions
+DrawBench,80,"A device consisting of a circular canopy of cloth on a folding metal frame supported by a central rod, used as protection against rain or sometimes sun.",Descriptions
+DrawBench,81,"A separate seat for one person, typically with a back and four legs.",Descriptions
+DrawBench,83,A mechanical or electrical device for measuring time.,Descriptions
+DrawBench,85,"A large plant-eating domesticated mammal with solid hoofs and a flowing mane and tail, used for riding, racing, and to carry and pull loads.",Descriptions
+DrawBench,86,A long curved fruit which grows in clusters and has soft pulpy flesh and yellow skin when ripe.,Descriptions
+DrawBench,88,"A domesticated carnivorous mammal that typically has a long snout, an acute sense of smell, nonretractable claws, and a barking, howling, or whining voice.",Descriptions
+DrawBench,89,"An organ of soft nervous tissue contained in the skull of vertebrates, functioning as the coordinating center of sensation and intellectual and nervous activity.",Descriptions
+DrawBench,93,"A large thick-skinned semiaquatic African mammal, with massive jaws and large tusks.",Descriptions
+DrawBench,96,An oil painting of a couple in formal evening wear going home get caught in a heavy downpour with no umbrellas.,Gary Marcus et al. 
+DrawBench,97,"A grocery store refrigerator has pint cartons of milk on the top shelf, quart cartons on the middle shelf, and gallon plastic jugs on the bottom shelf.",Gary Marcus et al. 
+DrawBench,98,"In late afternoon in January in New England, a man stands in the shadow of a maple tree.",Gary Marcus et al. 
+DrawBench,99,An elephant is behind a tree. You can see the trunk on one side and the back legs on the other.,Gary Marcus et al. 

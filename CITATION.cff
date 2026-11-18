@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper."
+title: "LiveSeed: Attention Entropy Knows Which Seeds to Keep"
+authors:
+  - family-names: McDermott
+    given-names: Alex J.
+    affiliation: "SketchX; Surrey Institute for People-Centred AI, University of Surrey"
+  - family-names: Vadakkeeveetil Sreelatha
+    given-names: Silpa
+    affiliation: "Surrey Institute for People-Centred AI, University of Surrey"
+  - family-names: Dutta
+    given-names: Anjan
+    affiliation: "Surrey Institute for People-Centred AI, University of Surrey"
+  - family-names: Song
+    given-names: Yi-Zhe
+    affiliation: "SketchX; Surrey Institute for People-Centred AI, University of Surrey"
+date-released: 2026-11-18
+license: MIT

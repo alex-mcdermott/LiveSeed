@@ -1,0 +1,69 @@
+/* style.css: the styles of the crowd study's task page (calibration.html). */
+/* The rules for .images-grid, .img-card, .questions-box, .q-row, .q-text, .q-options, .radio-btn and .rubric-grid are not used by that page: they belong to the pairwise task, which the study did not run. */
+:root { --primary: #003366; --accent: #0066cc; --bg: #f5f7fa; --card: #ffffff; --line: #dde3ea; }
+* { box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; }
+body { margin: 0; padding: 18px; background: var(--bg); color: #1a1a1a; line-height: 1.45; }
+.container { max-width: 1400px; margin: 0 auto; background: var(--card); padding: 22px 30px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.06); }
+.consent-check { display: block; background: #eef4ff; border: 1px solid #c9d8f0; border-radius: 6px; padding: 12px 14px; margin: 14px 0; }
+.btn { background: var(--accent); color: #fff; border: none; padding: 11px 26px; font-size: 1rem; font-weight: 600; border-radius: 6px; cursor: pointer; }
+.btn:disabled { background: #a0aec0; cursor: not-allowed; }
+.btn-back { background: #fff; color: var(--accent); border: 2px solid var(--accent); padding: 9px 20px; }
+.btn-back:disabled { background: #fff; color: #a0aec0; border-color: #cbd5e0; }
+.header-bar { display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #e5e9f0; padding-bottom: 10px; margin-bottom: 14px; }
+.badge { background: var(--primary); color: #fff; padding: 5px 13px; border-radius: 16px; font-weight: 600; font-size: 0.9rem; }
+.prompt-box { background: #eef4ff; border-left: 5px solid var(--accent); padding: 12px 16px; border-radius: 6px; margin-bottom: 14px; font-size: 1.12rem; }
+.prompt-label { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.06em; color: #4a5568; font-weight: 700; display: block; margin-bottom: 3px; }
+.images-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; margin-bottom: 16px; }
+.img-card { background: #fafafa; border: 2px solid var(--line); border-radius: 8px; padding: 10px; text-align: center; }
+.img-card h3 { margin: 0 0 8px 0; font-size: 1rem; color: var(--primary); }
+.img-card img { width: 100%; max-height: 52vh; object-fit: contain; border-radius: 4px; cursor: zoom-in; background: #eee; }
+.broken { display: none; color: #b00020; font-size: 0.9rem; margin-top: 6px; }
+.questions-box { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 8px; padding: 12px 20px; }
+.q-row { display: flex; justify-content: space-between; align-items: center; padding: 10px 0; border-bottom: 1px solid #edf2f7; }
+.q-row:last-child { border-bottom: none; }
+.q-text { flex: 1; padding-right: 18px; }
+.q-options { display: flex; gap: 14px; min-width: 260px; justify-content: flex-end; }
+.radio-btn { display: flex; align-items: center; gap: 8px; background: #fff; border: 2px solid #cbd5e0; padding: 7px 16px; border-radius: 6px; cursor: pointer; font-weight: 600; }
+.radio-btn:has(input:checked) { border-color: var(--accent); background: #ebf4ff; }
+.nav-bar { display: flex; justify-content: space-between; align-items: center; margin-top: 16px; }
+.hint { color: #718096; font-size: 0.9rem; }
+/* The enlarged-image overlay and the final-submission box */
+#zoom-modal { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.88); z-index: 999; align-items: center; justify-content: center; cursor: zoom-out; }
+#zoom-modal img { max-width: 95vw; max-height: 95vh; }
+#finish-box { display: none; }
+.sticky-top { position: sticky; top: 0; z-index: 50; background: #fff; padding: 10px 0; border-bottom: 3px solid var(--primary); margin-bottom: 14px; }
+.rubric-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; font-size: 0.8rem; background: #f8fafc; padding: 8px 12px; border-radius: 6px; border: 1px solid #cbd5e0; }
+/* The grid of ten images and the 1-5 scale buttons */
+.seeds-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; }
+@media (max-width: 1250px) { .seeds-grid { grid-template-columns: repeat(4, 1fr); } }
+.seed-card { border: 2px solid #e2e8f0; border-radius: 8px; padding: 8px; background: #fafbfc; }
+.seed-card.completed { border-color: #38a169; background: #f0fff4; }
+.seed-card img { width: 100%; aspect-ratio: 1 / 1; object-fit: contain; border-radius: 4px; cursor: zoom-in; margin-bottom: 6px; background: #eee; }
+.scale-label { font-weight: 700; display: block; margin: 4px 0 3px; font-size: 0.8rem; color: #2d3748; }
+.scale-btns { display: flex; justify-content: space-between; gap: 3px; }
+.scale-btns label { flex: 1; text-align: center; border: 1px solid #cbd5e0; border-radius: 4px; padding: 4px 0; cursor: pointer; background: #fff; font-weight: 600; font-size: 0.85rem; }
+.scale-btns label:has(input:checked) { background: var(--accent); color: #fff; border-color: var(--accent); }
+.scale-btns input { display: none; }
+
+/* The rating task: instructions with rubrics and examples, one image at a time (Part 1), then the top three (Part 2) */
+.rubric-tables { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin: 12px 0; }
+.rubric-table { border-collapse: collapse; font-size: 0.9rem; width: 100%; }
+.rubric-table caption { text-align: left; font-weight: 700; color: var(--primary); padding-bottom: 6px; }
+.rubric-table th { width: 34px; background: #eef4ff; border: 1px solid var(--line); }
+.rubric-table td { border: 1px solid var(--line); padding: 5px 9px; }
+.example-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; font-size: 0.88rem; }
+.example { border: 1px solid var(--line); border-radius: 8px; padding: 10px; background: #fafbfc; }
+.example img { width: 100%; aspect-ratio: 1 / 1; object-fit: contain; border-radius: 4px; }
+.ex-prompt { font-style: italic; margin: 6px 0; }
+.rate-wrap { display: grid; grid-template-columns: minmax(0, 3fr) minmax(320px, 2fr); gap: 26px; align-items: start; }
+.rate-image { text-align: center; }
+.rate-image img { width: 100%; max-height: 80vh; object-fit: contain; border-radius: 6px; cursor: zoom-in; background: #eee; }
+.scale-block { margin: 16px 0; }
+.scale-block .scale-btns label { padding: 9px 0; font-size: 1.05rem; }
+.anchors { font-size: 0.8rem; color: #4a5568; margin-top: 6px; }
+.pick-card { position: relative; cursor: pointer; text-align: center; }
+.pick-card.picked { border-color: var(--accent); background: #ebf4ff; }
+.pick-card img { pointer-events: none; }
+.rank { position: absolute; top: 12px; left: 12px; background: var(--accent); color: #fff; font-weight: 700; border-radius: 12px; padding: 0 10px; line-height: 24px; }
+.rank:empty { display: none; }
+.enlarge { background: none; border: none; color: var(--accent); cursor: pointer; font-size: 0.82rem; text-decoration: underline; }

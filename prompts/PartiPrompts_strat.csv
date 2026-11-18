@@ -1,0 +1,241 @@
+Dataset,ID,prompt,category
+PartiPrompts,1,bond,Abstract
+PartiPrompts,2,element,Abstract
+PartiPrompts,3,molecule,Abstract
+PartiPrompts,4,life,Abstract
+PartiPrompts,5,protein,Abstract
+PartiPrompts,6,yin-yang,Abstract
+PartiPrompts,7,wood,Abstract
+PartiPrompts,8,metal,Abstract
+PartiPrompts,9,space,Abstract
+PartiPrompts,10,air,Abstract
+PartiPrompts,11,fire,Abstract
+PartiPrompts,12,water,Abstract
+PartiPrompts,13,earth,Abstract
+PartiPrompts,14,force,Abstract
+PartiPrompts,15,motion,Abstract
+PartiPrompts,16,inertia,Abstract
+PartiPrompts,17,energy,Abstract
+PartiPrompts,18,black hole,Abstract
+PartiPrompts,19,gravity,Abstract
+PartiPrompts,20,peace,Abstract
+PartiPrompts,21,a shiba inu,Animals
+PartiPrompts,22,a snail,Animals
+PartiPrompts,23,brain coral,Animals
+PartiPrompts,24,a capybara,Animals
+PartiPrompts,25,a baby penguin,Animals
+PartiPrompts,26,a hedgehog,Animals
+PartiPrompts,27,a corgi,Animals
+PartiPrompts,28,a fox,Animals
+PartiPrompts,29,a panda,Animals
+PartiPrompts,30,a tiger,Animals
+PartiPrompts,31,an owl,Animals
+PartiPrompts,32,a cow,Animals
+PartiPrompts,33,a whale,Animals
+PartiPrompts,34,a cat,Animals
+PartiPrompts,35,a giraffe,Animals
+PartiPrompts,36,an eagle,Animals
+PartiPrompts,37,a kangaroo,Animals
+PartiPrompts,38,a fish,Animals
+PartiPrompts,39,a horse,Animals
+PartiPrompts,40,a pig,Animals
+PartiPrompts,41,an espresso machine,Artifacts
+PartiPrompts,42,a propaganda poster,Artifacts
+PartiPrompts,43,a chair,Artifacts
+PartiPrompts,44,a robot,Artifacts
+PartiPrompts,45,robots,Artifacts
+PartiPrompts,46,a space elevator,Artifacts
+PartiPrompts,47,a clock,Artifacts
+PartiPrompts,48,a phone,Artifacts
+PartiPrompts,49,an armchair,Artifacts
+PartiPrompts,50,a teapot,Artifacts
+PartiPrompts,51,an illustration of a teapot,Artifacts
+PartiPrompts,52,a bench,Artifacts
+PartiPrompts,53,a laptop,Artifacts
+PartiPrompts,54,a t-shirt,Artifacts
+PartiPrompts,55,a bowl,Artifacts
+PartiPrompts,56,a flag,Artifacts
+PartiPrompts,57,a towel,Artifacts
+PartiPrompts,58,a wall,Artifacts
+PartiPrompts,59,a sword,Artifacts
+PartiPrompts,60,a statue,Artifacts
+PartiPrompts,61,The Starry Night,Arts
+PartiPrompts,62,A solitary figure shrouded in mists peers up from the cobble stone street at the imposing and dark gothic buildings surrounding it. an old-fashioned lamp shines nearby. oil painting.,Arts
+PartiPrompts,63,A richly textured oil painting of a young badger delicately sniffing a yellow rose next to a tree trunk. A small waterfall can be seen in the background.,Arts
+PartiPrompts,64,"A raccoon wearing formal clothes, wearing a tophat and holding a cane. The raccoon is holding a garbage bag. Oil painting in the style of abstract cubism.",Arts
+PartiPrompts,65,"A raccoon wearing formal clothes, wearing a tophat and holding a cane. The raccoon is holding a garbage bag. Oil painting in the style of Egyptian tomp hieroglyphics.",Arts
+PartiPrompts,66,"A raccoon wearing formal clothes, wearing a tophat and holding a cane. The raccoon is holding a garbage bag. Oil painting in the style of Hokusai.",Arts
+PartiPrompts,67,"A raccoon wearing formal clothes, wearing a tophat and holding a cane. The raccoon is holding a garbage bag. Oil painting in the style of Madhubani art.",Arts
+PartiPrompts,68,"A raccoon wearing formal clothes, wearing a tophat and holding a cane. The raccoon is holding a garbage bag. Oil painting in the style of pixel art.",Arts
+PartiPrompts,69,"A raccoon wearing formal clothes, wearing a tophat and holding a cane. The raccoon is holding a garbage bag. Oil painting in the style of pointilism.",Arts
+PartiPrompts,70,"A raccoon wearing formal clothes, wearing a tophat and holding a cane. The raccoon is holding a garbage bag. Oil painting in the style of Rembrandt.",Arts
+PartiPrompts,71,"A raccoon wearing formal clothes, wearing a tophat and holding a cane. The raccoon is holding a garbage bag. Oil painting in the style of traditional Chinese painting.",Arts
+PartiPrompts,72,"A raccoon wearing formal clothes, wearing a tophat and holding a cane. The raccoon is holding a garbage bag. Oil painting in the style of Vincent Van Gogh.",Arts
+PartiPrompts,73,"A raccoon wearing formal clothes, wearing a top hat and holding a cane. The raccoon is holding a garbage bag. Oil painting in the style of Vincent Van Gogh.",Arts
+PartiPrompts,74,"an oil surrealist painting of a dreamworld on a seashore where clocks and watches appear to be inexplicably limp and melting in the desolate landscape. a table on the left, with a golden watch swarmed by ants. a strange fleshy creature in the center of the painting",Arts
+PartiPrompts,75,"An oil painting of two rabbits in the style of American Gothic, wearing the same clothes as in the original.",Arts
+PartiPrompts,76,"a painting of an ornate treasure chest with a broad sword propped up against it, glowing in a dark cave",Arts
+PartiPrompts,77,"Oil-on-canvas painting of a blue night sky with roiling energy. A fuzzy and bright yellow crescent moon shining at the top. Below the exploding yellow stars and radiating swirls of blue, a distant village sits quietly on the right. Connecting earth and sky is a flame-like cypress tree with curling and swaying branches on the left. A church spire rises as a beacon over rolling blue hills",Arts
+PartiPrompts,78,"Painting of a panic-stricken creature, simultaneously corpselike and reminiscent of a sperm or fetus, whose contours are echoed in the swirling lines of the blood-red sky",Arts
+PartiPrompts,79,"a young badger delicately sniffing a yellow rose, richly textured oil painting",Arts
+PartiPrompts,80,A tornado made of sharks crashing into a skyscraper. painting in the style of Hokusai.,Arts
+PartiPrompts,81,A bowl of Pho,Food & Beverage
+PartiPrompts,82,a cup of boba,Food & Beverage
+PartiPrompts,83,A picture of some food in the plate,Food & Beverage
+PartiPrompts,84,food,Food & Beverage
+PartiPrompts,85,a cocktail,Food & Beverage
+PartiPrompts,86,a margarita,Food & Beverage
+PartiPrompts,87,a roast turkey,Food & Beverage
+PartiPrompts,88,orange juice,Food & Beverage
+PartiPrompts,89,a green pepper,Food & Beverage
+PartiPrompts,90,beer,Food & Beverage
+PartiPrompts,91,A photo of a hamburger fighting a hot dog in a boxing ring. The hot dog is tired and up against the ropes.,Food & Beverage
+PartiPrompts,92,a glass of orange juice to the right of a plate with buttered toast on it,Food & Beverage
+PartiPrompts,93,a bottle of beer next to an ashtray with a half-smoked cigarrette,Food & Beverage
+PartiPrompts,94,a pineapple with one beer to its left and two beers on its right,Food & Beverage
+PartiPrompts,95,"A table full of food. There is a plate of chicken rice, a bowl of bak chor mee, and a bowl of laksa.",Food & Beverage
+PartiPrompts,96,A bowl of Pho served with bean sprouts on top,Food & Beverage
+PartiPrompts,97,a bloody mary cocktail next to a napkin,Food & Beverage
+PartiPrompts,98,an old-fashioned cocktail next to a napkin,Food & Beverage
+PartiPrompts,99,a long-island ice tea cocktail next to a napkin,Food & Beverage
+PartiPrompts,100,a margarita next to a napkin,Food & Beverage
+PartiPrompts,101,parallel lines,Illustrations
+PartiPrompts,102,concentric circles,Illustrations
+PartiPrompts,103,concurrent lines,Illustrations
+PartiPrompts,104,congruent triangles,Illustrations
+PartiPrompts,105,a red cube,Illustrations
+PartiPrompts,106,a circle,Illustrations
+PartiPrompts,107,a red circle,Illustrations
+PartiPrompts,108,a box,Illustrations
+PartiPrompts,109,a yellow box,Illustrations
+PartiPrompts,110,a red box,Illustrations
+PartiPrompts,111,a sphere,Illustrations
+PartiPrompts,112,a red sphere,Illustrations
+PartiPrompts,113,a large blue box,Illustrations
+PartiPrompts,114,a blue metallic sphere,Illustrations
+PartiPrompts,115,a logo,Illustrations
+PartiPrompts,116,a circular logo,Illustrations
+PartiPrompts,117,a book cover,Illustrations
+PartiPrompts,118,a musical note,Illustrations
+PartiPrompts,119,a painting of black and white,Illustrations
+PartiPrompts,120,"A set of 2x2 emoji icons with happy, angry, surprised and sobbing faces. The emoji icons look like dogs. All of the dogs are wearing blue turtlenecks.",Illustrations
+PartiPrompts,121,a kitchen,Indoor Scenes
+PartiPrompts,122,a room,Indoor Scenes
+PartiPrompts,123,a wood cabin,Indoor Scenes
+PartiPrompts,124,a living room,Indoor Scenes
+PartiPrompts,125,a ceiling fan,Indoor Scenes
+PartiPrompts,126,"A wall in a royal castle. There are two paintings on the wall. The one on the left a detailed oil painting of the royal raccoon king. The one on the right a detailed oil painting of the royal raccoon queen. A cute dog looking at the two paintings, holding a sign saying 'plz conserve'",Indoor Scenes
+PartiPrompts,127,A single beam of light enter the room from the ceiling. The beam of light is illuminating an easel. On the easel there is a Rembrandt painting of a raccoon,Indoor Scenes
+PartiPrompts,128,A cozy living room with a painting of a corgi on the wall above a couch and a round coffee table in front of a couch and a vase of flowers on a coffee table,Indoor Scenes
+PartiPrompts,129,A high resolution photo of a donkey in a clown costume giving a lecture at the front of a lecture hall. The blackboard has mathematical equations on it. There are many students in the lecture hall.,Indoor Scenes
+PartiPrompts,130,An empty fireplace with a television above it. The TV shows a lion hugging a giraffe.,Indoor Scenes
+PartiPrompts,131,A bare kitchen has wood cabinets and white appliances,Indoor Scenes
+PartiPrompts,132,a room with two chairs and a painting of the Statue of Liberty,Indoor Scenes
+PartiPrompts,133,a large present with a red ribbon to the left of a Christmas tree,Indoor Scenes
+PartiPrompts,134,a wood cabin with a fire pit in front of it,Indoor Scenes
+PartiPrompts,135,a living room with a large Egyptian statue in the corner,Indoor Scenes
+PartiPrompts,136,a blue wall with a large framed watercolor painting of a mountain,Indoor Scenes
+PartiPrompts,137,a yellow wall with a large framed oil painting of a car,Indoor Scenes
+PartiPrompts,138,a ceiling fan with an ornate light fixture,Indoor Scenes
+PartiPrompts,139,red and yellow balloons hanging from a ceiling fan,Indoor Scenes
+PartiPrompts,140,a small kitchen with a white goat in it,Indoor Scenes
+PartiPrompts,141,a fall landscape,Outdoor Scenes
+PartiPrompts,142,a sunset,Outdoor Scenes
+PartiPrompts,143,a city,Outdoor Scenes
+PartiPrompts,144,a fog,Outdoor Scenes
+PartiPrompts,145,a store front,Outdoor Scenes
+PartiPrompts,146,a canal,Outdoor Scenes
+PartiPrompts,147,a street,Outdoor Scenes
+PartiPrompts,148,a house,Outdoor Scenes
+PartiPrompts,149,a city intersection,Outdoor Scenes
+PartiPrompts,150,a mountain,Outdoor Scenes
+PartiPrompts,151,waterfall,Outdoor Scenes
+PartiPrompts,152,a stone path,Outdoor Scenes
+PartiPrompts,153,a wooden deck,Outdoor Scenes
+PartiPrompts,154,a road,Outdoor Scenes
+PartiPrompts,155,a volcano,Outdoor Scenes
+PartiPrompts,156,the moon,Outdoor Scenes
+PartiPrompts,157,the Earth,Outdoor Scenes
+PartiPrompts,158,the planet Jupiter,Outdoor Scenes
+PartiPrompts,159,a tornado,Outdoor Scenes
+PartiPrompts,160,a tidal wave,Outdoor Scenes
+PartiPrompts,161,Salvador Dalí,People
+PartiPrompts,162,a handpalm,People
+PartiPrompts,163,a team,People
+PartiPrompts,164,a child,People
+PartiPrompts,165,a man,People
+PartiPrompts,166,a woman,People
+PartiPrompts,167,a girl,People
+PartiPrompts,168,a person,People
+PartiPrompts,169,a boy,People
+PartiPrompts,170,a boy and a tiger,People
+PartiPrompts,171,a family,People
+PartiPrompts,172,a father and a son,People
+PartiPrompts,173,a portrait of an old man,People
+PartiPrompts,174,a portrait of young girl,People
+PartiPrompts,175,a scientist,People
+PartiPrompts,176,Greek statue of a man comforting a cat. The cat has a big head. The man looks angry.,People
+PartiPrompts,177,"a portrait of a statue of a pharaoh wearing steampunk glasses, white t-shirt and leather jacket. dslr photograph.",People
+PartiPrompts,178,a Saint Bernard standing up with its paws in the air. A young girl is seated on the dog's shoulders.,People
+PartiPrompts,179,an invisible man wearing horn-rimmed glasses and a pearl bead necklase while looking at his phone,People
+PartiPrompts,180,a mixed media image with a photograph of a woman with long orange hair over a background that is a sketch of a city skyline,People
+PartiPrompts,181,a walnut,Produce & Plants
+PartiPrompts,182,an orange,Produce & Plants
+PartiPrompts,183,lily pads,Produce & Plants
+PartiPrompts,184,a pumpkin,Produce & Plants
+PartiPrompts,185,an avocado,Produce & Plants
+PartiPrompts,186,a banana,Produce & Plants
+PartiPrompts,187,a pineapple,Produce & Plants
+PartiPrompts,188,a tree,Produce & Plants
+PartiPrompts,189,a plant,Produce & Plants
+PartiPrompts,190,a flower,Produce & Plants
+PartiPrompts,191,a tree reflected in the hood of a blue car,Produce & Plants
+PartiPrompts,192,a tree reflected in the sunroof of a blue car,Produce & Plants
+PartiPrompts,193,a baby daikon radish in a tutu walking a dog,Produce & Plants
+PartiPrompts,194,an illustration of a baby daikon radish in a tutu walking a dog,Produce & Plants
+PartiPrompts,195,a small garden with an apple tree behind it,Produce & Plants
+PartiPrompts,196,a plant growing on the side of a brick wall,Produce & Plants
+PartiPrompts,197,a plant at the bottom of a shallow stream,Produce & Plants
+PartiPrompts,198,a bundle of blue and yellow flowers in a vase,Produce & Plants
+PartiPrompts,199,a baby daikon radish in a tutu,Produce & Plants
+PartiPrompts,200,a smiling banana wearing a bandana,Produce & Plants
+PartiPrompts,201,an F1,Vehicles
+PartiPrompts,202,a hot air balloon,Vehicles
+PartiPrompts,203,a boat,Vehicles
+PartiPrompts,204,a train,Vehicles
+PartiPrompts,205,a submarine,Vehicles
+PartiPrompts,206,a car,Vehicles
+PartiPrompts,207,a pirate ship,Vehicles
+PartiPrompts,208,an F1 race car,Vehicles
+PartiPrompts,209,a taxi,Vehicles
+PartiPrompts,210,a rowboat,Vehicles
+PartiPrompts,211,a pick-up truck,Vehicles
+PartiPrompts,212,an airplane,Vehicles
+PartiPrompts,213,a pickup truck,Vehicles
+PartiPrompts,214,a motorcycle,Vehicles
+PartiPrompts,215,A photograph of the inside of a subway train. There are frogs sitting on the seats. One of them is reading a newspaper. The window shows the river in the background.,Vehicles
+PartiPrompts,216,A photograph of the inside of a subway train. There are lobsters sitting on the seats. One of them is reading a newspaper. The window shows the ocean in the background.,Vehicles
+PartiPrompts,217,A photograph of the inside of a subway train. There are raccoons sitting on the seats. One of them is reading a newspaper. The window shows the city in the background.,Vehicles
+PartiPrompts,218,A photograph of the inside of a subway train. There are red pandas sitting on the seats. One of them is reading a newspaper. The window shows the jungle in the background.,Vehicles
+PartiPrompts,219,a blue semi-truck and its trailer jumping over a row of motorcycles. there are metal ramps on either side of the motorcycles.,Vehicles
+PartiPrompts,220,"a hot air balloon with a yin-yang symbol, with the moon visible in the daytime sky",Vehicles
+PartiPrompts,221,U.S. 101,World Knowledge
+PartiPrompts,222,The Oriental Pearl,World Knowledge
+PartiPrompts,223,Ha Long Bay,World Knowledge
+PartiPrompts,224,A Vietnam map,World Knowledge
+PartiPrompts,225,a photo of san francisco's golden gate bridge,World Knowledge
+PartiPrompts,226,the Empire State Building,World Knowledge
+PartiPrompts,227,the Sydney Opera House,World Knowledge
+PartiPrompts,228,the grand canyon,World Knowledge
+PartiPrompts,229,The Statue of Liberty,World Knowledge
+PartiPrompts,230,the Eiffel Tower,World Knowledge
+PartiPrompts,231,the city of London,World Knowledge
+PartiPrompts,232,the International Space Station,World Knowledge
+PartiPrompts,233,a kachina doll,World Knowledge
+PartiPrompts,234,Times Square,World Knowledge
+PartiPrompts,235,the Great Wall,World Knowledge
+PartiPrompts,236,the Kremlin,World Knowledge
+PartiPrompts,237,The Alamo,World Knowledge
+PartiPrompts,238,the geyser Old Faithful,World Knowledge
+PartiPrompts,239,the Great Pyramid,World Knowledge
+PartiPrompts,240,the Parthenon,World Knowledge

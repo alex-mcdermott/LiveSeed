@@ -1,0 +1,25 @@
+Bootstrap: docker
+From: pytorch/pytorch:2.8.0-cuda12.6-cudnn9-runtime
+
+%labels
+    Version v1.0
+    Description LiveSeed experiment container
+
+%environment
+    export PATH=/opt/conda/bin:$PATH
+    export CUDA_VISIBLE_DEVICES=0
+
+%files
+    requirements.txt /requirements.txt
+
+%post
+    apt-get update -y && apt-get install -y \
+        wget bzip2 curl git ca-certificates \
+        libglib2.0-0 libxext6 libsm6 libxrender1 libopenblas-dev && \
+        apt-get autoremove -y && apt-get autoclean -y
+
+    pip install --upgrade pip
+    pip install --no-cache-dir -r /requirements.txt
+
+%runscript
+    exec python "$@"

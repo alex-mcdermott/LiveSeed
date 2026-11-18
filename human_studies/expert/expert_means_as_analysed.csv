@@ -1,0 +1,401 @@
+Dataset,ID,CFG,Seed,prompt,T2I-CompBench_Image_Category,TIFA_Image_Category_Element_Type,SDXL_Image_Quality_Rating,SDXL_Prompt_Alignment_Rating,SDXL_Mean_IQ_and_Prompt_Alignmnet_Rating,SD35_Image_Quality_Rating,SD35_Prompt_Alignment_Rating,SD35_Mean_IQ_and_Prompt_Alignmnet_Rating
+T2I-CompBench,1,7,123456,a airplane hidden by a bag,3d_spatial,,4,3.666666667,3.833333333,3.666666667,3,3.333333333
+T2I-CompBench,2,7,123456,a airplane hidden by a vase,3d_spatial,,3.333333333,4,3.666666667,3.666666667,3.333333333,3.5
+T2I-CompBench,3,7,123456,a airplane on the right of a turtle,spatial,,2.333333333,3,2.666666667,3.333333333,4,3.666666667
+T2I-CompBench,4,7,123456,a bag behind a balloon,3d_spatial,,4,3.666666667,3.833333333,4.666666667,4,4.333333333
+T2I-CompBench,5,7,123456,A bartender is mixing drinks behind the bar.,non_spatial,,3.666666667,5,4.333333333,3.333333333,4.333333333,3.833333333
+T2I-CompBench,6,7,123456,A bathroom with beige tile and a white toilet.,color,,3.333333333,4.333333333,3.833333333,2.333333333,5,3.666666667
+T2I-CompBench,7,7,123456,a bee on the left of a refrigerator,spatial,,1.666666667,3,2.333333333,3.333333333,3.666666667,3.5
+T2I-CompBench,8,7,123456,a bee on the right of a refrigerator,spatial,,1.333333333,3,2.166666667,3.666666667,3.666666667,3.666666667
+T2I-CompBench,9,7,123456,a big hippopotamus and a small rabbit,shape,,2.666666667,4,3.333333333,4,4.333333333,4.166666667
+T2I-CompBench,10,7,123456,a big truck and a small car,shape,,3,5,4,4,5,4.5
+T2I-CompBench,11,7,123456,a bird behind a rabbit,3d_spatial,,3.666666667,3.333333333,3.5,4.666666667,5,4.833333333
+T2I-CompBench,12,7,123456,a bird on the top of a balloon,spatial,,3.666666667,1.666666667,2.666666667,4,5,4.5
+T2I-CompBench,13,7,123456,A black and white cat sits in a white sink.,color,,5,4.666666667,4.833333333,4.333333333,4.666666667,4.5
+T2I-CompBench,14,7,123456,a black pen and a blue ink,color,,4.666666667,3,3.833333333,5,5,5
+T2I-CompBench,15,7,123456,a blue backpack and a brown sheep,color,,4,4,4,4.333333333,4,4.166666667
+T2I-CompBench,16,7,123456,a blue boat and a red book,color,,3.666666667,3.333333333,3.5,4.666666667,4.333333333,4.5
+T2I-CompBench,17,7,123456,a blue boat and a red suitcase,color,,3.333333333,5,4.166666667,5,5,5
+T2I-CompBench,18,7,123456,a blue envelope and a white stamp,color,,3,2.333333333,2.666666667,4.666666667,4.333333333,4.5
+T2I-CompBench,19,7,123456,A blue scooter is parked near a curb in front of a green vintage car.,color,,2.333333333,2,2.166666667,4.666666667,4.666666667,4.666666667
+T2I-CompBench,20,7,123456,a bowl in front of a cow,3d_spatial,,2,2,2,4.333333333,4.333333333,4.333333333
+T2I-CompBench,21,7,123456,a boy on side of a bee,spatial,,2.333333333,2,2.166666667,2.333333333,3.333333333,2.833333333
+T2I-CompBench,22,7,123456,a brown banana and a green dog,color,,4.666666667,2.666666667,3.666666667,4,4.333333333,4.166666667
+T2I-CompBench,23,7,123456,a brown bird and a blue bear,color,,5,3,4,4.333333333,5,4.666666667
+T2I-CompBench,24,7,123456,a brown cat and a red orange,color,,4.666666667,2.666666667,3.666666667,5,4,4.5
+T2I-CompBench,25,7,123456,a brown cup and a blue horse,color,,2.666666667,4.666666667,3.666666667,4.666666667,3.666666667,4.166666667
+T2I-CompBench,26,7,123456,a brown cup and a blue sheep,color,,3.666666667,3,3.333333333,2.666666667,2.666666667,2.666666667
+T2I-CompBench,27,7,123456,a brown frog and a green pond,color,,4.333333333,4.666666667,4.5,5,5,5
+T2I-CompBench,28,7,123456,a butterfly on the right of a balloon,spatial,,3.666666667,3.333333333,3.5,4.333333333,3.666666667,4
+T2I-CompBench,29,7,123456,a butterfly on the right of a couch,spatial,,4,4.666666667,4.333333333,5,4,4.5
+T2I-CompBench,30,7,123456,a candle behind a vase,3d_spatial,,4.333333333,3,3.666666667,4.666666667,2,3.333333333
+T2I-CompBench,31,7,123456,a candle on the right of a bird,spatial,,4.666666667,4,4.333333333,5,5,5
+T2I-CompBench,32,7,123456,a car behind a clock,3d_spatial,,4,4,4,3.666666667,4.333333333,4
+T2I-CompBench,33,7,123456,a car on the right of a man,spatial,,3.333333333,4.666666667,4,4,4.666666667,4.333333333
+T2I-CompBench,34,7,123456,a cat behind a wallet,3d_spatial,,3,3.333333333,3.166666667,4.666666667,4.333333333,4.5
+T2I-CompBench,35,7,123456,A cat is wearing a collar with a bell on it.,non_spatial,,4,4.666666667,4.333333333,5,5,5
+T2I-CompBench,36,7,123456,a cat on the left of a lamp,spatial,,4.666666667,4,4.333333333,3.333333333,5,4.166666667
+T2I-CompBench,37,7,123456,a cat on the top of a microwave,spatial,,2.666666667,2.666666667,2.666666667,4.333333333,5,4.666666667
+T2I-CompBench,38,7,123456,a chair on the right of a frog,spatial,,4.333333333,5,4.666666667,5,4.666666667,4.833333333
+T2I-CompBench,39,7,123456,"A chef is carefully seasoning a dish, tasting it over and over until it's just right.",non_spatial,,3.666666667,3.666666667,3.666666667,3.333333333,4.333333333,3.833333333
+T2I-CompBench,40,7,123456,a chicken behind a person,3d_spatial,,4.333333333,3,3.666666667,4.666666667,3.666666667,4.166666667
+T2I-CompBench,41,7,123456,a circular dining table and a triangular table runner,shape,,3.333333333,2.333333333,2.833333333,3.333333333,3.666666667,3.5
+T2I-CompBench,42,7,123456,a clock behind a painting,3d_spatial,,3,2.666666667,2.833333333,4,4,4
+T2I-CompBench,43,7,123456,a computer on the top of a rabbit,spatial,,2.333333333,2.666666667,2.5,4,3.666666667,3.833333333
+T2I-CompBench,44,7,123456,a couch in front of a bee,3d_spatial,,3.333333333,3,3.166666667,2.666666667,3.333333333,3
+T2I-CompBench,45,7,123456,A couple is watching a movie and snuggled up on the couch.,non_spatial,,3.333333333,3.666666667,3.5,2.666666667,3.333333333,3
+T2I-CompBench,46,7,123456,a cow on the top of a chair,spatial,,1.666666667,2,1.833333333,2.333333333,4.333333333,3.333333333
+T2I-CompBench,47,7,123456,a cubic block and a cylindrical bottle,shape,,4,3.333333333,3.666666667,5,5,5
+T2I-CompBench,48,7,123456,a cubic block and a cylindrical canister,shape,,3.666666667,3.666666667,3.666666667,5,4.666666667,4.833333333
+T2I-CompBench,49,7,123456,a cubic block and a triangular building set,shape,,2,1.333333333,1.666666667,4.333333333,4,4.166666667
+T2I-CompBench,50,7,123456,a cubic die and a cylindrical flashlight,shape,,4,1.666666667,2.833333333,4,2,3
+T2I-CompBench,51,7,123456,a cup behind a desk,3d_spatial,,4.333333333,2.666666667,3.5,4.333333333,2.666666667,3.5
+T2I-CompBench,52,7,123456,a cup in front of a turtle,3d_spatial,,3.333333333,4,3.666666667,5,4,4.5
+T2I-CompBench,53,7,123456,a desk behind a woman,3d_spatial,,3.666666667,4.333333333,4,4,4.666666667,4.333333333
+T2I-CompBench,54,7,123456,a dog hidden by a television,3d_spatial,,4,2.666666667,3.333333333,3,2.666666667,2.833333333
+T2I-CompBench,55,7,123456,A dog is cuddling with its owner and showing affection.,non_spatial,,3,5,4,4.333333333,2,3.166666667
+T2I-CompBench,56,7,123456,A dog is playing fetch with its owner and bringing back a ball.,non_spatial,,4,2.666666667,3.333333333,3.333333333,4.666666667,4
+T2I-CompBench,57,7,123456,a dog on the top of a desk,spatial,,3.666666667,5,4.333333333,2.666666667,4.666666667,3.666666667
+T2I-CompBench,58,7,123456,a fabric hat and a fluffy blanket,texture,,4.333333333,4,4.166666667,5,4.666666667,4.833333333
+T2I-CompBench,59,7,123456,a fabric hat and a fluffy sweater,texture,,3.666666667,3.666666667,3.666666667,4,4.666666667,4.333333333
+T2I-CompBench,60,7,123456,a fabric pants and a fluffy rug,texture,,3.666666667,3.333333333,3.5,4.333333333,5,4.666666667
+T2I-CompBench,61,7,123456,a fabric shirt and a leather wallet,texture,,4,4.666666667,4.333333333,3.666666667,4.333333333,4
+T2I-CompBench,62,7,123456,a fabric sweater and a leather sofa,texture,,3,4.333333333,3.666666667,2.666666667,3.666666667,3.166666667
+T2I-CompBench,63,7,123456,A father is teaching his son how to ride a bike in the park.,non_spatial,,3.333333333,4.333333333,3.833333333,3.333333333,5,4.166666667
+T2I-CompBench,64,7,123456,a fish hidden by a sofa,3d_spatial,,3.666666667,3.666666667,3.666666667,3.666666667,3.333333333,3.5
+T2I-CompBench,65,7,123456,a fish next to a desk,spatial,,2,3.666666667,2.833333333,2.333333333,3.333333333,2.833333333
+T2I-CompBench,66,7,123456,a fluffy pillow and a glass window,texture,,3,4.666666667,3.833333333,5,5,5
+T2I-CompBench,67,7,123456,a fluffy towel and a glass jar,texture,,4,4.333333333,4.166666667,3.333333333,4.666666667,4
+T2I-CompBench,68,7,123456,a frog hidden by a bicycle,3d_spatial,,2,3.333333333,2.666666667,4.333333333,4.666666667,4.5
+T2I-CompBench,69,7,123456,"A gardener is tending to their plants, carefully watering and pruning each one.",non_spatial,,4,4.666666667,4.333333333,2.666666667,2.333333333,2.5
+T2I-CompBench,70,7,123456,a giraffe behind a vase,3d_spatial,,3.333333333,5,4.166666667,3.333333333,4,3.666666667
+T2I-CompBench,71,7,123456,a giraffe on the bottom of a suitcase,spatial,,3,3.666666667,3.333333333,2.333333333,3.666666667,3
+T2I-CompBench,72,7,123456,a giraffe on the left of a train,spatial,,3,4,3.5,2.666666667,4,3.333333333
+T2I-CompBench,73,7,123456,a girl hidden by a bird,3d_spatial,,3.333333333,3.666666667,3.5,3,4,3.5
+T2I-CompBench,74,7,123456,a girl hidden by a refrigerator,3d_spatial,,4,4,4,3.333333333,4,3.666666667
+T2I-CompBench,75,7,123456,a girl on the bottom of a bag,spatial,,2,3,2.5,2.666666667,3.333333333,3
+T2I-CompBench,76,7,123456,a gold backpack and a blue clock,color,,3.333333333,3.666666667,3.5,4.333333333,5,4.666666667
+T2I-CompBench,77,7,123456,a green apple and a black backpack,color,,4,4,4,4.333333333,5,4.666666667
+T2I-CompBench,78,7,123456,a green bench and a blue cake,color,,5,3.333333333,4.166666667,4,5,4.5
+T2I-CompBench,79,7,123456,a green cup and a blue cell phone,color,,4,4.333333333,4.166666667,3.666666667,5,4.333333333
+T2I-CompBench,80,7,123456,A green scooter is parked near a curb in front of a blue vintage car.,color,,4,2,3,3,5,4
+T2I-CompBench,81,7,123456,A group of friends is having a picnic under a big oak tree.,non_spatial,,3.666666667,5,4.333333333,3.333333333,5,4.166666667
+T2I-CompBench,82,7,123456,A group of people are watching a fireworks display.,non_spatial,,5,5,5,4.666666667,5,4.833333333
+T2I-CompBench,83,7,123456,a horse hidden by a boy,3d_spatial,,3,4,3.5,2,2.333333333,2.166666667
+T2I-CompBench,84,7,123456,a horse near a wallet,spatial,,2.666666667,4.333333333,3.5,3.666666667,4.333333333,4
+T2I-CompBench,85,7,123456,a horse on side of a bicycle,spatial,,1.333333333,4.333333333,2.833333333,1.666666667,4,2.833333333
+T2I-CompBench,86,7,123456,a horse on side of a car,spatial,,2.666666667,4,3.333333333,2.333333333,3.666666667,3
+T2I-CompBench,87,7,123456,A kitchen with white tile floor and blue sloped ceiling.,color,,3,3.333333333,3.166666667,3.666666667,5,4.333333333
+T2I-CompBench,88,7,123456,a leather jacket and a glass vase,texture,,4.666666667,2,3.333333333,2.666666667,5,3.833333333
+T2I-CompBench,89,7,123456,a long necklace and a short earring,shape,,4,4.666666667,4.333333333,4.333333333,4.333333333,4.333333333
+T2I-CompBench,90,7,123456,A long road and a short path led to the same destination.,shape,,4,2.333333333,3.166666667,5,2,3.5
+T2I-CompBench,91,7,123456,a man hidden by a backpack,3d_spatial,,3.333333333,3.666666667,3.5,3.666666667,3.666666667,3.666666667
+T2I-CompBench,92,7,123456,A man is playing the drums in his garage band.,non_spatial,,3,4,3.5,3.333333333,3.333333333,3.333333333
+T2I-CompBench,93,7,123456,A man is raking leaves in the front yard.,non_spatial,,3.666666667,5,4.333333333,3,4.333333333,3.666666667
+T2I-CompBench,94,7,123456,A man is running a marathon and crossing the finish line.,non_spatial,,3,5,4,3,4.666666667,3.833333333
+T2I-CompBench,95,7,123456,a man on side of a candle,spatial,,2.666666667,4,3.333333333,3.666666667,4.333333333,4
+T2I-CompBench,96,7,123456,a man on the top of a turtle,spatial,,4,5,4.5,2.666666667,5,3.833333333
+T2I-CompBench,97,7,123456,a metallic car and a fabric dress,texture,,3.666666667,3.333333333,3.5,4.666666667,4.333333333,4.5
+T2I-CompBench,98,7,123456,a metallic desk lamp and a fluffy sweater,texture,,4.333333333,2,3.166666667,5,5,5
+T2I-CompBench,99,7,123456,a metallic door knob and a fabric blanket,texture,,5,2,3.5,4.333333333,5,4.666666667
+T2I-CompBench,100,7,123456,a metallic door knob and a wooden floor,texture,,4,4.666666667,4.333333333,3.333333333,5,4.166666667
+T2I-CompBench,101,7,123456,a metallic fork and a wooden desk,texture,,3,3,3,2.666666667,3.333333333,3
+T2I-CompBench,102,7,123456,a metallic watch and a glass bottle,texture,,3,2.333333333,2.666666667,4,5,4.5
+T2I-CompBench,103,7,123456,a microwave in front of a butterfly,3d_spatial,,2.666666667,3.666666667,3.166666667,4.333333333,4,4.166666667
+T2I-CompBench,104,7,123456,"a microwave, a cup, three ships, and two fish were in the pantry",numeracy,,3.333333333,2.333333333,2.833333333,2.666666667,2,2.333333333
+T2I-CompBench,105,7,123456,a mouse hidden by a dog,3d_spatial,,4,2,3,4.333333333,2,3.166666667
+T2I-CompBench,106,7,123456,a mouse near a bowl,spatial,,2.333333333,3,2.666666667,3.666666667,4.666666667,4.166666667
+T2I-CompBench,107,7,123456,a painting on the bottom of a chicken,spatial,,3.333333333,3,3.166666667,4.666666667,2,3.333333333
+T2I-CompBench,108,7,123456,a pentagonal clock and a conical clock face,shape,,2.333333333,2,2.166666667,4,2.666666667,3.333333333
+T2I-CompBench,109,7,123456,a pentagonal stop sign and a pyramidal sculpture,shape,,3.333333333,4,3.666666667,2.666666667,3.666666667,3.166666667
+T2I-CompBench,110,7,123456,a pentagonal yield sign and a pyramidal book stand.,shape,,2,1.666666667,1.833333333,2.666666667,1.333333333,2
+T2I-CompBench,111,7,123456,a pentagonal yield sign and a pyramidal salt shaker,shape,,1.333333333,1.333333333,1.333333333,4.333333333,3.666666667,4
+T2I-CompBench,112,7,123456,a person hidden by a book,3d_spatial,,1,1.666666667,1.333333333,3,3.666666667,3.333333333
+T2I-CompBench,113,7,123456,A person is holding a basketball and playing a game with friends.,non_spatial,,1,3.666666667,2.333333333,2.333333333,3.666666667,3
+T2I-CompBench,114,7,123456,A person is holding a bouquet of flowers and giving it to a loved one.,non_spatial,,2.333333333,2.333333333,2.333333333,1.666666667,3.333333333,2.5
+T2I-CompBench,115,7,123456,A person is holding a calculator and working on a math problem.,non_spatial,,2.666666667,4,3.333333333,2,3.666666667,2.833333333
+T2I-CompBench,116,7,123456,A person is holding a glass of wine and enjoying a sunset.,non_spatial,,3.333333333,3.333333333,3.333333333,2.666666667,3.333333333,3
+T2I-CompBench,117,7,123456,A person is holding a piece of fruit and taking a bite.,non_spatial,,1,3.333333333,2.166666667,1.666666667,4,2.833333333
+T2I-CompBench,118,7,123456,A person is kissing someone they love.,non_spatial,,2,5,3.5,2,4.666666667,3.333333333
+T2I-CompBench,119,7,123456,A person is looking at a display of vintage clothing and admiring the fashion.,non_spatial,,3.333333333,4.666666667,4,2.666666667,4,3.333333333
+T2I-CompBench,120,7,123456,A person is looking at a map and trying to find their way.,non_spatial,,2.333333333,4,3.166666667,3.666666667,4.666666667,4.166666667
+T2I-CompBench,121,7,123456,A person is looking at a map of the human brain and studying neuroscience.,non_spatial,,2.666666667,3,2.833333333,3,4,3.5
+T2I-CompBench,122,7,123456,A person is looking at a starry night sky and feeling awe-struck.,non_spatial,,4.666666667,5,4.833333333,5,4.666666667,4.833333333
+T2I-CompBench,123,7,123456,A person is sighing in relief.,non_spatial,,3,2.333333333,2.666666667,1,1.666666667,1.333333333
+T2I-CompBench,124,7,123456,A person is taking a hot air balloon ride over the countryside.,non_spatial,,5,4,4.5,4.333333333,4.666666667,4.5
+T2I-CompBench,125,7,123456,a person on side of a cow,spatial,,3,4,3.5,2,4,3
+T2I-CompBench,126,7,123456,a phone behind a vase,3d_spatial,,3.666666667,2,2.833333333,4,4,4
+T2I-CompBench,127,7,123456,a pig behind a car,3d_spatial,,4.333333333,4,4.166666667,2,4,3
+T2I-CompBench,128,7,123456,a pig hidden by a girl,3d_spatial,,4.333333333,4,4.166666667,2.666666667,4,3.333333333
+T2I-CompBench,129,7,123456,a plastic bag and a fabric pants,texture,,4.666666667,1.666666667,3.166666667,3,4.333333333,3.666666667
+T2I-CompBench,130,7,123456,a plastic bag and a glass jar,texture,,4,2,3,2,5,3.5
+T2I-CompBench,131,7,123456,a plastic bottle and a leather wallet,texture,,3,4.666666667,3.833333333,5,4.666666667,4.833333333
+T2I-CompBench,132,7,123456,a plastic chair and a fluffy teddy bear,texture,,2.333333333,4,3.166666667,4,5,4.5
+T2I-CompBench,133,7,123456,a plastic container and a fluffy teddy bear,texture,,2.666666667,4,3.333333333,4.333333333,5,4.666666667
+T2I-CompBench,134,7,123456,a plastic phone case and a leather chair,texture,,2,4,3,3,2.666666667,2.833333333
+T2I-CompBench,135,7,123456,a red boat and a blue book,color,,3.333333333,2.666666667,3,2.333333333,3.666666667,3
+T2I-CompBench,136,7,123456,a red boat and a blue suitcase,color,,4,5,4.5,4,5,4.5
+T2I-CompBench,137,7,123456,a red car and a blue cup,color,,2,3.666666667,2.833333333,3.333333333,4.666666667,4
+T2I-CompBench,138,7,123456,a red giraffe and a brown orange,color,,3.333333333,2,2.666666667,1.666666667,1.666666667,1.666666667
+T2I-CompBench,139,7,123456,a red giraffe and a brown train,color,,3,4,3.5,2.333333333,2.333333333,2.333333333
+T2I-CompBench,140,7,123456,a red school bus and a green bag,color,,3,2,2.5,3.666666667,4.333333333,4
+T2I-CompBench,141,7,123456,a round bagel and a rectangular toaster,shape,,4,4,4,3,4.666666667,3.833333333
+T2I-CompBench,142,7,123456,a round bagel and a square toaster,shape,,4,3.333333333,3.666666667,2.333333333,4,3.166666667
+T2I-CompBench,143,7,123456,a round pizza and a square pizza box,shape,,3.333333333,5,4.166666667,3.333333333,5,4.166666667
+T2I-CompBench,144,7,123456,a rubber ball and a leather belt,texture,,2.333333333,4.333333333,3.333333333,3.333333333,4.333333333,3.833333333
+T2I-CompBench,145,7,123456,a rubber ball and a leather wallet,texture,,4.333333333,4.666666667,4.5,4.333333333,4.666666667,4.5
+T2I-CompBench,146,7,123456,a rubber band and a glass jar,texture,,3.333333333,4.333333333,3.833333333,3.666666667,4.333333333,4
+T2I-CompBench,147,7,123456,a sheep in front of a frog,3d_spatial,,3,4,3.5,3.666666667,4.333333333,4
+T2I-CompBench,148,7,123456,a sheep on the left of a lamp,spatial,,3.666666667,4.333333333,4,3.333333333,4.666666667,4
+T2I-CompBench,149,7,123456,a small bagel and a rectangular sandwich,shape,,4.333333333,2,3.166666667,3,4.666666667,3.833333333
+T2I-CompBench,150,7,123456,A small bathroom with a small brown toilet next to a white sink.,color,,3,2.666666667,2.833333333,3,3,3
+T2I-CompBench,151,7,123456,A small kitten and a big dog sat side by side.,shape,,3.666666667,4.333333333,4,4.666666667,4,4.333333333
+T2I-CompBench,152,7,123456,a sofa in front of a couch,3d_spatial,,4.666666667,2.333333333,3.5,4,2,3
+T2I-CompBench,153,7,123456,a spherical golf ball and a conical tee.,shape,,4.333333333,3.666666667,4,5,3.333333333,4.166666667
+T2I-CompBench,154,7,123456,a spherical ornament and a triangular tree topper,shape,,3.666666667,2.666666667,3.166666667,3.666666667,2.333333333,3
+T2I-CompBench,155,7,123456,a spherical tennis ball and a conical tennis shoe,shape,,3,3.333333333,3.166666667,3.666666667,4.666666667,4.166666667
+T2I-CompBench,156,7,123456,"a strawberry, two bananas, four tents, and two peaches completed the camping gear",numeracy,,3,3,3,4,4,4
+T2I-CompBench,157,7,123456,a suitcase behind a bicycle,3d_spatial,,2,3.666666667,2.833333333,4.666666667,4,4.333333333
+T2I-CompBench,158,7,123456,a table hidden by a sofa,3d_spatial,,2.666666667,3.666666667,3.166666667,3.666666667,3.666666667,3.666666667
+T2I-CompBench,159,7,123456,a table on the left of a girl,spatial,,3.666666667,4,3.833333333,3.333333333,3.333333333,3.333333333
+T2I-CompBench,160,7,123456,a tall palm tree and a short shrub,shape,,3.666666667,3.666666667,3.666666667,4.333333333,5,4.666666667
+T2I-CompBench,161,7,123456,a tall tree and a short bush,shape,,5,4,4.5,5,4.666666667,4.833333333
+T2I-CompBench,162,7,123456,"A team of athletes is competing in a tournament, pushing themselves to give it their all.",non_spatial,,1.666666667,4,2.833333333,2,4,3
+T2I-CompBench,163,7,123456,a teardrop pendant and a triangular chain necklace,shape,,5,3,4,4.333333333,4.333333333,4.333333333
+T2I-CompBench,164,7,123456,"A toddler clumsily chased after a ball, giggling with delight.",non_spatial,,3.333333333,4.333333333,3.833333333,4,4.333333333,4.166666667
+T2I-CompBench,165,7,123456,a train on the bottom of a girl,spatial,,3.333333333,3,3.166666667,4,3,3.5
+T2I-CompBench,166,7,123456,a turtle hidden by a bowl,3d_spatial,,2.333333333,3.666666667,3,3.666666667,3,3.333333333
+T2I-CompBench,167,7,123456,a vase hidden by a clock,3d_spatial,,4.333333333,3.333333333,3.833333333,4,2.333333333,3.166666667
+T2I-CompBench,168,7,123456,a wallet in front of a person,3d_spatial,,3.666666667,2.666666667,3.166666667,2.333333333,2.333333333,2.333333333
+T2I-CompBench,169,7,123456,a wallet on the bottom of a bird,spatial,,5,2,3.5,3.666666667,4.333333333,4
+T2I-CompBench,170,7,123456,a wallet on the top of a man,spatial,,2,2,2,1.333333333,1.666666667,1.5
+T2I-CompBench,171,7,123456,a white car and a red sheep,color,,3,5,4,3.333333333,5,4.166666667
+T2I-CompBench,172,7,123456,a white cloud and a black sky,color,,5,4.666666667,4.833333333,4.333333333,5,4.666666667
+T2I-CompBench,173,7,123456,A woman in a pink shirt and jeans holds a white umbrella in the rain.,color,,4,4,4,2,4.666666667,3.333333333
+T2I-CompBench,174,7,123456,A woman is holding a bouquet of flowers on her wedding day.,non_spatial,,4,5,4.5,4,5,4.5
+T2I-CompBench,175,7,123456,A woman is holding a plate of food and serving it to guests.,non_spatial,,2.333333333,4.666666667,3.5,3.333333333,3.666666667,3.5
+T2I-CompBench,176,7,123456,A woman is holding a yoga mat and heading to a class.,non_spatial,,2,4.333333333,3.166666667,3,4,3.5
+T2I-CompBench,177,7,123456,A woman is sipping coffee while looking out a window.,non_spatial,,2.333333333,5,3.666666667,2.333333333,4,3.166666667
+T2I-CompBench,178,7,123456,a woman on side of a frog,spatial,,1,2.333333333,1.666666667,3.666666667,3.333333333,3.5
+T2I-CompBench,179,7,123456,a woman on the bottom of a frog,spatial,,1.666666667,2.333333333,2,2.333333333,2.333333333,2.333333333
+T2I-CompBench,180,7,123456,a woman on the left of a cup,spatial,,3.666666667,3.333333333,3.5,3,4.666666667,3.833333333
+T2I-CompBench,181,7,123456,a wooden door and a fabric dress,texture,,5,4.666666667,4.833333333,4,4.666666667,4.333333333
+T2I-CompBench,182,7,123456,a wooden floor and a fabric shirt,texture,,4.666666667,5,4.833333333,3,4.333333333,3.666666667
+T2I-CompBench,183,7,123456,a wooden spoon and a fabric rug,texture,,4.666666667,4,4.333333333,4.333333333,4.333333333,4.333333333
+T2I-CompBench,184,7,123456,a yellow apple and a red pear,color,,5,3.333333333,4.166666667,5,4.333333333,4.666666667
+T2I-CompBench,185,7,123456,a yellow duck and a blue pond,color,,3.666666667,3.666666667,3.666666667,4.666666667,5,4.833333333
+T2I-CompBench,186,7,123456,a yellow grass and a green dandelion,color,,4,3.333333333,3.666666667,5,4,4.5
+T2I-CompBench,187,7,123456,an oblong carrot and a teardrop plum,shape,,3.666666667,4.333333333,4,3.666666667,3,3.333333333
+T2I-CompBench,188,7,123456,an oblong cucumber and a teardrop plum,shape,,4.333333333,3,3.666666667,4,3.666666667,3.833333333
+T2I-CompBench,189,7,123456,an oblong squash and a teardrop nectarine.,shape,,4,2.333333333,3.166666667,3.333333333,3,3.166666667
+T2I-CompBench,190,7,123456,an oblong squash and a teardrop plum,shape,,4.666666667,2,3.333333333,4.333333333,2.666666667,3.5
+T2I-CompBench,191,7,123456,an oblong sweet potato and a teardrop peach,shape,,4.333333333,2,3.166666667,4.333333333,4,4.166666667
+T2I-CompBench,192,7,123456,an oblong watermelon and a teardrop pear.,shape,,5,2,3.5,4.666666667,3.333333333,4
+T2I-CompBench,193,7,123456,an oval bathtub and a rectangular soap dish,shape,,3.666666667,2,2.833333333,4,5,4.5
+T2I-CompBench,194,7,123456,an oval coffee table and a rectangular rug,shape,,3.666666667,3,3.333333333,3.666666667,4,3.833333333
+T2I-CompBench,195,7,123456,an oval platter and a rectangular tablecloth.,shape,,2,3.333333333,2.666666667,3.333333333,3.333333333,3.333333333
+T2I-CompBench,196,7,123456,eight bottles,numeracy,,3.666666667,3,3.333333333,4,4.333333333,4.166666667
+T2I-CompBench,197,7,123456,eight sofas provided comfortable seating,numeracy,,2.666666667,2.666666667,2.666666667,3.333333333,3.333333333,3.333333333
+T2I-CompBench,198,7,123456,five books,numeracy,,3,2.666666667,2.833333333,4.333333333,4.666666667,4.5
+T2I-CompBench,199,7,123456,five candles,numeracy,,3.666666667,3,3.333333333,5,3.666666667,4.333333333
+T2I-CompBench,200,7,123456,five knives,numeracy,,3,3,3,4,3.333333333,3.666666667
+TIFA,coco_101597,7,123456,Two zebras are standing in the shade of a building,,"activity, animal/human, counting, location, spatial",4.333333333,3.666666667,4,3.666666667,5,4.333333333
+TIFA,coco_104794,7,123456,a man on a soccer field dressed in a soccer uniform kicking a soccer ball,,"activity, animal/human, location, object",3,4,3.5,3.666666667,4.666666667,4.166666667
+TIFA,coco_107261,7,123456,The little boy is having fun playing at the computer keybord,,"activity, animal/human, object",3,3.666666667,3.333333333,2.333333333,4.666666667,3.5
+TIFA,coco_110128,7,123456,A group of players playing a baseball game.,,"activity, animal/human, counting",3,3.333333333,3.166666667,2.333333333,5,3.666666667
+TIFA,coco_123999,7,123456,A man holding a tennis racquet on a tennis court.,,"activity, animal/human, location, object",4.333333333,4.333333333,4.333333333,3.333333333,5,4.166666667
+TIFA,coco_128760,7,123456,A number of people skiing down ski slopes,,"activity, animal/human, counting, location",5,5,5,3.333333333,5,4.166666667
+TIFA,coco_131259,7,123456,A man blowing out candles on a cake.,,"activity, animal/human, food, object",2,4,3,2.666666667,4.333333333,3.5
+TIFA,coco_132359,7,123456,a bus drives through a city street with a building in the background,,"activity, location, object",3.666666667,5,4.333333333,2.666666667,4.333333333,3.5
+TIFA,coco_138003,7,123456,A midsized horse in a field with her rider standing,,"activity, animal/human, attribute, location",4,5,4.5,2.666666667,4,3.333333333
+TIFA,coco_152624,7,123456,A man pouring wine into two other mens wine glasses,,"activity, animal/human, counting, food, object",2,2.666666667,2.333333333,2,2.666666667,2.333333333
+TIFA,coco_15365,7,123456,Two dogs playing with each other in the grass.,,"activity, animal/human, counting, object",5,4.666666667,4.833333333,4.333333333,5,4.666666667
+TIFA,coco_182098,7,123456,A man riding his bike of rock cliffs.,,"activity, animal/human, location, object",3,4,3.5,3.666666667,5,4.333333333
+TIFA,coco_185186,7,123456,A black and white photo of a man on a cell phone.,,,3,4.333333333,3.666666667,2,4,3
+TIFA,coco_186276,7,123456,People looking into the front window display of a bakery,,"activity, animal/human, location, object",4,4.666666667,4.333333333,2.333333333,3,2.666666667
+TIFA,coco_186783,7,123456,A LOT OF ELEPHANTS ARE GROUP TOGETHER,,,4,5,4.5,2.333333333,5,3.666666667
+TIFA,coco_196165,7,123456,Three different types of pizzas and other items on display at a pizzeria.,,"activity, attribute, counting, food, location",3.666666667,3.333333333,3.5,4,2.666666667,3.333333333
+TIFA,coco_196661,7,123456,"A living room with seating areas, tables, and windows.",,"location, object",3,5,4,4,3.666666667,3.833333333
+TIFA,coco_19711,7,123456,A metal statue of two women sitting on a bench.,,"activity, animal/human, counting, material, object",4,4.666666667,4.333333333,5,5,5
+TIFA,coco_201871,7,123456,A smoking jet going straight up in the sky.,,"activity, location, object",2.333333333,3.333333333,2.833333333,2.666666667,3.333333333,3
+TIFA,coco_214901,7,123456,"Various plates of food that include hashbrowns, waffles and grits.",,"activity, counting, food, object",3,3,3,3,3.333333333,3.166666667
+TIFA,coco_217128,7,123456,A ghost sitting on a living room chair.,,"activity, object",4,5,4.5,4.666666667,5,4.833333333
+TIFA,coco_221880,7,123456,A parking meter sitting in front of a brick building.,,"activity, object, spatial",4,5,4.5,3.333333333,5,4.166666667
+TIFA,coco_222729,7,123456,A woman in a bikini riding a wave on a surfboard.,,"activity, animal/human, object",2.333333333,5,3.666666667,4.333333333,5,4.666666667
+TIFA,coco_225595,7,123456,A woman walking down a street talking on a cell phone.,,"animal/human, location, object",3.666666667,5,4.333333333,4,5,4.5
+TIFA,coco_227538,7,123456,A refrigerator freezer sitting in a yellow kitchen.,,"activity, color, location, object",3.666666667,5,4.333333333,5,2,3.5
+TIFA,coco_231290,7,123456,Three zebras are standing together in a line.,,,3,5,4,5,5,5
+TIFA,coco_232095,7,123456,A man standing behind a truck with a red trailer sitting in front of a building.,,"activity, animal/human, color, object, spatial",3.666666667,4,3.833333333,4.333333333,2.666666667,3.5
+TIFA,coco_23684,7,123456,A family having lunch in their backyard in the rain.,,"activity, animal/human, location, object, spatial",3,5,4,2.666666667,4.666666667,3.666666667
+TIFA,coco_243158,7,123456,little kids in a barn petting a sheep in a stall,,,2.333333333,3.333333333,2.833333333,3.666666667,5,4.333333333
+TIFA,coco_245363,7,123456,A logged on laptop sitting on a table.,,"activity, object",3.666666667,4.333333333,4,3.666666667,5,4.333333333
+TIFA,coco_253070,7,123456,"People in cars, on bikes, and walking near city buildings.",,"activity, animal/human, location, object, spatial",4,4,4,4,5,4.5
+TIFA,coco_26017,7,123456,A serious man is holding video game controllers.,,"activity, animal/human, object",4,4.333333333,4.166666667,3.666666667,3.666666667,3.666666667
+TIFA,coco_260592,7,123456,A stop sign sitting on top of a metal column.,,"activity, material, object, spatial",4,4,4,5,5,5
+TIFA,coco_263731,7,123456,Small group of sheep being herded by three border collies.,,"activity, animal/human, counting",2.333333333,3,2.666666667,3,2.666666667,2.833333333
+TIFA,coco_269898,7,123456,Three men are skiing down a snow covered hill.,,"activity, animal/human, attribute, counting, location, object",4,3.333333333,3.666666667,3.333333333,4.666666667,4
+TIFA,coco_270966,7,123456,A woman smiling near a large clock on the wall.,,"activity, animal/human, attribute, object, spatial",3.666666667,5,4.333333333,4.333333333,5,4.666666667
+TIFA,coco_277915,7,123456,A picture of pink bathroom sink and a mirror.,,"color, object",3,3.333333333,3.166666667,3.666666667,4,3.833333333
+TIFA,coco_283207,7,123456,A couple of beds sitting next to each other in a bedroom.,,"activity, counting, location, object, spatial",4,3,3.5,4.666666667,5,4.833333333
+TIFA,coco_291983,7,123456,A kitchen filled with a stove top oven and a dishwasher.,,"attribute, location, object",4,2,3,4.333333333,5,4.666666667
+TIFA,coco_292534,7,123456,A red motorcycle parked by paint chipped doors.,,"activity, attribute, color, object",4,4.333333333,4.166666667,4.666666667,5,4.833333333
+TIFA,coco_295045,7,123456,Night time view of empty streets in commercial district.,,attribute,5,4.666666667,4.833333333,5,5,5
+TIFA,coco_298647,7,123456,Three people on a canoe in the rain with an umbrella up.,,,3,4.333333333,3.666666667,4,5,4.5
+TIFA,coco_298797,7,123456,A train passing by with empty seats on it.,,,3.333333333,4,3.666666667,4.666666667,3.333333333,4
+TIFA,coco_315223,7,123456,A man standing in front of the open door of a bus.,,"activity, animal/human, object, spatial",4,3.666666667,3.833333333,3.666666667,5,4.333333333
+TIFA,coco_317050,7,123456,A jouster rides on a horse through a field while an audience watches.,,"activity, animal/human, location, spatial",4,5,4.5,3.666666667,4.666666667,4.166666667
+TIFA,coco_319049,7,123456,A park area with a wooden bench that is under a tree and green grass all around the bench.,,"color, location, object, spatial",5,4.666666667,4.833333333,3,4.333333333,3.666666667
+TIFA,coco_321767,7,123456,a large clock tower structure lit up in the early night sky,,"activity, attribute, location, object",3.333333333,5,4.166666667,5,5,5
+TIFA,coco_323167,7,123456,"A laptop with external keyboard, mouse, phone and photo on a desk.",,object,3.666666667,2.666666667,3.166666667,3.666666667,3.333333333,3.5
+TIFA,coco_331006,7,123456,Two men with tennis rackets playing doubles tennis.,,"activity, animal/human, counting, object, other",3,3.333333333,3.166666667,2.333333333,3,2.666666667
+TIFA,coco_331968,7,123456,Traffic lights on a corner of a road with vehicles,,,4,3.666666667,3.833333333,2.666666667,4,3.333333333
+TIFA,coco_338018,7,123456,A herd of giraffe walking through a grass covered hillside.,,"activity, animal/human, attribute, location, object",3,3.666666667,3.333333333,2.333333333,4,3.166666667
+TIFA,coco_33895,7,123456,A small compact car driving past a furniture store.,,"activity, attribute, location, object, spatial",3,4.333333333,3.666666667,4,4.333333333,4.166666667
+TIFA,coco_339729,7,123456,A boy wearing a green shirt posing with some fruit.,,"activity, animal/human, color, food, object",3.666666667,5,4.333333333,3.666666667,4.666666667,4.166666667
+TIFA,coco_343985,7,123456,Two passenger trains on opposite tracks speeding down the tracks.,,"activity, counting, object, spatial",4.666666667,5,4.833333333,2.333333333,5,3.666666667
+TIFA,coco_344632,7,123456,A girl glides down a snowy hill on a snowboard.,,"activity, animal/human, location, object",3.333333333,5,4.166666667,4.333333333,5,4.666666667
+TIFA,coco_357425,7,123456,Two sloppy joe sandwiches on two separate plates,,"attribute, counting, food, object",4.666666667,4.333333333,4.5,5,4,4.5
+TIFA,coco_358349,7,123456,a woman looking a mirror whiile brushing her teeth,,,2.666666667,2.666666667,2.666666667,2.666666667,3,2.833333333
+TIFA,coco_358608,7,123456,The back side of two giraffes inside a gated area.,,"animal/human, counting, location, spatial",3.333333333,3.333333333,3.333333333,3,4,3.5
+TIFA,coco_358892,7,123456,Looking down at a computer keyboard and mouse,,"activity, object",3.666666667,3,3.333333333,3.333333333,5,4.166666667
+TIFA,coco_370333,7,123456,A man and a dog paddle on a surfboard.,,,4.333333333,3.333333333,3.833333333,3,4,3.5
+TIFA,coco_373633,7,123456,Black and white photograph of a bed with a laptop on it.,,"attribute, color, object",4.666666667,5,4.833333333,4.333333333,5,4.666666667
+TIFA,coco_374304,7,123456,A cat watching a laptop computer screen's screensaver.,,"activity, animal/human, object",4.333333333,3,3.666666667,5,3,4
+TIFA,coco_38429,7,123456,People browse the shops while walking on a busy street.,,"activity, animal/human, attribute, location",4,4,4,4.666666667,5,4.833333333
+TIFA,coco_388098,7,123456,2 Zebras standing next to each other in plaines,,"activity, animal/human, counting, location, spatial",4.666666667,5,4.833333333,3.666666667,5,4.333333333
+TIFA,coco_397109,7,123456,A commercial airplane with propellers flying through the air.,,"activity, attribute, object",3.666666667,4.333333333,4,3,5,4
+TIFA,coco_414886,7,123456,Two people under an umbrella standing in the rain.,,,3.666666667,4.666666667,4.166666667,5,5,5
+TIFA,coco_417428,7,123456,Three wild turkeys on top of the dried pasture.,,"activity, animal/human, attribute, counting",3.333333333,3.666666667,3.5,3.333333333,4,3.666666667
+TIFA,coco_419329,7,123456,A woman seated across the table shows off her bagel with cream cheese.,,"activity, animal/human, food, object, spatial",2.333333333,2.666666667,2.5,2,2.333333333,2.166666667
+TIFA,coco_420703,7,123456,A blue and yellow train is traveling down the tracks near some water and boats.,,"activity, color, object, spatial",3.666666667,3.333333333,3.5,5,5,5
+TIFA,coco_426425,7,123456,Two giraffes look over a railing blockade.,,,3.666666667,5,4.333333333,5,5,5
+TIFA,coco_426642,7,123456,A man at a food truck viewing the menu.,,"activity, animal/human, object",4.333333333,4,4.166666667,3.666666667,4,3.833333333
+TIFA,coco_427523,7,123456,a red bricked building with a green door and graffiti,,"attribute, color, location, object",5,5,5,4.666666667,5,4.833333333
+TIFA,coco_433228,7,123456,A man is being handed a birthday cake with lit candles.,,"activity, animal/human, attribute, food, object",2.333333333,3.666666667,3,3.333333333,3.333333333,3.333333333
+TIFA,coco_434468,7,123456,A wooden desk that is very cluttered with items.,,"attribute, material, object",3.666666667,5,4.333333333,3,5,4
+TIFA,coco_437094,7,123456,A street is lined with people and buildings.,,"activity, animal/human, location, object",3.666666667,4.333333333,4,3.333333333,5,4.166666667
+TIFA,coco_438672,7,123456,Someone in green is playing a golf game for the Wii.,,,4.333333333,1.666666667,3,2.666666667,2,2.333333333
+TIFA,coco_44445,7,123456,Blender with portions of its contents spilled around it.,,,3.333333333,4,3.666666667,4,3,3.5
+TIFA,coco_44510,7,123456,a tan colored teddy bear sits on a crochet covered chair.,,"activity, attribute, color, object",5,4.666666667,4.833333333,5,5,5
+TIFA,coco_452539,7,123456,Swan floating on a river in front of a boat.,,"activity, animal/human, location, object, spatial",4.333333333,4.333333333,4.333333333,5,5,5
+TIFA,coco_45651,7,123456,a brown dog with a collar sniffing a red fire hydrant,,"activity, animal/human, color, object",4.333333333,4.666666667,4.5,4,5,4.5
+TIFA,coco_463168,7,123456,a protest showing people to stop murder on the road,,"activity, animal/human",3.333333333,4.333333333,3.833333333,2.333333333,3.333333333,2.833333333
+TIFA,coco_464702,7,123456,An old man walking down a sidewalk in black and white.,,"activity, animal/human, color, location",4.666666667,5,4.833333333,4,5,4.5
+TIFA,coco_468291,7,123456,a toilet with a teddy bear sitting on the seat .,,"activity, object, spatial",3.333333333,3.666666667,3.5,3,4,3.5
+TIFA,coco_47170,7,123456,Two large elephants walking behind a wire fence on green grass.,,"activity, animal/human, attribute, color, counting, object, spatial",4,4.333333333,4.166666667,3.333333333,4,3.666666667
+TIFA,coco_474472,7,123456,Someone is standing over a dirty toilet.,,,3.333333333,2,2.666666667,3.666666667,3,3.333333333
+TIFA,coco_476499,7,123456,a display of figurines and books as an art piece,,"attribute, object",4.666666667,4.666666667,4.666666667,3.666666667,5,4.333333333
+TIFA,coco_47876,7,123456,Two cooked hot dogs on a plate with parsley.,,"activity, counting, food, object",5,5,5,3,4.333333333,3.666666667
+TIFA,coco_489587,7,123456,A cut in half sandwich sitting on top of a white plate.,,"activity, attribute, color, food, object",4.333333333,5,4.666666667,4.333333333,5,4.666666667
+TIFA,coco_492798,7,123456,A woman that has fallen asleep next to a man wearing a headset.,,,3.333333333,4,3.666666667,2,2.333333333,2.166666667
+TIFA,coco_497027,7,123456,two people seated at a dining table with a plate of food before them,,"activity, animal/human, counting, food, object, spatial",3.333333333,3.333333333,3.333333333,2.333333333,4,3.166666667
+TIFA,coco_497536,7,123456,A book about understanding and maintaining a ten-speed bicycle.,,"activity, attribute, object",2,2.666666667,2.333333333,3.666666667,2.666666667,3.166666667
+TIFA,coco_508556,7,123456,"a fire hydrant that has dirty, brown water inside",,"color, object, spatial",4.333333333,2,3.166666667,4.333333333,1.333333333,2.833333333
+TIFA,coco_519415,7,123456,A laptop computer sits on a black surface next to a wireless mouse.,,"activity, attribute, color, object",3.333333333,3,3.166666667,3.333333333,5,4.166666667
+TIFA,coco_523437,7,123456,A white plate topped with broccoli and a dumpling.,,"activity, color, food, object",3.666666667,3.666666667,3.666666667,4.666666667,5,4.833333333
+TIFA,coco_525507,7,123456,A man standing next to a donkey with a lot of baggage on it.,,"activity, animal/human, counting, object",3.333333333,4.666666667,4,4.666666667,5,4.833333333
+TIFA,coco_534679,7,123456,A kitchen is nicely organized and looks very clean.,,"activity, attribute, location",4.666666667,5,4.833333333,3.666666667,5,4.333333333
+TIFA,coco_535203,7,123456,A bird perched on a branch of a tree.,,,4,5,4.5,5,5,5
+TIFA,coco_535791,7,123456,A train on a track next to a set of blue stairs,,"color, object, other, spatial",5,2.333333333,3.666666667,3.666666667,4,3.833333333
+TIFA,coco_539421,7,123456,A photo of a young male in a suit jacket and tie.,,"animal/human, attribute, object",5,5,5,5,5,5
+TIFA,coco_541393,7,123456,A guy wear a short khaki pants and brown tee is on a skate board.,,"activity, animal/human, color, object, spatial",4.333333333,5,4.666666667,4.666666667,5,4.833333333
+TIFA,coco_542456,7,123456,A man and a child sitting in front of a cake at a bench.,,"activity, animal/human, food, object, spatial",3.666666667,3.666666667,3.666666667,3.333333333,5,4.166666667
+TIFA,coco_544966,7,123456,a glass vase with some flowers coming out of it,,,3.666666667,5,4.333333333,4.666666667,5,4.833333333
+TIFA,coco_550427,7,123456,A slice of chocolate cake is on a small plate.,,"attribute, food, object",4.666666667,4.666666667,4.666666667,5,5,5
+TIFA,coco_55537,7,123456,A herd of zebras is grazing on the plains in the sunshine.,,"activity, animal/human, attribute, location, object",4.666666667,3,3.833333333,3,5,4
+TIFA,coco_556099,7,123456,A MAN STANDING ON A BED PLAYING A GUITAR,,"activity, animal/human, object",2.333333333,4,3.166666667,3.666666667,4,3.833333333
+TIFA,coco_55863,7,123456,A vegetable vendor organizing his food for sale,,"activity, animal/human, attribute, food",3.666666667,4.333333333,4,3.333333333,5,4.166666667
+TIFA,coco_558725,7,123456,People looking at a stop light on the other side of the road.,,,2,2.333333333,2.166666667,3,3,3
+TIFA,coco_566884,7,123456,An all white bathroom consisting of a mirror and sink view.,,"activity, attribute, color, location, object",3.333333333,3.333333333,3.333333333,4.666666667,5,4.833333333
+TIFA,coco_569736,7,123456,a child at a table with a plate of pizza,,"food, object",3.333333333,5,4.166666667,4,5,4.5
+TIFA,coco_573665,7,123456,A harbor filled with boats under a full moon bathing them in moon light.,,"activity, attribute, location, object, spatial",3.666666667,5,4.333333333,4.666666667,5,4.833333333
+TIFA,coco_576849,7,123456,The batting line up is pinned on the fridge so everyone can see it,,"object, other",3.666666667,3,3.333333333,4,4.666666667,4.333333333
+TIFA,coco_579942,7,123456,A clear glass bowl with bananas and plums in it.,,,3.333333333,5,4.166666667,3.333333333,5,4.166666667
+TIFA,coco_593805,7,123456,The man is riding his skateboard down the ramp.,,"activity, animal/human, object, spatial",3,4,3.5,3,3.666666667,3.333333333
+TIFA,coco_598779,7,123456,This man is showing off the kite he made for his wife,,"activity, animal/human, object, other",2,2,2,2.333333333,3.333333333,2.833333333
+TIFA,coco_602024,7,123456,A lot of boats sitting on top of a body of water.,,"activity, counting, location, object, spatial",3.666666667,5,4.333333333,4.333333333,5,4.666666667
+TIFA,coco_615920,7,123456,sailboats at a dock waiting for a storm to pass,,"activity, location, object, other",4,3,3.5,3.666666667,3.666666667,3.666666667
+TIFA,coco_616233,7,123456,A cat stands with its paws against a desk.,,,4,4,4,4.333333333,5,4.666666667
+TIFA,coco_625726,7,123456,A vase full of white flowers sitting on a wooden table.,,"activity, attribute, color, material, object",5,5,5,4.666666667,5,4.833333333
+TIFA,coco_62896,7,123456,A traffic light and a signpost at a crossroads intersection near a waterway.,,"location, object, spatial",3,3.333333333,3.166666667,3.666666667,3.333333333,3.5
+TIFA,coco_629390,7,123456,A silver sports car is parked beside horse droppings left by a group of horses.,,"activity, animal/human, color, counting, object, spatial",3.666666667,2.666666667,3.166666667,3,4.333333333,3.666666667
+TIFA,coco_629414,7,123456,A small bathroom with marble tiles and counter.,,"attribute, location, object",3.333333333,4.666666667,4,2.666666667,4.333333333,3.5
+TIFA,coco_631269,7,123456,A skateboarder is doing a trick on his board.,,"activity, animal/human, object",2.666666667,5,3.833333333,3.333333333,4.333333333,3.833333333
+TIFA,coco_634344,7,123456,A toddler in a pink shirt sits on the lap of a woman.,,"activity, animal/human, color, object",2,4.333333333,3.166666667,3.333333333,3.333333333,3.333333333
+TIFA,coco_634711,7,123456,Brown dog lying on unmade bed in bedroom of home.,,"activity, animal/human, attribute, color, location, object",3,4,3.5,4,4,4
+TIFA,coco_63597,7,123456,One woman standing behind large specialized bus in mountains by glacier.,,"activity, animal/human, attribute, location, object",4,4.333333333,4.166666667,4.333333333,3.666666667,4
+TIFA,coco_643536,7,123456,A COUPLE OF TREES AND ONE WITH BANANAS IN IT,,,3.333333333,3.666666667,3.5,2.333333333,3.666666667,3
+TIFA,coco_647000,7,123456,an old photo of a boat parked next to the dock,,,3.333333333,5,4.166666667,4.666666667,5,4.833333333
+TIFA,coco_647250,7,123456,one black cow sniffing another black cows head,,"activity, animal/human, color, counting",3.333333333,4,3.666666667,3.666666667,2.333333333,3
+TIFA,coco_64880,7,123456,"A plate of food which includes onions, tomato, lettuce, sauce, fries, and a sandwich.",,"attribute, food, object",4,5,4.5,3.666666667,4.333333333,4
+TIFA,coco_649468,7,123456,two soccer teams going after the soccer ball,,"activity, animal/human, counting, object",3.333333333,4.666666667,4,2.666666667,4.333333333,3.5
+TIFA,coco_664136,7,123456,Trucks are parked outside of a market building.,,"activity, object, spatial",3.666666667,5,4.333333333,2.666666667,2.666666667,2.666666667
+TIFA,coco_674139,7,123456,A boy running while holding onto a kite string.,,"activity, animal/human, object, spatial",3,3.666666667,3.333333333,3.333333333,2.666666667,3
+TIFA,coco_680517,7,123456,A man in a wet suit is surfing.,,"activity, animal/human, object",3.666666667,5,4.333333333,4.666666667,5,4.833333333
+TIFA,coco_685271,7,123456,Person standing on the pack of a galloping horse.,,"activity, animal/human",3.666666667,4.666666667,4.166666667,2.666666667,4,3.333333333
+TIFA,coco_689438,7,123456,A couple of large piles of different fruits.,,"attribute, counting, food, object",4,3.666666667,3.833333333,4,3.333333333,3.666666667
+TIFA,coco_693353,7,123456,A dock that is separating the harbor from the ocean.,,"activity, location",3,4.333333333,3.666666667,4.666666667,5,4.833333333
+TIFA,coco_695887,7,123456,Some people are seen eating several large pizzas.,,"activity, animal/human, attribute, counting, food",2,3.666666667,2.833333333,3.333333333,4,3.666666667
+TIFA,coco_700345,7,123456,a man that is walking down the street with a umbrella,,"activity, animal/human, object, spatial",4,4.666666667,4.333333333,3.333333333,5,4.166666667
+TIFA,coco_702107,7,123456,A road traveling along a field under a cloudy sky.,,"activity, attribute, location",4.333333333,5,4.666666667,5,5,5
+TIFA,coco_702289,7,123456,Several children attentively play a game of curling together.,,"activity, animal/human, counting, spatial",3.333333333,4.333333333,3.833333333,3.333333333,5,4.166666667
+TIFA,coco_70521,7,123456,Ten porcelain pieces with floral patterns painted on them.,,"activity, counting, object",4,3.666666667,3.833333333,2.666666667,4,3.333333333
+TIFA,coco_706881,7,123456,A king bead and chair with lamps in a hotel room.,,"location, object",4.666666667,4.666666667,4.666666667,3,4.333333333,3.666666667
+TIFA,coco_708352,7,123456,a cat is standing up to a white toilet,,"activity, animal/human, color, object",3.666666667,3.666666667,3.666666667,2,2.666666667,2.333333333
+TIFA,coco_708962,7,123456,Road signage with sticker displayed near parking area.,,"activity, location, object, spatial",3,2.666666667,2.833333333,3,3,3
+TIFA,coco_711572,7,123456,A small boy in a striped shirt eating something.,,"activity, animal/human, attribute, object",3.333333333,4,3.666666667,3.666666667,4,3.833333333
+TIFA,coco_714603,7,123456,"A red stop sign with the word "" Hammer Time "". written on it.",,"color, object, other",2.666666667,2,2.333333333,4.666666667,5,4.833333333
+TIFA,coco_715857,7,123456,The freight train is painted orange and yellow.,,,4,5,4.5,4.666666667,4.666666667,4.666666667
+TIFA,coco_729903,7,123456,A double sink full of dirty cups and spoons,,"activity, attribute, counting, object",3,3,3,2,2.333333333,2.166666667
+TIFA,coco_732307,7,123456,"This is a room with a reclined sofa, desk, and wall decorations.",,"location, object",3.333333333,3,3.166666667,3,5,4
+TIFA,coco_736107,7,123456,There is a carrot next to some greens on the red cutting board.,,"color, food, object, spatial",3.666666667,4.666666667,4.166666667,5,5,5
+TIFA,coco_738763,7,123456,A man riding skis down a snow covered slope.,,"activity, animal/human, attribute, location, object",4.333333333,5,4.666666667,4,4,4
+TIFA,coco_749314,7,123456,The skateboarder wears headphones while jumping to grab his board.,,"activity, animal/human, object, other",2.666666667,4,3.333333333,3,4,3.5
+TIFA,coco_752831,7,123456,Some food that is on a glass plate.,,"food, object",3,5,4,4.666666667,5,4.833333333
+TIFA,coco_758774,7,123456,A lady wearing red playing tennis on a blue and green court.,,"activity, animal/human, color, location",1.666666667,3,2.333333333,2.666666667,5,3.833333333
+TIFA,coco_765571,7,123456,City bus driving through pedestrian saturated area near crosswalk.,,"activity, animal/human, attribute, location, object, spatial",2.666666667,3.666666667,3.166666667,1.666666667,3.333333333,2.5
+TIFA,coco_769180,7,123456,A man and a girl standing next to two cakes in the kitchen.,,,4,4,4,3.666666667,5,4.333333333
+TIFA,coco_770082,7,123456,A square of cheesecake on a marble cutting board with a two-pronged fork.,,"attribute, food, material, object, shape",3.666666667,3.666666667,3.666666667,4,3.666666667,3.833333333
+TIFA,coco_772682,7,123456,"A plate full of sushi,with more behind it.",,"attribute, food, object, spatial",4.333333333,3.333333333,3.833333333,4.666666667,4.666666667,4.666666667
+TIFA,coco_774689,7,123456,A neglected fire hydrant is standing next to a fence.,,"attribute, spatial",4.666666667,5,4.833333333,4.333333333,4.666666667,4.5
+TIFA,coco_776293,7,123456,an odd looking toilet is against a wall,,"attribute, object",3,4.333333333,3.666666667,4.333333333,4,4.166666667
+TIFA,coco_778174,7,123456,a wake boarder setting up his raft in the ocean,,"activity, animal/human, location, object",2,3.333333333,2.666666667,3.333333333,3.666666667,3.5
+TIFA,coco_779990,7,123456,"Lots of people at a long table eating, drinking and smiling",,"activity, animal/human, attribute, counting, object",3,4.333333333,3.666666667,3.333333333,4,3.666666667
+TIFA,coco_781176,7,123456,A motorcycle sits in a parking lot with other cars.,,"activity, location, object, spatial",3.666666667,4.333333333,4,4,5,4.5
+TIFA,coco_792430,7,123456,Two giraffes standing in high grass near each other.,,"activity, animal/human, attribute, counting, object, spatial",4,5,4.5,3.666666667,4.333333333,4
+TIFA,coco_797401,7,123456,Two people are riding on surfboards in the ocean.,,"activity, animal/human, counting, location, object",4,5,4.5,3.333333333,4.333333333,3.833333333
+TIFA,coco_803576,7,123456,a man rides his skateboard on a small ledge while another man lights the spray from a can on fire,,"activity, animal/human, attribute, object",2.666666667,1.666666667,2.166666667,2.333333333,2.333333333,2.333333333
+TIFA,coco_803862,7,123456,A man throws a tennis ball into the air to serve it,,"activity, animal/human, object, spatial",2,3.333333333,2.666666667,3.666666667,3.333333333,3.5
+TIFA,coco_81064,7,123456,a cellophone broken into pieces by a womans feet,,"activity, animal/human, object",1.333333333,3,2.166666667,2,4,3
+TIFA,coco_8713,7,123456,A man sits at a bar in front of shelves full of bottles.,,"activity, animal/human, attribute, location, object",3,5,4,4.333333333,4.666666667,4.5
+TIFA,drawbench_28,7,123456,A blue coloured pizza.,,"color, food",4,4.666666667,4.333333333,4.666666667,5,4.833333333
+TIFA,drawbench_90,7,123456,"A large keyboard musical instrument with a wooden case enclosing a soundboard and metal strings, which are struck by hammers when the keys are depressed. The strings' vibration is stopped by dampers when the keys are released and can be regulated for length and volume by two or three pedals.",,"activity, attribute, object",2,4.666666667,3.333333333,2.666666667,3.666666667,3.166666667
+TIFA,paintskill_217,7,123456,a photo of white dining table,,"attribute, color, object",3.333333333,5,4.166666667,4.666666667,4,4.333333333
+TIFA,paintskill_287,7,123456,a photo of bench and airplane; airplane is above bench,,"attribute, object, spatial",3,4,3.5,3,4.333333333,3.666666667
+TIFA,paintskill_447,7,123456,a photo of suitcase and bus; bus is below suitcase,,"attribute, object, spatial",4,3,3.5,4.333333333,2.666666667,3.5
+TIFA,paintskill_62,7,123456,a photo of bed and skateboard; skateboard is above bed,,"object, spatial",3,3,3,4.666666667,4.333333333,4.5
+TIFA,partiprompt_1075,7,123456,a plant with small flowers with purple petals,,"attribute, color, object",4.666666667,5,4.833333333,5,5,5
+TIFA,partiprompt_1092,7,123456,a painting of black and white vertical stripes,,"attribute, color, object, shape",5,3.666666667,4.333333333,5,4,4.5
+TIFA,partiprompt_1194,7,123456,vibrant portrait painting of Salvador Dal?? with a robotic half face,,,5,3.666666667,4.333333333,5,4.666666667,4.833333333
+TIFA,partiprompt_1306,7,123456,an impressionist painting of the geyser Old Faithful,,"attribute, object, other",3.666666667,5,4.333333333,5,5,5
+TIFA,partiprompt_1343,7,123456,"Two cups of coffee, one with latte art of the Eiffel tower. The other has latte art of the Statue of Liberty.",,"counting, food, object",3.333333333,2.333333333,2.833333333,2.333333333,2,2.166666667
+TIFA,partiprompt_1351,7,123456,"the letters P A X forming a very simple outline of an elephant's shape.  the elephant is facing left. vector art, orange logo.",,"activity, animal/human, attribute, color, object",4,2,3,2.666666667,3,2.833333333
+TIFA,partiprompt_141,7,123456,A black dog sitting on a wooden chair. A white cat with black ears is standing up with its paws on the chair.,,"activity, animal/human, color, material, object, other",4,2.333333333,3.166666667,3.333333333,2.666666667,3
+TIFA,partiprompt_175,7,123456,a brown trash bin with a green compost bin on its left and a blue recycling bin on its right,,"color, object, spatial",4,2.333333333,3.166666667,2.333333333,4.666666667,3.5
+TIFA,partiprompt_328,7,123456,black hi-top sneakers with the Nike swoosh,,"attribute, color, object",2,3,2.5,4.666666667,5,4.833333333
+TIFA,partiprompt_373,7,123456,a full moon rising above a mountain at night,,"activity, attribute, object",4.666666667,4.666666667,4.666666667,4.333333333,5,4.666666667
+TIFA,partiprompt_415,7,123456,a yellow diamond-shaped sign with a deer silhouette,,"color, object, shape",3.333333333,4.333333333,3.833333333,4.666666667,5,4.833333333
+TIFA,partiprompt_418,7,123456,a yellow diamond-shaped sign with a wooly mammoth silhouette,,"animal/human, attribute, color, object, shape",3.666666667,2,2.833333333,4.333333333,4.666666667,4.5
+TIFA,partiprompt_436,7,123456,a flock of geese in front of The Alamo,,"animal/human, location, object, spatial",4,4.666666667,4.333333333,3.666666667,4.333333333,4
+TIFA,partiprompt_469,7,123456,a child eating a birthday cake near some palm trees,,"activity, animal/human, food, object, spatial",3.333333333,4,3.666666667,3.666666667,4,3.833333333
+TIFA,partiprompt_517,7,123456,A giant cobra snake made from sushi,,"activity, animal/human, attribute, food",3,2.333333333,2.666666667,2.666666667,2,2.333333333
+TIFA,partiprompt_519,7,123456,A giant cobra snake made from salad,,"activity, animal/human, attribute, food",4,3.333333333,3.666666667,2.333333333,2,2.166666667
+TIFA,partiprompt_597,7,123456,a zebra with blue stripes,,"animal/human, attribute, color",5,4.666666667,4.833333333,4,5,4.5
+TIFA,partiprompt_65,7,123456,a wooden post,,"material, object",5,5,5,5,5,5
+TIFA,partiprompt_800,7,123456,a white background with a large blue circle and a small green square,,"attribute, color, object, shape",5,2,3.5,5,5,5
+TIFA,partiprompt_821,7,123456,two baseballs next to three tennis balls,,"counting, object, spatial",4.333333333,2,3.166666667,4.666666667,2,3.333333333
+TIFA,partiprompt_845,7,123456,two wine bottles,,"counting, object",3.666666667,4,3.833333333,4.666666667,5,4.833333333
+TIFA,partiprompt_862,7,123456,a bookshelf with ten books stacked vertically,,"activity, counting, object",4,2.333333333,3.166666667,5,4,4.5
+TIFA,partiprompt_872,7,123456,a tennis court with three yellow cones on it,,"color, counting, location, object",3.666666667,3.333333333,3.5,4.666666667,5,4.833333333
+TIFA,partiprompt_904,7,123456,A Google map highlighting Vietnam,,"location, object",3.666666667,3,3.333333333,4,3,3.5
+TIFA,partiprompt_927,7,123456,a cat looking out of a window,,"activity, animal/human, object",3.333333333,5,4.166666667,5,5,5

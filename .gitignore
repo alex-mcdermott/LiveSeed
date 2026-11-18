@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+# outputs of the example in the README
+code/liveseed/runs/
+*.sif

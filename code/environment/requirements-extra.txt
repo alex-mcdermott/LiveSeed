@@ -1,0 +1,18 @@
+# Installed at run time on top of the container (as the experiment jobs did), with pip install --user --no-deps
+# (without --no-deps pip would replace the container's torch). install_extras.sh runs these lines and the fix below.
+# scoring (score_images.py): HPSv2.1, ImageReward, PickScore (transformers, in the container) and CLIP
+hpsv2
+image-reward
+clint
+args
+fairscale
+timm
+ftfy
+regex
+git+https://github.com/openai/CLIP.git
+# with dependencies (these keep the container's numpy 2.2.2):
+#   scipy==1.16.3 matplotlib==3.10.9   (the offline analyses: fit_trajectory_metric.py, simulate_schedules.py)
+#   datasets==2.21.0 pyarrow==17.0.0 "dill<0.4"   (the scorers; pyarrow also reads the parquet pool tables)
+#   spacy   (core words for ABSS, abss_statistic.py; then python -m spacy download en_core_web_sm)
+# optional: openai (abss_core_tokens_gpt.py, ABSS's GPT-5.1 core words), t2v_metrics (VQAScore), hpsv3 (HPSv3)
+# Qwen-Image only (seed_harness.py --model qwen), in a separate user site: diffusers==0.35.2 --no-deps
