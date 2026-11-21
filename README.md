@@ -2,11 +2,17 @@
 
 Alex J. McDermott<sup>1,2</sup>, Silpa Vadakkeeveetil Sreelatha<sup>2</sup>, Anjan Dutta<sup>2</sup>, Yi-Zhe Song<sup>1,2</sup>
 
-<sup>1</sup>SketchX &nbsp; <sup>2</sup>Surrey Institute for People-Centred AI, University of Surrey
+<sup>1</sup>SketchX &nbsp; <sup>2</sup>People-Centred AI, University of Surrey
+
+`{alex.mcdermott, s.vadakkeeveetilsreelatha, anjan.dutta, y.song}@surrey.ac.uk`
 
 **Paper:** arXiv link to be added.
 
 Generating several seeds and keeping the best is the simplest way to get a better image from a text-to-image diffusion model, but every candidate is finished and then judged. LiveSeed reads a signal the generator already computes: the entropy of its self-attention (U-Nets, Hunyuan-DiT) or joint attention (MMDiTs) during the first denoising steps. The N seeds of a prompt run as one batch, are scored from those readings at an early exit, and only the best are completed. No images are decoded, no auxiliary network runs and the prompt needs no annotation.
+
+![LiveSeed overview: N seeds are denoised as one batch; at each exit the seeds are scored from attention entropy and only the best continue](assets/liveseed_overview.png)
+
+**How LiveSeed decides.** Attention hooks read a block-wise entropy for each seed during denoising. The readings are standardised across the seeds of the batch and combined with calibrated signs (LiveSeed-Fast) or ridge weights (LiveSeed-Max). At each exit only the top-k seeds continue and the rest stop. The scoring is calibrated offline, once per model, on evaluator or human ratings.
 
 This repository contains the code of the method, the data and code of the paper's two human studies, and the prompt and seed lists of the experiments.
 
